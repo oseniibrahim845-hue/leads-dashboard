@@ -1,0 +1,178 @@
+{
+  "segment": "AU essential oils/aromatherapy, tea, supplements/collagen, makeup, crystals/spiritual",
+  "searches_run": 21,
+  "accepted": [
+    {
+      "prospect_name": "Lisa Hilbert",
+      "company": "Tea Tonic Pty Ltd",
+      "first_name": "Lisa",
+      "email": "teatonic@teatonic.com.au",
+      "state": "Victoria",
+      "city": "Abbotsford",
+      "shopify_niche": "Food & drink - organic herbal and wellness tea",
+      "shopify_store_url": "https://www.teatonic.com.au/",
+      "product_category": "Certified organic herbal, black, green and fruit teas; wellness blends",
+      "buying_intent": "Medium - established online tea store with a wholesale/stockist program alongside direct sales",
+      "personalization_detail": "Tea Tonic's certified organic blends are formulated by naturopath and herbalist Lisa Hilbert, and the store runs both retail and a 'become a stockist' wholesale program.",
+      "personalization_reason": "A range of functional blends sold both direct and through stockists means lots of product descriptions, ingredient notes and stockist communication that AI drafting can help keep consistent.",
+      "personalized_opening": "I was reading about the naturopath-formulated organic blends at Tea Tonic and how you sell them both online and through a stockist network.",
+      "subject_line": "Tea Tonic blends and stockist listings",
+      "email_body": "Hi Lisa,\n\nI was reading about the naturopath-formulated organic blends at Tea Tonic and how you sell them both online and through a stockist network.\n\nWith functional teas, each product page needs clear ingredient and benefit copy, and keeping that consistent across retail and wholesale takes time. I build AI assistants for Shopify stores that draft product titles, descriptions, SEO text and tags, help update collections, and prepare email and customer-support replies for review, using Shopify, n8n and OpenAI or Gemini.\n\nWould it be useful if I showed you how this could work on a few of your current blends?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.teatonic.com.au/pages/contact",
+      "other_urls": "https://www.teatonic.com.au/\nhttps://www.teatonic.com.au/pages/become-a-stockist\nhttps://www.teatonic.com.au/collections/all\nhttps://www.facebook.com/teatonicteas/",
+      "evidence": "Australian-owned organic tea brand, 45 Russell St Abbotsford VIC; teas formulated by naturopath Lisa Hilbert. Store uses Shopify URL structure (/pages/, /collections/all, /policies/shipping-returns). Email shown for contact page via search 'Tea Tonic Sydney contact email teatonic.com.au'; confirmed with search '\"teatonic@teatonic.com.au\"' tying it to Tea Tonic Abbotsford.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Shopify inferred from URL patterns (/policies/, /collections/all). Lisa Hilbert named as formulator; treated as founder-level contact."
+    },
+    {
+      "prospect_name": "Josh Woodley",
+      "company": "The Collagen Co Pty Ltd",
+      "first_name": "Josh",
+      "email": "hello@thecollagen.co",
+      "state": "Victoria",
+      "city": "Sunshine North",
+      "shopify_niche": "Health & wellness - collagen supplements",
+      "shopify_store_url": "https://www.thecollagen.co/",
+      "product_category": "Collagen powders, Super Beauty Greens, ingestible beauty supplements",
+      "buying_intent": "High - multi-channel selling (AU store, separate US store, mobile app) and a growing supplement range",
+      "personalization_detail": "The Collagen Co runs an Australian store, a separate US store (us.thecollagen.co) and its own shopping app, with products like Super Beauty Greens alongside its collagen range.",
+      "personalization_reason": "Keeping product copy, SEO text and support replies aligned across two regional stores and an app is repetitive work that AI drafting and automation can help with.",
+      "personalized_opening": "Seeing The Collagen Co now running both an Australian and a US store, plus its own app, made me think about how much product copy you're keeping in sync.",
+      "subject_line": "Syncing listings across your AU and US stores",
+      "email_body": "Hi Josh,\n\nSeeing The Collagen Co now running both an Australian and a US store, plus its own app, made me think about how much product copy you're keeping in sync.\n\nEach new flavour or product like Super Beauty Greens means titles, descriptions, SEO text and tags in more than one place. I build AI assistants for Shopify brands that draft and update listings, organise collections and metadata, prepare promo and email content, and help with customer-support replies, built with Shopify, n8n and OpenAI or Gemini, with your team reviewing everything.\n\nWould a short walkthrough on one product across both stores be worth a look?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://us.thecollagen.co/pages/contact",
+      "other_urls": "https://www.thecollagen.co/\nhttps://play.google.com/store/apps/details?id=co.tapcart.app.id_Lo8rfEFht2\nhttps://www.beautydirectory.com.au/news/interviews/the-collagen-co-importance-of-collagen-supplements\nhttps://au.finance.yahoo.com/news/gamble-became-5-million-collagen-business-211418766.html",
+      "evidence": "Australian-owned collagen brand founded 2020 by Josh and Izaak Woodley and Lachlan Arter, Unit 3 45 Bunnett St Sunshine North VIC. Shopify signals: Tapcart app (Shopify-only app builder), /pages/ and /policies/ URL structure. Email found via 'The Collagen Co thecollagen.co contact email'; confirmed via '\"hello@thecollagen.co\"' tying it to THE COLLAGEN CO PTY LTD.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Larger than typical SME (reported ~$5M business) but still founder-led. Co-founders Josh and Izaak Woodley; addressed to Josh."
+    },
+    {
+      "prospect_name": "Eye of Horus Cosmetics",
+      "company": "Ra Cosmetics Pty Ltd (Eye of Horus Cosmetics)",
+      "first_name": "Team",
+      "email": "contact@eyeofhoruscosmetics.com",
+      "state": "New South Wales",
+      "city": "Byron Bay",
+      "shopify_niche": "Beauty - natural makeup and cosmetics",
+      "shopify_store_url": "https://www.eyeofhoruscosmetics.com/",
+      "product_category": "Clean/natural makeup: eyeliners, mascara, brow and complexion products",
+      "buying_intent": "Medium - established, award-winning cosmetics brand with an active online store and FAQ/support content",
+      "personalization_detail": "Eye of Horus is a Byron Bay clean makeup label whose contact email handles both customer service and blogger/social collaboration requests.",
+      "personalization_reason": "When one inbox covers support and creator enquiries, AI-drafted replies and content support can take some repetitive work off a small team.",
+      "personalized_opening": "I'm writing because Eye of Horus handles both customer questions and creator collaboration requests through the same contact inbox, and that's the kind of workload I help brands with.",
+      "subject_line": "Eye of Horus support and collab inbox",
+      "email_body": "Hi Team,\n\nI'm writing because Eye of Horus handles both customer questions and creator collaboration requests through the same contact inbox, and that's the kind of workload I help brands with.\n\nI build AI assistants for Shopify stores that draft customer-support and email replies for your review, and help with product descriptions, SEO text, tags and social content for new shades and launches. They run on Shopify, n8n and OpenAI or Gemini.\n\nWould it help to see how this might work on a few common enquiries you get?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.eyeofhoruscosmetics.com/pages/contact-us",
+      "other_urls": "https://www.eyeofhoruscosmetics.com/\nhttps://www.eyeofhoruscosmetics.com/pages/frequently-asked-questions\nhttps://www.facebook.com/eyeofhoruscosmetics/\nhttps://fashionjournal.com.au/beauty/independent-australian-beauty-brands/",
+      "evidence": "Byron Bay-based clean makeup label (Fashion Journal indie AU beauty list). Shopify URL structure (/pages/contact-us). Email found via 'Eye of Horus cosmetics Byron Bay contact email'; confirmed via '\"contact@eyeofhoruscosmetics.com\"' - FAQ page result ties it to Eye of Horus Cosmetics Pty Ltd, Byron Bay NSW, used for customer service and blogger requests.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Founder/owner not confirmed (ZoomInfo lists Amy Lennane as owner/director, Spierings family also listed), so greeting is Team. Shopify inferred from URL patterns."
+    },
+    {
+      "prospect_name": "Eternal Spirit",
+      "company": "Eternal Spirit",
+      "first_name": "Team",
+      "email": "info@eternalspirit.com.au",
+      "state": "South Australia",
+      "city": "Unley",
+      "shopify_niche": "Spiritual - crystals, tarot and metaphysical gifts",
+      "shopify_store_url": "https://eternalspirit.com.au/",
+      "product_category": "Crystals, tumbles, crystal hearts, birthstones, tarot and spiritual books, jewellery",
+      "buying_intent": "Medium - long-running shop (since 1997) with an active online store and New Arrivals collection",
+      "personalization_detail": "Eternal Spirit has run in Unley since 1997 and its online store sorts crystals into themed collections such as birthstones, crystals for anxiety and stress, crystal hearts and new arrivals.",
+      "personalization_reason": "Themed collections with many small one-off crystal items mean a lot of individual listings, tags and collection updates that AI drafting can speed up.",
+      "personalized_opening": "Your online shop's themed collections, from birthstones to crystals for anxiety and stress, caught my eye because each crystal needs its own listing and description.",
+      "subject_line": "Crystal listings at Eternal Spirit",
+      "email_body": "Hi Team,\n\nYour online shop's themed collections, from birthstones to crystals for anxiety and stress, caught my eye because each crystal needs its own listing and description.\n\nFor a shop that has been in Unley since 1997, adding new arrivals online can be a steady job. I build AI assistants for Shopify stores that draft product titles, descriptions, SEO text and tags, help place items into the right collections, and prepare social posts for new stock, using Shopify, n8n and OpenAI or Gemini.\n\nWould you be open to seeing a quick example using a few of your new arrivals?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.facebook.com/eternalspirit88/",
+      "other_urls": "https://eternalspirit.com.au/\nhttps://www.theeternalspirit.com.au/\nhttps://eternalspirit.com.au/collections/new-arrivals\nhttps://eternalspirit.com.au/collections/crystals-anxiety\nhttps://onlyunleyroad.com.au/listing/eternal-spirit/",
+      "evidence": "Crystal/spiritual/metaphysical shop, 52 Unley Road, Unley SA, operating since 1997. Shopify URL structure (/collections/, /products/). Email found via 'The Eternal Spirit Adelaide crystal shop contact email'; confirmed via '\"info@eternalspirit.com.au\"' which tied it to Eternal Spirit, 52 Unley Road.",
+      "evidence_type": "Search Result Verified",
+      "research_confidence": "High",
+      "notes": "Two domains appear (eternalspirit.com.au and theeternalspirit.com.au). Some directories list older address 376A Unley Rd. Owner not identified."
+    },
+    {
+      "prospect_name": "GemRox",
+      "company": "GemRox",
+      "first_name": "Team",
+      "email": "info@gemrox.com.au",
+      "state": "New South Wales",
+      "city": "Sydney",
+      "shopify_niche": "Spiritual - crystals and stones",
+      "shopify_store_url": "https://www.gemrox.com.au/",
+      "product_category": "Tumbled and chakra stones, clusters, generators, towers, crystal jewellery, homeware, smudging supplies",
+      "buying_intent": "High - large catalog of 1,300+ crystal items across many collections",
+      "personalization_detail": "GemRox stocks over 1,300 different crystal items, from tumbles and chakra stones to towers, jewellery and smudging supplies.",
+      "personalization_reason": "With 1,300+ SKUs, keeping titles, descriptions, tags and collections tidy is a lot of manual work where AI drafting can help.",
+      "personalized_opening": "Over 1,300 different crystal items is a big catalog for a small Sydney business, and that's what made me want to get in touch with GemRox.",
+      "subject_line": "Managing 1,300 crystal listings",
+      "email_body": "Hi Team,\n\nOver 1,300 different crystal items is a big catalog for a small Sydney business, and that's what made me want to get in touch with GemRox.\n\nEvery tumble, tower and piece of jewellery needs its own title, description, tags and collection placement. I build AI assistants for Shopify stores that draft and update this listing content, write SEO descriptions, prepare social and email promos for new stock, and help draft customer replies, using Shopify, n8n and OpenAI or Gemini, with you approving the output.\n\nWould it be worth a quick chat about how this could fit your catalog?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.gemrox.com.au/pages/contact",
+      "other_urls": "https://www.gemrox.com.au/\nhttps://www.gemrox.com.au/collections/all\nhttps://www.gemrox.com.au/pages/about-us\nhttps://echic.com.au/blogs/our-work/gemrox\nhttps://www.facebook.com/p/GemroxCrystals-100067994753749/",
+      "evidence": "Small online crystal business in Sydney, 1,300+ crystal items. Shopify URL structure (/pages/, /collections/all, /blogs/news); built by eChic (Shopify agency case study). Email found via 'GEMROX crystals contact email gemrox.com.au'; confirmed via '\"info@gemrox.com.au\"' tied to GemRox Sydney.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Owner name not found; greeting Team."
+    },
+    {
+      "prospect_name": "Acacia Aromatherapy",
+      "company": "Acacia Aromatherapy",
+      "first_name": "Team",
+      "email": "hello@acaciaaromatherapy.com.au",
+      "state": "New South Wales",
+      "city": "Sydney",
+      "shopify_niche": "Wellness - aromatherapy diffusers and essential oils",
+      "shopify_store_url": "https://acaciaaromatherapy.com.au/",
+      "product_category": "Ultrasonic diffusers, essential oils, roll-ons, room mists, diffuser jewellery, gift sets",
+      "buying_intent": "Medium - active family-owned online store with retail and wholesale channels",
+      "personalization_detail": "Acacia Aromatherapy is a family-owned Sydney business selling diffusers, essential oils, roll-ons, mists and diffuser jewellery, with a separate wholesale page.",
+      "personalization_reason": "Selling diffusers, oils and gift sets to both shoppers and wholesale buyers means product copy and enquiries that AI drafting can help keep on top of.",
+      "personalized_opening": "The mix of diffusers, oils, roll-ons and diffuser jewellery at Acacia Aromatherapy, plus your wholesale offer, is why I'm writing.",
+      "subject_line": "Acacia diffusers and wholesale enquiries",
+      "email_body": "Hi Team,\n\nThe mix of diffusers, oils, roll-ons and diffuser jewellery at Acacia Aromatherapy, plus your wholesale offer, is why I'm writing.\n\nA range like that means plenty of product descriptions, gift-set updates and customer or stockist emails. I build AI assistants for online stores that draft product titles, descriptions and SEO text, prepare social and promotional content, and help with email and support replies, using tools like Shopify, n8n and OpenAI or Gemini.\n\nWould a short example based on a couple of your products be helpful?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://acaciaaromatherapy.com.au/contact-us/",
+      "other_urls": "https://acaciaaromatherapy.com.au/\nhttps://acaciaaromatherapy.com.au/faqs/\nhttps://acaciaaromatherapy.com.au/wholesale/\nhttps://acaciaaromatherapy.com.au/shop/\nhttps://www.facebook.com/acaciaaromatherapy.au/",
+      "evidence": "Family-owned Australian aromatherapy company based in Sydney selling diffusers, oils, roll-ons, mists and jewellery. Email found via 'Acacia Aromatherapy diffusers essential oils contact email'; confirmed via '\"hello@acaciaaromatherapy.com.au\"' tied to Acacia Aromatherapy.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed - URL structure (/shop/, /contact-us/) suggests another platform (possibly WooCommerce). Email body kept platform-neutral."
+    }
+  ],
+  "rejected": [
+    {
+      "company": "Aromatherapy for Australia (Shoalhaven NSW)",
+      "reason": "Email only shown masked (****@aromatherapyforaustralia.com.au); no verifiable full address"
+    },
+    {
+      "company": "Tielka",
+      "reason": "Only phone 1300 843 552 found; no public email in search results"
+    },
+    {
+      "company": "Auroma / AWO / Ahimsa Oils / N-Essentials / SEOC",
+      "reason": "Surfaced in search only; no email shown in results (not pursued within budget)"
+    },
+    {
+      "company": "Tea Depot / T Bar Tea",
+      "reason": "Surfaced in search only; no email shown in results (not pursued within budget)"
+    },
+    {
+      "company": "Adore Tea / Tea Leaves / Red Leaf Tea / Tea Lovers / Tea Life",
+      "reason": "Already in EXISTING.txt"
+    },
+    {
+      "company": "CollagenX / Nutra Organics",
+      "reason": "No email in results; Nutra Organics is larger corporate"
+    },
+    {
+      "company": "Ere Perez / Sansceuticals / MOR Cosmetics / Australis",
+      "reason": "No email shown in results; Australis/MOR larger established brands"
+    },
+    {
+      "company": "Aus Crystals / Crystal Heart / Soulmate Crystals / Your Crystal / The Holistic Shop",
+      "reason": "No email shown in results (not pursued within budget)"
+    }
+  ]
+}
