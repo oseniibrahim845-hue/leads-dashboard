@@ -269,7 +269,8 @@ def main():
     ws = wb.active
     ws.title = "Prospects"
     ws.append(COLUMNS)
-    for r in final:
+
+    def row_for(r):
         notes = [r.get("notes", "")]
         if r["_issues"]:
             notes.append("QC: " + "; ".join(r["_issues"]))
@@ -281,7 +282,7 @@ def main():
             notes.append("REVIEW: " + r["_review"])
         other = (r.get("other_urls") or "").strip()
         source = r["source_url"] + (("\n" + other) if other else "")
-        ws.append([
+        return [
             r["prospect_name"], r["company"], r["first_name"], r["email"], "Australia",
             r["state"], r["city"], r.get("shopify_niche", ""), r.get("shopify_store_url", ""),
             r.get("product_category", ""), r.get("buying_intent", ""),
@@ -289,7 +290,10 @@ def main():
             r.get("personalized_opening", ""), r.get("subject_line", ""), r.get("email_body", ""),
             source, r.get("evidence", ""), r["evidence_type"], r["research_confidence"],
             r["_status"], "Not Sent", None, " ".join(n for n in notes if n).strip(),
-        ])
+        ]
+
+    for r in final:
+        ws.append(row_for(r))
 
     widths = [22, 26, 12, 32, 11, 20, 16, 24, 20, 30, 34, 48, 48, 50, 32, 70, 45, 60, 20, 12, 14, 11, 11, 40]
     for i, w in enumerate(widths, 1):
@@ -321,6 +325,7 @@ def main():
         ("  - rejected during research", len(rejected) - len(excluded)),
         ("  - excluded in QC (Shopify not verifiable)", len(excluded)),
         ("Total duplicate prospects removed", len(dupes)),
+        ("Qualified beyond the 200 target (sheet 'Beyond 200')", len(overflow)),
         ("Prospects with verified public professional emails", len(final)),
         ("  - on the store's own domain", sum(1 for r in final if r["email"].split("@")[-1] not in GENERIC_DOMAINS)),
         ("High confidence", conf["High"]),
@@ -352,6 +357,18 @@ def main():
     for c in ss[1]:
         c.font = Font(bold=True, color="FFFFFF")
         c.fill = header_fill
+
+    if overflow:
+        ov = wb.create_sheet("Beyond 200")
+        ov.append(COLUMNS)
+        for r in overflow:
+            ov.append(row_for(r))
+        for i, w in enumerate(widths, 1):
+            ov.column_dimensions[get_column_letter(i)].width = w
+        for c in ov[1]:
+            c.font = Font(bold=True, color="FFFFFF")
+            c.fill = header_fill
+        ov.freeze_panes = "B2"
 
     wb.save(OUT_FILE)
     for k, v in summary:

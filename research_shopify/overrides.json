@@ -15,7 +15,10 @@
     "shop@thestorehousefremantle.com.au": "Not Shopify (.aspx store) and local-delivery only",
     "jamwomanclothing@gmail.com": "Shopify connection not verifiable; site looks like WordPress, and only a Gmail contact",
     "info@casanoosa.com.au": "Shopify connection not verifiable; URL structure suggests WooCommerce",
-    "info@picturepolish.com.au": "Shopify connection not verifiable; store looks like WooCommerce"
+    "info@picturepolish.com.au": "Shopify connection not verifiable; store looks like WooCommerce",
+    "lotuslanesilver@gmail.com": "Shopify connection not verifiable; site looks like Wix, and only a Gmail contact",
+    "byronbayhatcompany@gmail.com": "Shopify connection not verifiable (looks like WooCommerce); store listed for sale",
+    "info@summerleasdistillery.com.au": "Shopify connection not verifiable; URL structure suggests Squarespace"
   },
   "keep_high": [
     "online@westbrothers.com.au",
@@ -30,7 +33,9 @@
     "info@lushdesigns.com.au",
     "info@ivyandwood.com.au",
     "info@posteroo.com.au",
-    "sales@phinc.com.au"
+    "sales@phinc.com.au",
+    "admin@specialsize.com.au",
+    "info@miniandme.net.au"
   ],
   "needs_review": {
     "help@crooze.com.au": "A Shopify /password page was indexed - confirm the store is currently open before sending.",
@@ -65,6 +70,19 @@
     "periodshop@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
     "idyllic@acrylicperipherals.com": "Email is on the owner's other domain (published on MechStock's contact page) - confirm it is the right inbox.",
     "info@ebikesworld.com.au": "Online ordering not clearly shown in results - confirm the store sells online.",
-    "enquiries@honeyaustralia.com.au": "Town not confirmed; larger wholesale/export business - confirm fit."
+    "enquiries@honeyaustralia.com.au": "Town not confirmed; larger wholesale/export business - confirm fit.",
+    "modestyinstyle@hotmail.com": "Free-mail (Hotmail) address, though published by the business - confirm it is the preferred business contact.",
+    "flair3280@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "customerservice@sydneyrugsonline.com.au": "First name Sarah taken from a trade email; role unconfirmed - confirm or use 'Team'.",
+    "info@bowerbirdcollections.com": "Owner name from ZoomInfo only; email confirmed on social/directory pages, not the website.",
+    "runnulla@bigpond.com": "Free-mail (Bigpond) address, though published on the store's site - confirm it is the preferred contact.",
+    "janine@rodwellandastor.com.au": "Email partly masked on ZoomInfo; search summaries matched it - confirm before sending.",
+    "northcote@okuden.com.au": "Email domain (okuden.com.au) differs from store domain (oku.com.au) - confirm it is the right inbox.",
+    "gingerpinkdarwin@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "hello@acaciaaromatherapy.com.au": "Shopify not confirmed; site may run on another platform - verify before sending.",
+    "sales@vdqbulbs.com.au": "First name Paul from ZoomInfo, not the brand site - confirm or use 'Team'.",
+    "hello@theessentialcleaner.com.au": "First name Kelly from ZoomInfo, not the brand site - confirm or use 'Team'.",
+    "admin@minimalistgardener.com.au": "A Shopify /password page was indexed - confirm the store is currently open before sending.",
+    "info@miniandme.net.au": "Email is on associated company domain (Mini and Me), though listed on Cuddle Bug & Co's contact page."
   }
 }
