@@ -1,0 +1,198 @@
+{
+  "segment": "Tech, electronics, audio, auto/4WD, hobby and 3D printing (AU, Shopify)",
+  "searches_run": 22,
+  "accepted": [
+    {
+      "prospect_name": "Gumnut Games",
+      "company": "Gumnut Games (ABN 57 658 728 218)",
+      "first_name": "Team",
+      "email": "info@gumnut.com.au",
+      "state": "Victoria",
+      "city": "Melbourne",
+      "shopify_niche": "Hobby - board games and tabletop",
+      "shopify_store_url": "https://www.gumnut.com.au/",
+      "product_category": "Board games, RPGs, miniatures, card games, dice, puzzles",
+      "buying_intent": "High - catalog of over 20,000 products across board games, miniatures and trading cards",
+      "personalization_detail": "Gumnut lists over 20,000 products, from Bananagrams and Evolution: Oceans to Australis and Welcome To...",
+      "personalization_reason": "Keeping titles, descriptions, tags and collections consistent across 20,000+ game listings is heavy manual work that AI listing tools can help with.",
+      "personalized_opening": "I was browsing Gumnut's range and saw you now carry over 20,000 products, from Evolution: Oceans to local titles like Australis.",
+      "subject_line": "20,000 games and their listings",
+      "source_url": "https://www.gumnut.com.au/pages/contact-us",
+      "other_urls": "https://www.gumnut.com.au/\nhttps://www.gumnut.com.au/pages/about-us\nhttps://www.gumnut.com.au/pages/faqs\nhttps://www.gumnut.com.au/products/evolution-oceans",
+      "evidence": "Melbourne-based online game store (PO Box 24437 Melbourne VIC 3001) selling board games, miniatures, trading cards and puzzles, 20,000+ products. Shopify URL structure (/pages/, /products/) with Shopify-style page titles. Email shown in discovery search and confirmed via search \"info@gumnut.com.au\" (contact, about, FAQ, returns pages).",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "No founder name surfaced; using Team.",
+      "email_body": "Hi Team,\n\nI was browsing Gumnut's range and saw you now carry over 20,000 products, from Evolution: Oceans to local titles like Australis.\n\nWith a catalog that size, new releases, product descriptions, tags and collection sorting must take a lot of hours. I build AI assistants for Shopify stores that draft product titles, descriptions and SEO text, apply tags and collections, and help with customer-support replies, using Shopify with n8n and OpenAI or Gemini.\n\nWould it be useful if I showed you how that could work on a batch of your new arrivals?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Bossco Auto",
+      "company": "Bossco Auto 4x4 Accessories",
+      "first_name": "Team",
+      "email": "sales@bosscoauto.com.au",
+      "state": "New South Wales",
+      "city": "Prestons",
+      "shopify_niche": "Auto - 4WD accessories",
+      "shopify_store_url": "https://bosscoauto.com.au/",
+      "product_category": "Nudge bars, roof racks, weather shields, ute canopies, drawer systems",
+      "buying_intent": "High - importer/distributor with a large 4x4 parts catalog plus fitment guides",
+      "personalization_detail": "Bossco runs a dedicated fitment page for its ute canopies and covers alongside products like its single ute drawer system.",
+      "personalization_reason": "Fitment-dependent parts need precise, vehicle-specific titles, descriptions and tags, which AI-assisted listing and metadata updates can help keep consistent.",
+      "personalized_opening": "Your fitment page for ute canopies and covers stood out to me, since matching each part to the right vehicle is exactly where product listings get complicated.",
+      "subject_line": "Fitment details across Bossco listings",
+      "source_url": "https://bosscoauto.com.au/pages/faqs",
+      "other_urls": "https://bosscoauto.com.au/\nhttps://bosscoauto.com.au/pages/bossco-fitment\nhttps://bosscoauto.com.au/products/single-drawer\nhttps://bosscoauto.com.au/policies/refund-policy\nhttps://au.linkedin.com/company/bosscoauto",
+      "evidence": "Importer and distributor of aftermarket 4x4 parts at 1/12 Bernera Rd, Prestons NSW 2170. Shopify signal: /policies/refund-policy, /products/ and /pages/ URL structure. Email shown in 4WD discovery search and confirmed via search \"sales@bosscoauto.com.au\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Australian Online Car Parts' Facebook also lists Prestons NSW; possibly related businesses - check before emailing both.",
+      "email_body": "Hi Team,\n\nYour fitment page for ute canopies and covers stood out to me, since matching each part to the right vehicle is exactly where product listings get complicated.\n\nWith nudge bars, roof racks, weather shields and drawer systems all tied to specific models, keeping titles, tags and descriptions accurate takes real effort. I build AI assistants for Shopify stores that draft product descriptions and SEO text, update tags and metadata, and help sort customer questions, using Shopify, n8n and OpenAI or Gemini.\n\nWould you be open to a short look at how this could handle your fitment-based listings?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Kiki (TCGroup AU)",
+      "company": "TCGroup AU",
+      "first_name": "Kiki",
+      "email": "info@tcgroupau.com.au",
+      "state": "Victoria",
+      "city": "Epping",
+      "shopify_niche": "Hobby - trading card games",
+      "shopify_store_url": "https://www.tcgroupau.com.au/",
+      "product_category": "Pokemon TCG, Japanese Weiss Schwarz, single cards, sealed product, pre-orders",
+      "buying_intent": "High - large singles catalog plus frequent pre-order drops across multiple TCGs",
+      "personalization_detail": "TCGroup runs a single-cards collection and a pre-orders page, and stocks Japanese Weiss Schwarz alongside Pokemon.",
+      "personalization_reason": "Single cards and pre-orders mean many small listings that change often, where AI help with titles, tags and descriptions can save time.",
+      "personalized_opening": "I saw TCGroup sells single cards and Japanese Weiss Schwarz alongside Pokemon, with a running pre-orders page.",
+      "subject_line": "Single card listings at TCGroup",
+      "source_url": "https://www.tcgroupau.com.au/pages/contact-us",
+      "other_urls": "https://www.tcgroupau.com.au/\nhttps://www.tcgroupau.com.au/collections/single-cards\nhttps://www.tcgroupau.com.au/pages/pre-orders\nhttps://www.tcgroupau.com.au/collections/japanese-weiss-schwarz\nhttps://www.facebook.com/tcgroupau/",
+      "evidence": "Trading card store at 13B/58 Willandra Dr, Epping VIC 3076, founded by Kiki and partner Aneta. Shopify signal: /collections/ and /pages/ URL structure. Email shown in TCG discovery search and confirmed via search \"info@tcgroupau.com.au\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Founder names from search summary (Kiki and Aneta).",
+      "email_body": "Hi Kiki,\n\nI saw TCGroup sells single cards and Japanese Weiss Schwarz alongside Pokemon, with a running pre-orders page.\n\nSingles and pre-orders mean lots of small listings that change quickly, and each needs a clear title, set info and tags. I build AI assistants for Shopify stores that draft product titles and descriptions, apply tags and collections, and write social posts for new drops, using Shopify, n8n and OpenAI or Gemini.\n\nWould it help to see how that could work on your next set release?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "3DFillies",
+      "company": "3DFillies",
+      "first_name": "Team",
+      "email": "hello@3dfillies.com",
+      "state": "Victoria",
+      "city": "Melbourne",
+      "shopify_niche": "3D printing supplies",
+      "shopify_store_url": "https://3dfillies.com/",
+      "product_category": "3D printer filaments and materials",
+      "buying_intent": "Medium - established filament supplier serving schools, businesses and hobbyists",
+      "personalization_detail": "3DFillies supplies filament to designers, schools, businesses and hobbyists across Australia, with a team of part designers and model creators.",
+      "personalization_reason": "Selling the same materials to schools, businesses and hobbyists often means writing product content and emails for different audiences, which AI drafting can help with.",
+      "personalized_opening": "I read that 3DFillies supplies designers, schools, businesses and hobbyists, which is a wide mix of buyers for one filament range.",
+      "subject_line": "Filament listings for different buyers",
+      "source_url": "https://3dfillies.com/contact",
+      "other_urls": "https://3dfillies.com/\nhttps://3dfillies.com/about-us\nhttps://www.facebook.com/3DFillies/\nhttps://au.linkedin.com/company/3dfillies",
+      "evidence": "Victorian (Melbourne) 3D printer filament supplier, phone 0444 512 550. Email found in search for 3D Fillies contact and confirmed via search \"hello@3dfillies.com\".",
+      "evidence_type": "Search Result Verified",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (URL structure not Shopify-like). Email domain is .com, business is Melbourne VIC.",
+      "email_body": "Hi Team,\n\nI read that 3DFillies supplies designers, schools, businesses and hobbyists, which is a wide mix of buyers for one filament range.\n\nEach material and colour needs clear specs and descriptions, and different buyers ask different questions. I build AI assistants for online stores that draft product descriptions and SEO text, organise tags and collections, and help with customer-support and email replies, using tools like n8n and OpenAI or Gemini.\n\nWould you be interested in a quick example using a few of your filament listings?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Audiophile Shop AU",
+      "company": "Audiophile Shop Australia",
+      "first_name": "Team",
+      "email": "info@audiophileshop.com.au",
+      "state": "Victoria",
+      "city": "Hallam",
+      "shopify_niche": "Electronics - hi-fi audio",
+      "shopify_store_url": "https://audiophileshop.com.au/",
+      "product_category": "DACs, streamers, interconnect and power cables, tube and Hypex amplifiers, master clocks",
+      "buying_intent": "Medium - active Shopify store with own-brand A.L.A Audio range and appointment showroom",
+      "personalization_detail": "Audiophile Shop designs and builds its own A.L.A Audio products, including interconnects, Hypex amplifiers, master clocks and network streamers.",
+      "personalization_reason": "Detailed, spec-heavy in-house products need careful descriptions and SEO copy, which AI drafting can speed up while keeping the owner in control.",
+      "personalized_opening": "I was reading about your in-house A.L.A Audio range, from custom interconnects to Hypex amplifiers and master clocks.",
+      "subject_line": "Writing up the A.L.A Audio range",
+      "source_url": "https://audiophileshop.com.au/pages/contact-us",
+      "other_urls": "https://audiophileshop.com.au/\nhttps://audiophileshop.com.au/pages/about-us\nhttps://audiophileshop.com.au/collections/all\nhttps://a-l-audiophile.myshopify.com/\nhttps://www.facebook.com/audiophileshop.au/",
+      "evidence": "Hi-fi retailer at 3/72-74 Hallam South Road, Hallam VIC 3803 with own brand A.L.A Audio. Shopify confirmed via myshopify domain a-l-audiophile.myshopify.com. Email found in contact search and confirmed via search \"info@audiophileshop.com.au\".",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "",
+      "email_body": "Hi Team,\n\nI was reading about your in-house A.L.A Audio range, from custom interconnects to Hypex amplifiers and master clocks.\n\nProducts like these need detailed, accurate descriptions for buyers who read every spec. I build AI assistants for Shopify stores that draft product descriptions and SEO text, keep tags and collections tidy, and help answer common customer questions, using Shopify, n8n and OpenAI or Gemini.\n\nWould a short example on one of your streamers or cables be useful?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Australian Online Car Parts",
+      "company": "Australian Online Car Parts, Tools & Accessories",
+      "first_name": "Team",
+      "email": "cs@australianonlinecarparts.com.au",
+      "state": "New South Wales",
+      "city": "Oak Flats",
+      "shopify_niche": "Auto - car parts and accessories",
+      "shopify_store_url": "https://www.australianonlinecarparts.com.au/",
+      "product_category": "Genuine and aftermarket car parts, brake pads, tools, accessories",
+      "buying_intent": "High - very large parts catalog across makes (Mazda, BYD and more) plus multi-channel selling on eBay",
+      "personalization_detail": "The store lists individual OEM parts by part number, such as Mazda and BYD components, and also sells through an eBay store.",
+      "personalization_reason": "Part-number listings across multiple makes and channels mean a lot of repetitive titles and descriptions, where AI-assisted listing and metadata updates can help.",
+      "personalized_opening": "I noticed you list individual OEM parts by part number for makes like Mazda and BYD, and run an eBay store alongside the website.",
+      "subject_line": "Part-number listings across two channels",
+      "source_url": "https://www.australianonlinecarparts.com.au/contact-us",
+      "other_urls": "https://www.australianonlinecarparts.com.au/\nhttps://www.australianonlinecarparts.com.au/about_us\nhttps://www.australianonlinecarparts.com.au/page/faq/\nhttps://www.ebay.com.au/str/australianonlinecarparts\nhttps://www.whereis.com/nsw/oak-flats-2529/yellowId-1000002271306",
+      "evidence": "Online car parts retailer at 2/148 Industrial Rd, Oak Flats NSW 2529 (South Coast). Email shown in car accessories discovery search and confirmed via search \"cs@australianonlinecarparts.com.au\" (contact and product pages).",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (URL structure suggests another platform). Facebook lists Prestons NSW, same suburb as Bossco Auto; may be related - check before emailing both.",
+      "email_body": "Hi Team,\n\nI noticed you list individual OEM parts by part number for makes like Mazda and BYD, and run an eBay store alongside the website.\n\nThat many part-number listings across the website and eBay must mean a lot of repetitive titles, descriptions and fitment notes. I build AI assistants for online stores that draft product titles, descriptions and SEO text, update product metadata in bulk, and help with customer email replies, using tools like n8n and OpenAI or Gemini.\n\nWould you be open to seeing how that might work on a set of your parts?\n\nBest regards,\nCynthia Nana"
+    }
+  ],
+  "rejected": [
+    {
+      "company": "T&G 4x4 (Sydney NSW)",
+      "reason": "Gmail contact confirmed, but no verified online store with active products surfaced; site appears to be a service/fitting business."
+    },
+    {
+      "company": "Audio Connection (Leichhardt NSW)",
+      "reason": "Shopify store (audio-connection.myshopify.com) but emails were obfuscated in search results; no verifiable email."
+    },
+    {
+      "company": "OZRC (Geebung QLD)",
+      "reason": "No email shown in search results."
+    },
+    {
+      "company": "Hobbies Direct (Geelong VIC)",
+      "reason": "No email shown in search results; contact form only."
+    },
+    {
+      "company": "AG LEGO Certified Stores (bricksmegastore)",
+      "reason": "Large licensed retail chain (corporate); skipped."
+    },
+    {
+      "company": "Frontline Hobbies / RC Hobbyland / Ultimate Hobbies / Hearns Hobbies / Hobby One / Aussie Hobbies / RC Garage / RC World",
+      "reason": "No email surfaced within search budget."
+    },
+    {
+      "company": "MSA 4x4 / KAON / 4x4 Mods Australia / Off Road Central / Aussie Offroad",
+      "reason": "No email shown in search results."
+    },
+    {
+      "company": "ARB 4x4",
+      "reason": "Large corporate."
+    },
+    {
+      "company": "DREMC / Siddament / X3D / 3DMeta / Cubic Technology / OzFDM / FilamentHub",
+      "reason": "No email shown in search results within budget."
+    },
+    {
+      "company": "PokeBox / Kollecter / Kartu / Northern Beaches Trading Cards / Card Traders Australia / Overhauled Games",
+      "reason": "No email shown in search results within budget."
+    },
+    {
+      "company": "Sixale AU / Sound Devices Australia",
+      "reason": "No email shown in search results."
+    },
+    {
+      "company": "MD Car Care / Car Care Products Australia / CarCareCo / Auto One / Automotive Superstore",
+      "reason": "No email shown in search results."
+    },
+    {
+      "company": "Repco / Supercheap Auto",
+      "reason": "Giant corporates."
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "segment": "seg16 - Australian watches, handbags/leather goods, sunglasses, hats, candles/home fragrance, gift boxes/hampers (Shopify)",
+  "searches_run": 21,
+  "accepted": [
+    {
+      "prospect_name": "Country Culture",
+      "company": "Country Culture Gift Shop",
+      "first_name": "Team",
+      "email": "info@countryculture.com.au",
+      "state": "New South Wales",
+      "city": "Alexandria",
+      "shopify_niche": "Gifts - gift hampers and gift boxes",
+      "shopify_store_url": "https://www.countryculture.com.au/",
+      "product_category": "Gift hampers, gift boxes, wine, gourmet pantry items (rubs, pickles), locally sourced gifts",
+      "buying_intent": "High - large mixed catalog of individual products (wines, rubs, pantry items) plus built gift boxes, each needing its own listing",
+      "personalization_detail": "Country Culture lists individual small-producer items such as Dragonfly Shiraz, Sunset Rub Seasoning and Baby Cornichons alongside its curated gift boxes, with a focus on locally sourced gifts from small businesses.",
+      "personalization_reason": "A catalog built from many small-producer items, each with its own page and then combined into hampers, means a lot of repeated description, tagging and collection work.",
+      "personalized_opening": "I was looking at the Country Culture range and liked that single items like the Dragonfly Shiraz and Sunset Rub get their own pages next to the gift boxes they end up in.",
+      "subject_line": "product pages for your gift range",
+      "source_url": "https://www.countryculture.com.au/pages/contact",
+      "other_urls": "https://www.countryculture.com.au/\nhttps://www.countryculture.com.au/pages/returns-policy\nhttps://www.countryculture.com.au/gift-box-1\nhttps://www.countryculture.com.au/dragonfly-shiraz\nhttps://www.countryculture.com.au/about-us/",
+      "evidence": "Australian gift hamper shop championing small businesses with locally sourced gifts; registered office 9/77-79 Bourke Road, Alexandria NSW 2015 (ABN 65157810743). Email info@countryculture.com.au surfaced in a search for Australian gift hamper businesses and was confirmed with the search \"info@countryculture.com.au\", which returned their contact, returns-policy and product pages. Shopify-style /pages/ URLs (pages/contact, pages/returns-policy) appear, but some URLs use a non-Shopify pattern.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not fully confirmed (mixed URL structure: /pages/ paths plus flat product paths). Founder name not found, so greeting uses Team.",
+      "email_body": "Hi Team,\n\nI was looking at the Country Culture range and liked that single items like the Dragonfly Shiraz and Sunset Rub get their own pages next to the gift boxes they end up in.\n\nKeeping all of those small-producer products written up, tagged and sorted into the right hampers must take real time. I'm Cynthia, and I build AI assistants for Shopify stores that draft product descriptions and SEO copy, apply tags and collections, and prepare promo content for occasions like Christmas and Mother's Day, using Shopify, n8n and OpenAI or Gemini.\n\nWould it be useful if I showed you how that could work on a few of your current products?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Hamper Me",
+      "company": "Hamper Me",
+      "first_name": "Team",
+      "email": "enquiries@hamperme.com.au",
+      "state": "Queensland",
+      "city": "Kenmore",
+      "shopify_niche": "Gifts - premium gift hampers",
+      "shopify_store_url": "https://hamperme.com.au/",
+      "product_category": "Made-to-order gift hampers, occasion hampers, get well gifts, corporate/bulk hampers",
+      "buying_intent": "High - occasion-based collections and bulk/corporate orders suggest a steady flow of listings and seasonal campaigns",
+      "personalization_detail": "Hamper Me has been making made-to-order hampers with premium Australian products since 2003 and groups them into occasion collections, with named products like the Hamlet and the Emergency Get Well Soon Gift.",
+      "personalization_reason": "Occasion-based collections and seasonal hamper changes mean ongoing updates to product copy, collections and promotional content, which AI drafting can help with.",
+      "personalized_opening": "Your named hampers caught my eye, especially the Emergency Get Well Soon Gift, and it's clear a lot of thought goes into matching each one to an occasion.",
+      "subject_line": "hamper listings and occasion collections",
+      "source_url": "https://hamperme.com.au/pages/contact",
+      "other_urls": "https://hamperme.com.au/\nhttps://hamperme.com.au/collections/occasions\nhttps://hamperme.com.au/pages/about-us\nhttps://hamperme.com.au/products/hamlet\nhttps://hamperme.com.au/products/emergency\nhttps://au.linkedin.com/company/hamper-me",
+      "evidence": "Australian made-to-order gift hamper business since 2003, PO Box 634 Kenmore QLD 4069, ABN 64 357 582 626, delivers Australia-wide. Shopify URL structure (/pages/, /collections/, /products/). Email enquiries@hamperme.com.au appeared in a hamper business search and was confirmed via the search \"enquiries@hamperme.com.au\" (contact page, LinkedIn).",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Founder name not found; greeting uses Team. Some legacy .html pages also indexed.",
+      "email_body": "Hi Team,\n\nYour named hampers caught my eye, especially the Emergency Get Well Soon Gift, and it's clear a lot of thought goes into matching each one to an occasion.\n\nWith occasion collections and bulk orders going on, keeping hamper descriptions, collections and seasonal promos current can easily take up a lot of the week. I'm Cynthia, and I build AI assistants on Shopify that draft product and SEO descriptions, update collections and tags, and prepare email and social content, so that work is quicker.\n\nWould you be open to a short chat about whether this would suit Hamper Me?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Good Day People",
+      "company": "Good Day People",
+      "first_name": "Team",
+      "email": "orders@gooddaypeople.com",
+      "state": "New South Wales",
+      "city": "Davidson",
+      "shopify_niche": "Gifts - gift hampers and gift boxes",
+      "shopify_store_url": "https://gooddaypeople.com/",
+      "product_category": "Gift hampers, gift baskets, custom gift boxes",
+      "buying_intent": "Medium - established online gift box store offering customisation, active on Threads/social",
+      "personalization_detail": "Good Day People lets customers email in to customise their gift boxes, and names its boxes with personalities such as 'Gifting Gail'.",
+      "personalization_reason": "Customisation requests handled by email, plus character-named boxes that each need a distinct description, make support replies and product copy good candidates for AI help.",
+      "personalized_opening": "I liked the 'Gifting Gail' box and the way Good Day People gives each hamper a bit of personality, plus the option to email in and customise one.",
+      "subject_line": "custom box requests at Good Day People",
+      "source_url": "https://gooddaypeople.com/pages/faqs",
+      "other_urls": "https://gooddaypeople.com/\nhttps://gooddaypeople.com/products/gifting-gail\nhttps://gooddaypeople.com/pages/about\nhttps://au.linkedin.com/company/good-day-people\nhttps://www.crunchbase.com/organization/good-day-people\nhttps://www.threads.com/@gooddaypeople_",
+      "evidence": "E-commerce gift hamper and gift basket store based in Davidson NSW. Shopify URL structure (/pages/, /products/). Email orders@gooddaypeople.com surfaced in a gift hamper search and was confirmed with the search \"orders@gooddaypeople.com\" (FAQ page, product page, LinkedIn).",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Domain is .com, not .com.au, but business is NSW-based. Founder name not found; greeting uses Team.",
+      "email_body": "Hi Team,\n\nI liked the 'Gifting Gail' box and the way Good Day People gives each hamper a bit of personality, plus the option to email in and customise one.\n\nPersonal names and custom requests are lovely for customers, but they mean writing distinct copy for every box and answering a lot of emails. I'm Cynthia, and I build AI assistants for Shopify stores that draft product descriptions in your own tone, handle routine customer email replies, and prepare social posts, so your team only reviews and approves.\n\nWould it help if I sent through a quick example based on one of your boxes?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "BARE Leather",
+      "company": "BARE Leather",
+      "first_name": "Team",
+      "email": "shop@bareleather.com.au",
+      "state": "Western Australia",
+      "city": "Belmont",
+      "shopify_niche": "Accessories - leather handbags and wallets",
+      "shopify_store_url": "https://bareleather.com.au/",
+      "product_category": "Handcrafted leather handbags, clutches, wallets",
+      "buying_intent": "High - retail plus wholesale channel and seasonal sale campaigns (BFCM page)",
+      "personalization_detail": "BARE Leather has been designing handcrafted leather handbags, wallets and clutches since 2015, runs a wholesale enquiry page and ran a dedicated BFCM25 sale page.",
+      "personalization_reason": "Selling both retail and wholesale, with seasonal campaigns like Black Friday, means product updates, promo content and customer emails pile up around busy periods.",
+      "personalized_opening": "I saw the BFCM25 page on the BARE Leather site and that you also take wholesale enquiries alongside the handbag and clutch range.",
+      "subject_line": "bfcm prep for bare leather",
+      "source_url": "https://bareleather.com.au/pages/contact",
+      "other_urls": "https://bareleather.com.au/\nhttps://bareleather.com.au/pages/frequently-asked-questions\nhttps://bareleather.com.au/pages/contact-for-wholesale\nhttps://bareleather.com.au/pages/bfcm25\nhttps://bareleather.com.au/products/shelby-clutch\nhttps://www.facebook.com/bareleather/\nhttps://www.sobroome.com.au/business/bare-leather",
+      "evidence": "WA leather goods brand (Unit 24/12 Cowcher Place, Belmont WA 6104; roots in Broome) selling handcrafted handbags, wallets and clutches since 2015. Shopify URL structure (/pages/, /products/, /collections/frontpage). Email found via search 'BARE Leather Australia contact email' (contact page) and confirmed via \"shop@bareleather.com.au\" (FAQ, product pages, Facebook, So Broome).",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Founder name not found in results; greeting uses Team. Search summaries mention both Belmont (address) and Broome.",
+      "email_body": "Hi Team,\n\nI saw the BFCM25 page on the BARE Leather site and that you also take wholesale enquiries alongside the handbag and clutch range.\n\nRunning retail, wholesale and big sale periods from one Shopify store usually means a lot of product updates, promo copy and customer emails landing at once. I'm Cynthia, and I build AI assistants that draft product and SEO descriptions, update product details and tags in bulk, and prepare email and social content for campaigns like that.\n\nWould something like that be useful ahead of this year's sales season?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Jess (Ivy & Wood)",
+      "company": "Ivy & Wood",
+      "first_name": "Jess",
+      "email": "info@ivyandwood.com.au",
+      "state": "Queensland",
+      "city": "Clontarf",
+      "shopify_niche": "Home fragrance - soy candles and diffusers",
+      "shopify_store_url": "https://ivyandwood.com.au/",
+      "product_category": "Soy candles, reed diffusers, room sprays, bath soaks",
+      "buying_intent": "Medium - established since 2016, multiple product types and collections, Judge.me reviews and Etsy channel",
+      "personalization_detail": "Ivy & Wood, run by Jess and Brad since 2016, hand makes soy candles, reed diffusers, room sprays and bath soaks in Clontarf, and also sells through an Etsy shop.",
+      "personalization_reason": "Keeping scents and product types consistent across Shopify and Etsy means duplicate listing and description work that AI drafting can shorten.",
+      "personalized_opening": "I saw that you and Brad make every Ivy & Wood candle, diffuser and room spray by hand, and that you sell on Etsy as well as your own store.",
+      "subject_line": "scent descriptions across shopify and etsy",
+      "source_url": "https://ivyandwood.com.au/pages/contact-us",
+      "other_urls": "https://ivyandwood.com.au/\nhttps://ivyandwood.com.au/pages/about-us\nhttps://ivyandwood.com.au/collections/all\nhttps://judge.me/reviews/stores/ivyandwood.com.au\nhttps://www.etsy.com/uk/shop/IvyAndWoodCandles\nhttps://www.museumofbrisbane.com.au/qa-ivy-wood/",
+      "evidence": "Brisbane handmade candle and home fragrance brand, Unit 3/16 Redcliffe Gardens Dr, Clontarf QLD 4019, established 2016 by partners Jess & Brad. Shopify signals: /pages/ and /collections/ URLs and a Judge.me (Shopify reviews app) store page. Email found via 'Ivy & Wood candles Brisbane contact email' (contact page) and confirmed via \"info@ivyandwood.com.au\" (contact, privacy, terms pages).",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Co-owned by Jess and Brad; addressed to Jess.",
+      "email_body": "Hi Jess,\n\nI saw that you and Brad make every Ivy & Wood candle, diffuser and room spray by hand, and that you sell on Etsy as well as your own store.\n\nWhen the making is done in-house, the listing side (scent descriptions, SEO text, tags and keeping two channels in step) tends to squeeze into whatever time is left. I'm Cynthia, and I build AI assistants for Shopify that draft those descriptions and tags, keep product details updated, and prepare social and email content for new scents.\n\nWould you be interested in seeing how that might work with one of your current scents?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Caroline Hartline",
+      "company": "Ozeano Eyewear (Ozeano Holdings Pty Ltd)",
+      "first_name": "Caroline",
+      "email": "info@ozeano.com.au",
+      "state": "New South Wales",
+      "city": "Kiama Downs",
+      "shopify_niche": "Accessories - sustainable sunglasses and eyewear",
+      "shopify_store_url": "https://ozeano.com.au/",
+      "product_category": "Polarised bio-acetate sunglasses, prescription glasses",
+      "buying_intent": "High - expanding into a new category (teen intimates), wholesale/press channel, sunglasses plus prescription range",
+      "personalization_detail": "Ozeano names its polarised bio-acetate sunglasses after coastal spots with animal nicknames, such as Balmoral (Bushfish) and Coolum (Turtle), and won Excellence in Sustainable Business at the 2025 Kiama Business Awards.",
+      "personalization_reason": "Named styles and colourways each need their own story, SEO copy and tags, and a growing brand with a wholesale arm has more listings and campaigns to keep up with.",
+      "personalized_opening": "Congratulations on the Excellence in Sustainable Business award at the 2025 Kiama Business Awards. I also liked how each Ozeano frame gets a place and an animal, like the Coolum (Turtle).",
+      "subject_line": "product copy for the ozeano frames",
+      "source_url": "https://ozeano.com.au/pages/get-in-touch",
+      "other_urls": "https://ozeano.com.au/\nhttps://ozeano.com.au/pages/faqs\nhttps://ozeano.com.au/pages/press-wholesale\nhttps://ozeano.com.au/pages/our-story-mission\nhttps://ozeano.com.au/products/balmoral-bushfish\nhttps://ozeano.com.au/products/coolum-turtle-polarised-sunglasses\nhttps://au.linkedin.com/in/caroline-hartline-8901081a\nhttps://regionillawarra.com.au/kiama-downs-entrepreneur-expands-from-sustainable-eyewear-side-hustle-to-teen-intimates/67228/",
+      "evidence": "Sustainable sunglasses brand designed on the NSW South Coast (Kiama Downs), handmade bio-acetate polarised and prescription eyewear; won 2025 Kiama Business Awards sustainability award. Shopify URL structure (/pages/, /products/, /collections/). Founder Caroline Hartline (LinkedIn, Ozeano Holdings). Email found via 'Ozeano Eyewear Kiama sunglasses contact email' and confirmed via \"info@ozeano.com.au\" (shipping, returns, FAQ, product pages).",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Founder email caroline@ozeano.com.au also appeared in the first search but was not separately confirmed; using the confirmed info@ address.",
+      "email_body": "Hi Caroline,\n\nCongratulations on the Excellence in Sustainable Business award at the 2025 Kiama Business Awards. I also liked how each Ozeano frame gets a place and an animal, like the Coolum (Turtle).\n\nWriting a distinct story and SEO description for every frame and colourway, on top of wholesale and a new category, adds up. I'm Cynthia, and I build AI assistants for Shopify stores that draft product and SEO descriptions, handle tags and collections, and prepare social and email content, all reviewed by you before anything goes live.\n\nWould it be worth a quick chat to see if that could save you some time?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Emma (LMJ Candles)",
+      "company": "LMJ Candles",
+      "first_name": "Emma",
+      "email": "info@lmjcandles.com.au",
+      "state": "New South Wales",
+      "city": "Sydney",
+      "shopify_niche": "Home fragrance - soy candles, wax melts and homewares",
+      "shopify_store_url": "https://lmjcandles.com.au/",
+      "product_category": "Soy wax candles, wax melts, car air fresheners, scented home decor, custom scented art",
+      "buying_intent": "High - wide and quirky catalog, multi-channel (Shopify, Etsy, Faire wholesale), seasonal Christmas products",
+      "personalization_detail": "LMJ Candles, started in 2021 by owner and maker Emma, sells well beyond candles, with items like a Snowflake car air freshener, a scented At Sign decor piece and a Last Supper scented textured artwork, and also sells on Etsy and Faire.",
+      "personalization_reason": "A varied catalog spread across Shopify, Etsy and Faire wholesale means many unique listings and repeated copy work that AI drafting and syncing could reduce.",
+      "personalized_opening": "The Last Supper scented artwork and the Snowflake car air freshener stood out to me. LMJ Candles has a much wider range than most candle stores.",
+      "subject_line": "listing time for lmj's wider range",
+      "source_url": "https://lmjcandles.com.au/pages/contact-us",
+      "other_urls": "https://lmjcandles.com.au/\nhttps://lmjcandles.com.au/pages/about-us\nhttps://lmjcandles.com.au/pages/wholesale\nhttps://lmjcandles.com.au/products/snowflake-car-air-freshener\nhttps://lmjcandles.com.au/products/last-supper-scented-artwork\nhttps://www.etsy.com/au/shop/LMJCandles\nhttps://www.faire.com/brand/b_ucgmy57zjg",
+      "evidence": "Sydney small family business started 2021 by owner/maker Emma; handmade soy candles, wax melts, homewares, air fresheners. Shopify URL structure (/pages/, /products/). Also on Etsy and Faire. Email found via 'LMJ Candles Sydney contact email' (contact page) and confirmed via \"info@lmjcandles.com.au\" (site pages, Facebook).",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Suburb not stated beyond Sydney.",
+      "email_body": "Hi Emma,\n\nThe Last Supper scented artwork and the Snowflake car air freshener stood out to me. LMJ Candles has a much wider range than most candle stores.\n\nWith that many one-off pieces, plus Etsy and Faire wholesale alongside the Shopify store, I imagine writing and updating listings takes a good share of your week. I'm Cynthia, and I build AI assistants that draft product and SEO descriptions, sort tags and collections, and prepare seasonal promo content, so you can spend more time making.\n\nWould you like me to show you a draft for one of your newer pieces?\n\nBest regards,\nCynthia Nana"
+    }
+  ],
+  "rejected": [
+    {
+      "company": "Meeraboo",
+      "reason": "Already in EXISTING.txt"
+    },
+    {
+      "company": "Harvey & Co. Sydney",
+      "reason": "Already in EXISTING.txt (rejected)"
+    },
+    {
+      "company": "Drift Trading Co",
+      "reason": "Already in EXISTING.txt (rejected)"
+    },
+    {
+      "company": "Melbourne Watch Company",
+      "reason": "No email shown in search results (only an email-format guess from a data broker); not accepted"
+    },
+    {
+      "company": "Galvin Watch Company",
+      "reason": "No email surfaced; search budget exhausted before it could be found and confirmed"
+    },
+    {
+      "company": "The Hat Store (Gold Coast QLD)",
+      "reason": "Contact page uses a form; no email address shown in search results"
+    },
+    {
+      "company": "Wild Harry (Etna Creek QLD)",
+      "reason": "Email only partially masked on ZoomInfo; no public email shown in results"
+    },
+    {
+      "company": "Hampers Galore",
+      "reason": "Email customerservice@hampersgalore.com.au appeared once but was not confirmed (budget); also larger operator"
+    },
+    {
+      "company": "Edible Blooms / Hampers.com.au",
+      "reason": "Large established operator (20+ years, multiple brands); no email surfaced"
+    },
+    {
+      "company": "Optically Australia",
+      "reason": "Email redacted in results; multi-brand optical retailer"
+    },
+    {
+      "company": "Tonic Eyewear / Local Supply / Szade / South Cali",
+      "reason": "No email shown in search results"
+    },
+    {
+      "company": "Akubra",
+      "reason": "Large established manufacturer, not an SME target; no email shown"
+    },
+    {
+      "company": "Stanton Hats / Will & Bear",
+      "reason": "No email shown in search results"
+    },
+    {
+      "company": "Circa / Conscious Candle Co / SOYU Candle / Sent Studio",
+      "reason": "No email shown in search results"
+    },
+    {
+      "company": "ABL / Lake Leather / Vintage Leather Sydney / The Leather Bags",
+      "reason": "No email shown in search results"
+    },
+    {
+      "company": "The Hamper Emporium / Hampers With Bite / A Little Luxury",
+      "reason": "No email shown in search results"
+    }
+  ]
+}

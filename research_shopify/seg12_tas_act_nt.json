@@ -1,0 +1,190 @@
+{
+  "segment": "Tasmania, ACT, Northern Territory - Shopify/online stores",
+  "searches_run": 22,
+  "accepted": [
+    {
+      "prospect_name": "Pete & Thea (Meet Gather Collect)",
+      "company": "Meet Gather Collect",
+      "first_name": "Pete and Thea",
+      "email": "hello@meetgathercollect.com.au",
+      "state": "Australian Capital Territory",
+      "city": "Canberra (Aranda)",
+      "shopify_niche": "Gifts & homewares - curated Australian makers",
+      "shopify_store_url": "https://meetgathercollect.com.au/",
+      "product_category": "Homewares, fashion, jewellery, children's gifts, tea, gift vouchers, creative workshops",
+      "buying_intent": "Medium - established independent gift store shipping Australia-wide with a broad multi-maker catalogue (children, fashion, homewares) plus workshops",
+      "personalization_detail": "Meet Gather Collect curates homewares, fashion, jewellery and kids' gifts from independent Australian designers, ships Australia-wide, and also runs local workshops like clay hand-building and soap making.",
+      "personalization_reason": "A catalogue drawn from many small makers means constant new product listings with differing supplier info, which is where drafting descriptions, tags and collection sorting can take time.",
+      "personalized_opening": "Pete and Thea, I was looking at how Meet Gather Collect brings together so many independent Australian makers, from kids' gifts to jewellery, while also running workshops out of Aranda.",
+      "subject_line": "Listing new makers at Meet Gather Collect",
+      "email_body": "Hi Pete and Thea,\n\nI was looking at how Meet Gather Collect brings together so many independent Australian makers, from kids' gifts to jewellery, while also running workshops out of Aranda.\n\nWith products coming in from lots of different makers, I imagine writing consistent titles, descriptions and tags for each new arrival adds up. I build AI assistants for Shopify stores that draft product listings and SEO descriptions, sort items into collections, and prepare social and email copy for new arrivals or workshops, all for you to review before anything goes live.\n\nWould it be useful if I showed you how that might work with a few of your recent products?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://meetgathercollect.com.au/",
+      "other_urls": "https://meetgathercollect.com.au/pages/our-story\nhttps://www.facebook.com/meetgathercollect/\nhttps://meetgathercollect.com.au/collections/children\nhttps://meetgathercollect.com.au/collections/fashion",
+      "evidence": "Canberra (Aranda) independent gift store founded 2015 by husband and wife Pete & Thea; sells homewares, fashion, jewellery and gifts from Australian designers, ships Australia-wide. Shopify-style URL structure (/collections/, /pages/, /products/) seen in search results; Shopify not explicitly confirmed. Email hello@meetgathercollect.com.au shown in search for 'Canberra online store homewares gifts \"hello@\"'; confirmed via search '\"hello@meetgathercollect.com.au\"' (tied to business, address 68 Bandjalong Cres, Aranda).",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (URL structure strongly suggests Shopify). Founders' first names only (Pete & Thea) from search summary."
+    },
+    {
+      "prospect_name": "Killara Distillery",
+      "company": "Killara Distillery",
+      "first_name": "Team",
+      "email": "admin@killaradistillery.com",
+      "state": "Tasmania",
+      "city": "Richmond",
+      "shopify_niche": "Food & drink - Tasmanian whisky, gin and spirits",
+      "shopify_store_url": "https://shop.killaradistillery.com/",
+      "product_category": "Single malt whisky, gin, liqueurs and premium spirits; experiences and events",
+      "buying_intent": "Medium - boutique distillery with a separate online shop, news blog, bookable experiences and events",
+      "personalization_detail": "Killara runs a dedicated online shop at shop.killaradistillery.com with a news blog, alongside bookable experiences, events and an 'Apothecary' range on its main site.",
+      "personalization_reason": "Keeping product pages, release news and event promotion in step across a shop, blog and experiences site is repetitive writing work that an assistant can draft for review.",
+      "personalized_opening": "I was reading about Killara Distillery in Richmond and noticed you run the online shop, a news blog, events and bookable experiences as separate pieces.",
+      "subject_line": "Killara releases, shop and blog copy",
+      "email_body": "Hi Team,\n\nI was reading about Killara Distillery in Richmond and noticed you run the online shop, a news blog, events and bookable experiences as separate pieces.\n\nEach new whisky or gin release probably means a product page, a news post and some social copy. I build AI assistants for Shopify stores that draft product descriptions and SEO text, update product details, and prepare blog, email and social posts for new releases and events, with your team approving everything first.\n\nWould a short example using one of your current releases be helpful?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.killaradistillery.com/",
+      "other_urls": "https://shop.killaradistillery.com/\nhttps://shop.killaradistillery.com/collections/all\nhttps://shop.killaradistillery.com/blogs/news\nhttps://www.discovertasmania.com.au/things-to-do/food-and-drink/killaradistillery/\nhttps://www.killaradistillery.com/apothecary/",
+      "evidence": "Boutique Tasmanian distillery (32 Ogilvie Lane, Richmond TAS) making single malt whisky, gin and spirits; online shop on subdomain with /collections/all and /blogs/news paths. Shopify-style URL structure (/collections/, /pages/, /products/) seen in search results; Shopify not explicitly confirmed. Email admin@killaradistillery.com surfaced in search 'Tasmanian gin distillery online shop email'; confirmed via '\"admin@killaradistillery.com\"' (Discover Tasmania / Killara pages).",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (shop subdomain URL structure suggests Shopify). Founder not verified in search results, so greeting is 'Team'. Alcohol seller; admin@ inbox also used for event bookings."
+    },
+    {
+      "prospect_name": "Tasmanian Gin Kit",
+      "company": "Tasmanian Gin Kit",
+      "first_name": "Team",
+      "email": "hello@tasmanianginkit.com",
+      "state": "Tasmania",
+      "city": "Hobart",
+      "shopify_niche": "Food & drink - DIY gin making kits and gifts",
+      "shopify_store_url": "https://tasmanianginkit.com/",
+      "product_category": "DIY gin kits, botanical refill kits, gin gifts and accessories",
+      "buying_intent": "Medium - active online-only gift brand with kits, refills and accessories, social presence (Instagram, Facebook, X) and a news blog",
+      "personalization_detail": "Tasmanian Gin Kit sells a deluxe gin-making kit plus refill kits with botanical blends, and the business has recently moved to new ownership while keeping the original Hobart founder's recipes.",
+      "personalization_reason": "A change of ownership is often when product copy, refill bundles and gift-season content get refreshed, which is repeatable writing an assistant can draft.",
+      "personalized_opening": "I read that Tasmanian Gin Kit is now under new ownership and carrying on the original Hobart family's botanical recipes, with refill kits alongside the deluxe gift box.",
+      "subject_line": "Refill kits and gift season copy",
+      "email_body": "Hi Team,\n\nI read that Tasmanian Gin Kit is now under new ownership and carrying on the original Hobart family's botanical recipes, with refill kits alongside the deluxe gift box.\n\nGift products tend to need fresh descriptions, bundles and promo copy each season. I build AI assistants for Shopify stores that draft product and SEO descriptions, keep tags and collections tidy, and prepare email and social content for gifting periods, all reviewed by you before publishing.\n\nWould it help to see a sample built around your refill kit page?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://tasmanianginkit.com/en-us/pages/contact-us",
+      "other_urls": "https://tasmanianginkit.com/en-us/pages/about-us\nhttps://tasmanianginkit.com/en-us/collections/all\nhttps://tasmanianginkit.com/en-us/products/refill-kit\nhttps://tasmanianginkit.com/en-us/products/tasmanian-gin-kit\nhttps://www.instagram.com/tasmanianginkit/",
+      "evidence": "Family business founded in Hobart selling DIY gin kits; now under new ownership per About Us. Shopify-style URL structure (/collections/, /pages/, /products/) seen in search results; Shopify not explicitly confirmed. Email hello@tasmanianginkit.com shown on contact page in search 'Tasmanian gin distillery online shop email'; confirmed via '\"hello@tasmanianginkit.com\"'.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (Shopify-style /en-us/ market paths). Founded in Hobart; current owner's location after change of ownership not verified. Owner name unknown."
+    },
+    {
+      "prospect_name": "House of Darwin",
+      "company": "House of Darwin",
+      "first_name": "Team",
+      "email": "info@houseofdarwin.com",
+      "state": "Northern Territory",
+      "city": "Darwin",
+      "shopify_niche": "Fashion & lifestyle - Indigenous-owned streetwear and merch",
+      "shopify_store_url": "https://www.houseofdarwin.com/",
+      "product_category": "T-shirts, hats, caps, mugs, camping gear, woven throws, homewares",
+      "buying_intent": "High - multi-channel (flagship store on Knuckey St, online shop, Instagram, TikTok, YouTube) with a broad range spanning apparel, camping gear and homewares",
+      "personalization_detail": "House of Darwin is a 100% Indigenous-owned brand describing itself as a love letter to the NT, selling tees, caps, camping gear and woven throws from a Knuckey Street flagship and online, with a linked foundation running projects like Hoop Dreams.",
+      "personalization_reason": "Selling apparel through a flagship, a web store and several social channels means a steady flow of product listings and promo posts, which can be drafted by an assistant for the team to approve.",
+      "personalized_opening": "House of Darwin's range stood out to me, from tees and caps to camping gear and woven throws, alongside the Hoop Dreams court projects.",
+      "subject_line": "House of Darwin drops and listings",
+      "email_body": "Hi Team,\n\nHouse of Darwin's range stood out to me, from tees and caps to camping gear and woven throws, alongside the Hoop Dreams court projects.\n\nWith a flagship on Knuckey Street plus Instagram, TikTok and the web store, each new drop probably needs listings and posts in several places. I build AI assistants for Shopify stores that draft product titles, descriptions and tags, update product details, and prepare social and email copy for drops, all checked by your team first.\n\nWould you be open to seeing how that could work for your next release?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.houseofdarwin.com/pages/about",
+      "other_urls": "https://www.houseofdarwin.com/\nhttps://www.houseofdarwin.com/collections/all\nhttps://www.facebook.com/houseofdarwin01/\nhttps://www.instagram.com/houseofdarwin/?hl=en\nhttps://www.tiktok.com/@houseofdarwin",
+      "evidence": "100% Indigenous-owned Darwin clothing/lifestyle brand, flagship 2/20 Knuckey St Darwin; sells tees, mugs, camping gear, throws, hats. Shopify-style URL structure (/collections/, /pages/, /products/) seen in search results; Shopify not explicitly confirmed. Email info@houseofdarwin.com shown in search 'House of Darwin houseofdarwin.com contact email'; confirmed via '\"info@houseofdarwin.com\"'.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (URL structure suggests Shopify). Not to be confused with a UK 'House of Darwin' (Derby). Founder name not verified in results."
+    },
+    {
+      "prospect_name": "Inspire - yourself & your home",
+      "company": "Inspire - yourself & your home",
+      "first_name": "Team",
+      "email": "inspireyyh@gmail.com",
+      "state": "Tasmania",
+      "city": "Launceston",
+      "shopify_niche": "Gifts & homewares - lifestyle boutique",
+      "shopify_store_url": "https://inspiretasmania.com.au/",
+      "product_category": "Homewares, lighting, jewellery, clothing, baby essentials, bags, beauty, cards",
+      "buying_intent": "Medium - family-run store operating since 2009 with in-store and online sales across many categories",
+      "personalization_detail": "Inspire has traded from the Old Brisbane Arcade in Launceston since April 2009 and sells online across jewellery, clothing, baby essentials, beauty, lighting and homewares.",
+      "personalization_reason": "Running that many categories online means a lot of product entry and collection upkeep for a small family team, which an assistant can help draft.",
+      "personalized_opening": "Inspire has been in the Old Brisbane Arcade since 2009, and the online shop covers a surprising spread, from baby essentials to home lighting.",
+      "subject_line": "Inspire's online range, from baby to lighting",
+      "email_body": "Hi Team,\n\nInspire has been in the Old Brisbane Arcade since 2009, and the online shop covers a surprising spread, from baby essentials to home lighting.\n\nKeeping that many categories listed and up to date online can take a lot of a small team's time. I build AI assistants for Shopify stores that write product titles and descriptions, add SEO text and tags, sort items into collections, and draft promo posts, with you checking everything before it goes live.\n\nWould it be worth a quick look at how that could fit your shop?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://inspiretasmania.com.au/pages/contact-us",
+      "other_urls": "https://inspiretasmania.com.au/\nhttps://inspiretasmania.com.au/pages/about-us\nhttps://inspiretasmania.com.au/collections/homewares\nhttps://www.eleganter.com.au/d/inspire-yourself-your-home/78\nhttps://www.facebook.com/Inspireyourselfandyourhome/",
+      "evidence": "Family-owned Launceston gift/lifestyle store since April 2009 (Shop 7 Old Brisbane Arcade, 70 Brisbane St), in-store and online. Shopify-style URL structure (/collections/, /pages/, /products/) seen in search results; Shopify not explicitly confirmed. Email inspireyyh@gmail.com shown in search 'Inspire Tasmania inspiretasmania.com.au contact email' (contact page); confirmed via '\"inspireyyh@gmail.com\"' (eleganter.com.au / findit listing tied to business).",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Free-mail (gmail) address published by the business as its contact email. Shopify not confirmed. A staff name appears on ZoomInfo but owner not verified."
+    },
+    {
+      "prospect_name": "Inside Home & Gifts",
+      "company": "Inside Home & Gifts",
+      "first_name": "Team",
+      "email": "launceston@inside.com.au",
+      "state": "Tasmania",
+      "city": "Launceston",
+      "shopify_niche": "Gifts & homewares - lifestyle store with cafe",
+      "shopify_store_url": "https://www.inside.com.au/",
+      "product_category": "Homewares, fashion, accessories, baby gear, bags, skincare, gifts",
+      "buying_intent": "Medium - established store (since 2012) with online shop, an Instashop page and a sister cafe",
+      "personalization_detail": "Inside Home & Gifts opened on Paterson Street in 2012, sells online, and runs an 'Instashop' page linking its Instagram posts to products, alongside the Inside Cafe.",
+      "personalization_reason": "Linking Instagram content to shoppable products shows social is a sales channel for them, so drafting captions and product copy together could save time.",
+      "personalized_opening": "Your Instashop page caught my eye, since it ties Inside Home & Gifts' Instagram posts straight back to products in the online store.",
+      "subject_line": "Instashop and product copy at Inside",
+      "email_body": "Hi Team,\n\nYour Instashop page caught my eye, since it ties Inside Home & Gifts' Instagram posts straight back to products in the online store.\n\nWhen social is part of how people shop, each new product needs both a listing and a caption. I build AI assistants for Shopify stores that draft product descriptions, SEO text and tags, and prepare matching social and email content for new arrivals, all for your team to edit and approve.\n\nWould you like to see a quick example based on a few of your newest pieces?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.inside.com.au/pages/contact-us",
+      "other_urls": "https://www.inside.com.au/\nhttps://www.inside.com.au/pages/our-story\nhttps://www.inside.com.au/pages/instashop\nhttps://www.facebook.com/InsideHomeandGifts/\nhttps://www.yelp.com/biz/inside-home-and-gifts-launceston",
+      "evidence": "Curated gift and lifestyle store, 10-14 Paterson St Launceston, opened 2012; stocks fashion, accessories, baby gear, bags, skincare; online shop. Shopify-style URL structure (/collections/, /pages/, /products/) seen in search results; Shopify not explicitly confirmed. Email launceston@inside.com.au shown in search 'Inside Home & Gifts Launceston inside.com.au contact email' (contact page); confirmed via '\"launceston@inside.com.au\"'.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (URL structure suggests Shopify). Owner name not verified."
+    }
+  ],
+  "rejected": [
+    {
+      "company": "Novita Gifts (Alice Springs NT)",
+      "reason": "Only a hotmail address surfaced; confirming quoted-email search returned nothing tied to the business."
+    },
+    {
+      "company": "Hobart Food Co (hobartfoodco.com)",
+      "reason": "No email shown in search results (contact page snippet without address); search budget exhausted."
+    },
+    {
+      "company": "Shine Gifts and Fashion (Darwin NT)",
+      "reason": "No email surfaced in search results."
+    },
+    {
+      "company": "Zenith Distillery (George Town TAS)",
+      "reason": "No email surfaced in search results."
+    },
+    {
+      "company": "McHenry Distillery (TAS)",
+      "reason": "No email surfaced in search results."
+    },
+    {
+      "company": "Tasmanian Gourmet Online / Tasmanian Gourmet Gifts (Hobart)",
+      "reason": "No email surfaced in search results."
+    },
+    {
+      "company": "Beauty and the Bees (Hobart)",
+      "reason": "No email surfaced in search results."
+    },
+    {
+      "company": "Butter Cosmetic + Skin Clinic (Hobart)",
+      "reason": "Clinic-first business; no email surfaced."
+    },
+    {
+      "company": "verde store (Launceston)",
+      "reason": "No email surfaced; not researched further within budget."
+    },
+    {
+      "company": "Aboriginal Fabric Gallery (Alice Springs)",
+      "reason": "No email surfaced; not researched further within budget."
+    },
+    {
+      "company": "Homesaid / Trove Canberra / Lilly Cooper (Canberra)",
+      "reason": "No email surfaced in search results."
+    }
+  ]
+}
