@@ -1,0 +1,36 @@
+{
+  "_comment": "Lead-level QC decisions applied by build_shopify_spreadsheet.py after merging researcher output.",
+  "exclude": {
+    "info@crowdedsilver.com.au": "Shopify connection not verifiable; search evidence points to WooCommerce",
+    "enquires@mishcats.com.au": "Shopify connection not verifiable; search evidence points to WordPress/WooCommerce",
+    "info@dwelllivinginteriors.com.au": "Shopify connection not verifiable; URL structure suggests a non-Shopify platform",
+    "online@fishingtackleshop.com.au": "Shopify connection not verifiable; URL structure suggests Neto",
+    "hello@bellissimocoffee.com.au": "Shopify connection not verifiable; URL structure does not look like Shopify",
+    "info@washpool.com.au": "Shopify connection not verifiable; URL structure suggests a different platform",
+    "hello@wildsugar.fashion": "Shopify connection not verifiable; URL structure suggests WooCommerce",
+    "silverwillow_bendigo@outlook.com": "Shopify connection not verifiable; store URL never appeared as a checked search result"
+  },
+  "keep_high": [
+    "online@westbrothers.com.au",
+    "hello@empressathleticus.com.au",
+    "hello@foraj.com.au",
+    "contact@hellohomewares.com.au",
+    "hello@thequalitycollarco.com.au",
+    "hello@blackboardcoffee.com.au",
+    "hello@theshopagency.com.au"
+  ],
+  "needs_review": {
+    "help@crooze.com.au": "A Shopify /password page was indexed - confirm the store is currently open before sending.",
+    "support@pawtion.com.au": "Josh's LinkedIn headline now shows a different role - confirm he still runs Pawtion.",
+    "hello@simonewalsh.com": "Published as the media-enquiries contact - consider whether a general enquiry channel is more appropriate.",
+    "hello@empressathleticus.com.au": "First name from a RocketReach listing, not the brand site - confirm or use 'Team'.",
+    "hello@teelixir.com": "First name from Tracxn, not the brand site - confirm or use 'Team'.",
+    "info@ausnaturalprotein.com": "First name from a RocketReach listing, not the brand site - confirm or use 'Team'.",
+    "support@powergolf.com.au": "First name from a ZoomInfo listing; role not confirmed - confirm or use 'Team'.",
+    "info@aussiecoffeeroasters.com.au": "First name from ZoomInfo, not the brand site - confirm or use 'Team'.",
+    "hello@thathotsauceshop.au": "First name from ZoomInfo, not the brand site - confirm or use 'Team'.",
+    "contact@saabl.com.au": "Shopify not confirmed and email confirmed only via Facebook listing - verify store platform before sending.",
+    "binnybowe@bigpond.com": "Free-mail (Bigpond) address, though published by the business - confirm it is the preferred business contact.",
+    "tealily@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact."
+  }
+}

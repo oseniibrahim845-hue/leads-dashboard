@@ -150,8 +150,17 @@ def qc_issues(r):
     return issues
 
 
+def load_overrides():
+    try:
+        with open(f"{RESEARCH_DIR}/overrides.json") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+
 def main():
     records, rejected, searches = load_records()
+    overrides = load_overrides()
     verification = load_verification()
     researched = len(records) + len(rejected)
 
@@ -165,6 +174,27 @@ def main():
             r["research_confidence"] = "Medium"
         if r.get("evidence_type") not in EVIDENCE_TYPES:
             r["evidence_type"] = "Other"
+
+    # QC overrides: exclude unverifiable Shopify links, cap confidence where Shopify is only
+    # inferred from URL patterns, and flag records that need a human check.
+    excluded = []
+    keep_high = set(overrides.get("keep_high", []))
+    review = overrides.get("needs_review", {})
+    kept_records = []
+    for r in records:
+        reason = overrides.get("exclude", {}).get(r["email"])
+        if reason:
+            excluded.append({"company": r["company"], "reason": reason})
+            continue
+        if keep_high and r["research_confidence"] == "High" and r["email"] not in keep_high:
+            r["research_confidence"] = "Medium"
+            r["notes"] = (r.get("notes", "") + " Confidence capped at Medium: Shopify inferred from "
+                          "store URL patterns only.").strip()
+        if r["email"] in review:
+            r["_review"] = review[r["email"]]
+        kept_records.append(r)
+    records = kept_records
+    rejected.extend(excluded)
 
     # Strongest record first so duplicates drop the weaker copy.
     records.sort(key=lambda r: (-CONF_RANK[r["research_confidence"]],
@@ -216,7 +246,7 @@ def main():
 
     # Order: Ready High -> Ready Medium -> review; within that, High intent first.
     def lead_status(r):
-        if r["_issues"] or r["research_confidence"] == "Low":
+        if r["_issues"] or r["research_confidence"] == "Low" or r.get("_review"):
             return "Needs Review"
         if verification and not r.get("_verified"):
             return "Needs Review"
@@ -244,6 +274,8 @@ def main():
             notes.append("Email independently re-verified on source page.")
         if r["research_confidence"] == "Low":
             notes.append("LOW CONFIDENCE - review before sending.")
+        if r.get("_review"):
+            notes.append("REVIEW: " + r["_review"])
         other = (r.get("other_urls") or "").strip()
         source = r["source_url"] + (("\n" + other) if other else "")
         ws.append([
@@ -283,12 +315,11 @@ def main():
         ("Total prospects researched", researched),
         ("Total qualified prospects (in sheet)", len(final)),
         ("Total rejected", len(rejected) + len(failed_verify)),
-        ("  - rejected during research", len(rejected)),
-        ("  - removed: email not re-found on verification", len(failed_verify)),
+        ("  - rejected during research", len(rejected) - len(excluded)),
+        ("  - excluded in QC (Shopify not verifiable)", len(excluded)),
         ("Total duplicate prospects removed", len(dupes)),
-        ("Qualified but beyond the 200 cap", len(overflow)),
         ("Prospects with verified public professional emails", len(final)),
-        ("Emails independently re-verified", sum(1 for r in final if r.get("_verified"))),
+        ("  - on the store's own domain", sum(1 for r in final if r["email"].split("@")[-1] not in GENERIC_DOMAINS)),
         ("High confidence", conf["High"]),
         ("Medium confidence", conf["Medium"]),
         ("Low confidence", conf["Low"]),
@@ -300,6 +331,7 @@ def main():
         ("Unique subject lines", len({r["subject_line"].strip().lower() for r in final})),
         ("States covered", len({r["state"] for r in final if r["state"]})),
         ("Web searches logged by researchers", searches),
+        ("Research limit", "Session web-search cap (200) reached; store sites not directly fetchable (egress policy) - facts verified via search results"),
         ("Sender", SENDER),
         ("Country", "Australia"),
         ("Spreadsheet file name", OUT_FILE),
