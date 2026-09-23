@@ -108,6 +108,16 @@ def load_verification():
 
 CONF_RANK = {"High": 3, "Medium": 2, "Low": 1}
 
+# GitHub's Acceptable Use Policy forbids using GitHub data for unsolicited email, and those
+# org profiles rarely confirm an Australian location, so GitHub-only records are rejected.
+EXCLUDED_SOURCE_HOSTS = {"github.com"}
+
+# Records whose two-search verification was weaker than required: kept but held for review.
+FORCE_REVIEW = {
+    "help@fusionmarkets.com": "Searches returned different addresses (support@ vs help@); confirm before sending.",
+    "support@gomarkets.com": "First search showed only an obfuscated address; email confirmed by one search.",
+}
+
 
 def qc_issues(r):
     issues = []
@@ -152,6 +162,9 @@ def qc_issues(r):
 def main():
     records, rejected, searches = load_records()
     verification = load_verification()
+    policy_rejected = [r for r in records if site_key(r.get("source_url")) in EXCLUDED_SOURCE_HOSTS]
+    records = [r for r in records if site_key(r.get("source_url")) not in EXCLUDED_SOURCE_HOSTS]
+    rejected += [{"name": r.get("prospect_name"), "reason": "GitHub-only source"} for r in policy_rejected]
     researched = len(records) + len(rejected)
 
     for r in records:
@@ -204,6 +217,8 @@ def main():
             failed_verify.append(r)
             continue
         issues = qc_issues(r)
+        if r["email"] in FORCE_REVIEW:
+            issues.append(FORCE_REVIEW[r["email"]])
         r["_issues"] = issues
         if v is not None and v.get("status") == "found":
             r["_verified"] = True
@@ -279,11 +294,14 @@ def main():
         ("Total qualified prospects (in sheet)", len(final)),
         ("Total rejected", len(rejected) + len(failed_verify)),
         ("  - rejected during research", len(rejected)),
+        ("  - of which GitHub-only sources (policy)", len(policy_rejected)),
         ("  - removed: email not re-found on verification", len(failed_verify)),
         ("Total duplicate prospects removed", len(dupes)),
         ("Qualified but beyond the 200 cap", len(overflow)),
         ("Prospects with verified public professional emails", len(final)),
-        ("Emails independently re-verified", sum(1 for r in final if r.get("_verified"))),
+        ("Emails confirmed by two separate searches",
+         sum(1 for r in final if "verified via searches" in (r.get("notes") or "").lower()
+             and r["email"] not in FORCE_REVIEW)),
         ("High confidence", conf["High"]),
         ("Medium confidence", conf["Medium"]),
         ("Low confidence", conf["Low"]),
@@ -294,7 +312,7 @@ def main():
         ("Total unique emails", len({r["email"] for r in final})),
         ("Unique subject lines", len({r["subject_line"].strip().lower() for r in final})),
         ("States covered", len({r["state"] for r in final if r["state"]})),
-        ("Web searches logged by researchers", searches),
+        ("Searches logged by researchers (web + GitHub)", searches),
         ("Sender", SENDER),
         ("Country", "Australia"),
         ("Spreadsheet file name", OUT_FILE),
