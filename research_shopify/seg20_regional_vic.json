@@ -1,0 +1,144 @@
+{
+  "segment": "Regional Victoria and outer Melbourne - Shopify/online stores",
+  "searches_run": 22,
+  "accepted": [
+    {
+      "prospect_name": "Tracey Togni",
+      "company": "Phinc",
+      "first_name": "Tracey",
+      "email": "sales@phinc.com.au",
+      "state": "Victoria",
+      "city": "Warrnambool",
+      "shopify_niche": "Fashion - womenswear online boutique",
+      "shopify_store_url": "https://phinconline.com.au/",
+      "product_category": "Women's clothing, sale clothing, homewares",
+      "buying_intent": "High - solely owned boutique that has grown into a national online store with ongoing new stock and sale collections",
+      "personalization_detail": "Phinc started as a Warrnambool clothing boutique and has grown into an online store selling to women across Australia; solely owned by Tracey Togni, with dedicated sale collections.",
+      "personalization_reason": "A single owner managing a national online catalogue with constant new arrivals and markdowns means a lot of repeated listing, tagging and promo writing that an AI assistant could draft.",
+      "personalized_opening": "I'm writing because Phinc caught my eye as a Warrnambool boutique that has grown from a local shop into an online clothing store serving women all over Australia, with a busy sale section alongside new arrivals.",
+      "subject_line": "Phinc's online range and listing time",
+      "email_body": "Hi Tracey,\n\nI'm writing because Phinc caught my eye as a Warrnambool boutique that has grown from a local shop into an online clothing store serving women all over Australia, with a busy sale section alongside new arrivals.\n\nWith one owner running a national online store, the listing work adds up fast. I build AI assistants for Shopify stores that draft product titles and descriptions, SEO text, tags and collection updates, and can prepare social posts and email copy for new arrivals and sales, all reviewed by you before anything goes live.\n\nWould it be useful if I showed you how that might look on a few of your current products?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://phinconline.com.au/policies/contact-information",
+      "other_urls": "https://phinconline.com.au/\nhttps://phinconline.com.au/pages/about-phinc\nhttps://phinconline.com.au/collections/sale-clothing\nhttps://visitwarrnambool.com.au/attractions/phinc/\nhttps://www.facebook.com/PhincDesign/",
+      "evidence": "Warrnambool VIC womenswear boutique turned Australia-wide online store, solely owned by Tracey Togni (about page). Shopify signal: /policies/contact-information and /collections/ URL structure, which is Shopify's. Email sales@phinc.com.au shown tied to Phinc (100 Liebig St Warrnambool) in search for 'Phinc Warrnambool online boutique email'; confirmed by quoted search \"sales@phinc.com.au\" returning Phinc contact-information page and Facebook.",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Email domain phinc.com.au differs from store domain phinconline.com.au but both belong to Phinc (same business, confirmed). Shopify inferred from Shopify-only /policies/ URL path."
+    },
+    {
+      "prospect_name": "Mix and Co.",
+      "company": "Mix and Co.",
+      "first_name": "Team",
+      "email": "info@mixandco.com",
+      "state": "Victoria",
+      "city": "Warrnambool",
+      "shopify_niche": "Fashion - womenswear boutique",
+      "shopify_store_url": "https://www.mixandco.com/",
+      "product_category": "Women's casual and formal clothing, designer labels",
+      "buying_intent": "Medium - established store selling in-store and online with brand-based collections",
+      "personalization_detail": "Mix and Co. sells women's casual and formal fashion from 146 Liebig Street, Warrnambool and online, with brand collections such as The Fifth.",
+      "personalization_reason": "Label-based collections that change with each delivery mean regular listing, tagging and collection upkeep that AI drafting can help with.",
+      "personalized_opening": "I'm getting in touch because Mix and Co. runs both a Liebig Street store in Warrnambool and an online shop, with labels split into their own collections such as The Fifth.",
+      "subject_line": "Brand collections at Mix and Co.",
+      "email_body": "Hi Team,\n\nI'm getting in touch because Mix and Co. runs both a Liebig Street store in Warrnambool and an online shop, with labels split into their own collections such as The Fifth.\n\nKeeping brand collections, product copy and tags up to date for every new delivery takes steady effort. I build AI assistants for Shopify stores that draft product titles, descriptions and SEO text, suggest tags and collection placement, and help write social posts and email content for new arrivals, with your team checking everything first.\n\nWould you be open to a short example based on one of your recent deliveries?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.mixandco.com/pages/customer-info",
+      "other_urls": "https://www.mixandco.com/\nhttps://www.mixandco.com/pages/about-us\nhttps://www.mixandco.com/collections/the-fifth\nhttps://www.mixandco.com/pages/delivery-and-shipping\nhttps://www.facebook.com/mixitup146/",
+      "evidence": "Warrnambool VIC women's fashion boutique (146 Liebig St) with online store. Shopify signal: /pages/ and /collections/ URL structure (Shopify-style), not explicitly confirmed. Email info@mixandco.com shown in search '\"Mix and Co\" Warrnambool email contact'; confirmed by quoted search \"info@mixandco.com\" returning mixandco.com pages and Facebook.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed explicitly (URL structure suggests Shopify). No owner name found, so first_name is Team."
+    },
+    {
+      "prospect_name": "Woodend General",
+      "company": "Woodend General",
+      "first_name": "Team",
+      "email": "hello@woodendgeneral.com.au",
+      "state": "Victoria",
+      "city": "Woodend",
+      "shopify_niche": "Lifestyle - homewares, garden and gifts",
+      "shopify_store_url": "https://woodendgeneral.com.au/",
+      "product_category": "Homewares, kitchenware, body care, books, garden and family goods",
+      "buying_intent": "High - broad multi-category catalogue with many individual products sold in-store and online",
+      "personalization_detail": "Woodend General's online range spans homewares like a glass butter dish and porridge spurtle, body care such as rose geranium and lavender lotion and oil, plus books and garden goods.",
+      "personalization_reason": "A wide catalogue of many small, varied products means lots of individual descriptions, tags and collections to maintain, which AI drafting could lighten.",
+      "personalized_opening": "I'm writing because Woodend General stocks such a broad mix online, from glass butter dishes and porridge spurtles to body oils and books, for home, garden and family.",
+      "subject_line": "Woodend General's many small products",
+      "email_body": "Hi Team,\n\nI'm writing because Woodend General stocks such a broad mix online, from glass butter dishes and porridge spurtles to body oils and books, for home, garden and family.\n\nA range that wide means many small product pages to write and keep tidy. I build AI assistants for Shopify stores that draft product titles and descriptions, SEO text, tags and collection updates, and can help prepare social posts and newsletters around new stock, with you approving everything before it's published.\n\nWould it help if I drafted a few sample listings from your current range so you can judge?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://woodendgeneral.com.au/pages/contact",
+      "other_urls": "https://woodendgeneral.com.au/\nhttps://woodendgeneral.com.au/pages/returns-exchanges\nhttps://woodendgeneral.com.au/pages/delivery\nhttps://woodendgeneral.com.au/products/glassbutterdish\nhttps://www.visitmacedonranges.com/tourism-listing/woodend-general/",
+      "evidence": "Lifestyle store at 84-88 High St Woodend (Macedon Ranges) with online ordering. Shopify signal: /products/ and /pages/ URL structure (Shopify-style). Email hello@woodendgeneral.com.au shown in search '\"Woodend General\" email'; confirmed by quoted search \"hello@woodendgeneral.com.au\" returning returns, delivery and product pages on woodendgeneral.com.au.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed explicitly (URL structure suggests Shopify). No owner name found."
+    },
+    {
+      "prospect_name": "Daylesford Trading Co.",
+      "company": "Daylesford Trading Co.",
+      "first_name": "Team",
+      "email": "daylesfordtradingco@gmail.com",
+      "state": "Victoria",
+      "city": "Daylesford",
+      "shopify_niche": "Gifts - toys, games and variety store",
+      "shopify_store_url": "https://daylesfordtradingco.com.au/",
+      "product_category": "Gifts, toys, games, treats",
+      "buying_intent": "Medium - active online gift shop with blog content and social channels (Instagram, TikTok, YouTube)",
+      "personalization_detail": "Family-run Daylesford variety store (founded 2020, 42 Vincent St) with an online gift shop and a blog post on top educational toys.",
+      "personalization_reason": "Running a store, an online shop and blog/social content with a small family team is where AI help with listings and content drafts could save time.",
+      "personalized_opening": "I'm reaching out because Daylesford Trading Co. has built out an online gift shop and even a blog on educational toys, alongside the Vincent Street store.",
+      "subject_line": "Toys, treats and the Daylesford blog",
+      "email_body": "Hi Team,\n\nI'm reaching out because Daylesford Trading Co. has built out an online gift shop and even a blog on educational toys, alongside the Vincent Street store.\n\nFor a family-run variety store selling gifts, toys, games and treats, listing every new item and writing blog or social content can take up a lot of evenings. I build AI assistants for Shopify stores that draft product titles, descriptions and SEO text, suggest tags and collections, and help turn new stock into blog posts and social captions, all checked by you first.\n\nWould a quick sample using a few of your toy listings be useful?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://daylesfordtradingco.com.au/pages/contact-us",
+      "other_urls": "https://daylesfordtradingco.com.au/\nhttps://daylesfordtradingco.com.au/pages/about-us\nhttps://daylesfordtradingco.com.au/blogs/news/top-educational-toys\nhttps://www.instagram.com/daylesfordtradingco/?hl=en\nhttps://www.tiktok.com/@daylesfordtradingco",
+      "evidence": "Small family-run gift/toy variety store in Daylesford VIC, founded 2020, with online gift shop. Shopify signal: /pages/ and /blogs/news/ URL structure (Shopify-style). Email daylesfordtradingco@gmail.com shown in search '\"Daylesford Trading Co\" email contact' tied to contact-us page; confirmed by quoted search \"daylesfordtradingco@gmail.com\" returning their contact page, Instagram and site.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Free-mail (gmail) address published by the business as its contact; Shopify not confirmed explicitly."
+    }
+  ],
+  "rejected": [
+    {
+      "company": "Yarra Valley Bath and Body (Yarra Valley)",
+      "reason": "Email yarravalleybathandbody@outlook.com confirmed, but homepage title shows 'Opening Soon' - online store may not be active; rejected as possibly inactive"
+    },
+    {
+      "company": "Albert and Daphne (Mornington)",
+      "reason": "No email shown in search results (2 searches)"
+    },
+    {
+      "company": "Morris et al (Healesville)",
+      "reason": "No email shown in search results"
+    },
+    {
+      "company": "Flair Lifestyle Clothing (Warrnambool)",
+      "reason": "No email surfaced; not researched further within budget"
+    },
+    {
+      "company": "Wootten (Ballarat)",
+      "reason": "No email surfaced in search results"
+    },
+    {
+      "company": "Sole Mates Australia (Ballarat)",
+      "reason": "Only phone shown; no email in results"
+    },
+    {
+      "company": "Yarra Valley Soap & Candle Co. (Seville)",
+      "reason": "No email shown in search results"
+    },
+    {
+      "company": "White & Co Living (Mornington)",
+      "reason": "Multi-store chain, no email surfaced"
+    },
+    {
+      "company": "Macedon Ranges Home Furnishings / Macedon Ranges Interiors (Kyneton)",
+      "reason": "Furniture stores, no email shown, online store unclear"
+    },
+    {
+      "company": "Lennox of Sassafras (Dandenong Ranges)",
+      "reason": "No email shown; not a clear online store"
+    },
+    {
+      "company": "Surfcoast Wholefoods (Torquay)",
+      "reason": "Cafe/grocer not a clear online store; email not tied to a store in results"
+    }
+  ]
+}

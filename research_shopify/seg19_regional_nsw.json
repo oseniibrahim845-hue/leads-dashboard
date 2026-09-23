@@ -1,0 +1,186 @@
+{
+  "segment": "Regional New South Wales",
+  "searches_run": 21,
+  "accepted": [
+    {
+      "prospect_name": "Byron Bay Skincare",
+      "company": "Byron Bay Skincare",
+      "first_name": "Team",
+      "email": "info@byronbayskincare.com.au",
+      "state": "New South Wales",
+      "city": "Byron Bay",
+      "shopify_niche": "Beauty - natural skincare brand",
+      "shopify_store_url": "https://byronbayskincare.com.au/",
+      "product_category": "Natural skin, hair and body care, bundles",
+      "buying_intent": "Medium - established Shopify brand with multiple collections, bundles, a stockist locator and new First Release products",
+      "personalization_detail": "The store runs separate Skin Care, Body Care, Hair Care, Bundles and First Release collections plus a stockist locator.",
+      "personalization_reason": "Several overlapping collections and bundles mean each new product needs descriptions, tags and collection placement kept consistent, which AI listing help can speed up.",
+      "personalized_opening": "Your range of botanical skin, hair and body care, split into collections like Body Care, Hair Care, Bundles and a First Release line, is why I'm writing.",
+      "subject_line": "Listing help for your first release range",
+      "email_body": "Hi Team,\n\nYour range of botanical skin, hair and body care, split into collections like Body Care, Hair Care, Bundles and a First Release line, is why I'm writing.\n\nKeeping product copy, SEO descriptions and tags consistent across bundles and new releases takes steady work for a small team. I build AI assistants connected to Shopify that draft listings, SEO descriptions and tags, and can also help with promo posts and simple sales reports, using tools like n8n and OpenAI.\n\nWould it be useful if I showed how this could work on one of your new products?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://byronbayskincare.com.au/pages/contact-us",
+      "other_urls": "https://byronbayskincare.com.au/collections\nhttps://byronbayskincare.com.au/collections/first-release\nhttps://byronbayskincare.com.au/pages/store-locator\nhttps://www.yelp.com/biz/byron-bay-skincare-co-byron-bay",
+      "evidence": "Natural skincare brand crafted in Byron Bay. Shopify signal: /collections/ and /pages/ URL structure and cart page. Email shown via contact page in search results; confirmed with search \"info@byronbayskincare.com.au\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Yelp lists 46 Acacia St Byron Bay, but Datanyze lists a PO Box in South Melbourne VIC as HQ; possibly a Victoria-owned brand. Shopify inferred from URL structure."
+    },
+    {
+      "prospect_name": "Haus of Alma",
+      "company": "Haus of Alma",
+      "first_name": "Team",
+      "email": "hello@hausofalma.com.au",
+      "state": "New South Wales",
+      "city": "Port Macquarie",
+      "shopify_niche": "Fashion & lifestyle boutique",
+      "shopify_store_url": "https://hausofalma.com.au/",
+      "product_category": "Ladies fashion, accessories, jewellery, homewares, candles, gifts",
+      "buying_intent": "High - broad multi-category catalog (fashion, home, indulge, accessories) with a running new arrivals collection and own-brand products",
+      "personalization_detail": "The store spans fashion, accessories, homewares, candles and bath and body, with an All New Arrivals collection and its own Port Macquarie tea towel duo.",
+      "personalization_reason": "Regular arrivals across many categories mean frequent listing, tagging and collection work, which is where AI drafting and product updates can save time.",
+      "personalized_opening": "The mix of fashion, homewares, candles and gifts at Haus of Alma, with a new arrivals collection and even your own Port Macquarie tea towel set, caught my attention.",
+      "subject_line": "New arrivals across fashion and home",
+      "email_body": "Hi Team,\n\nThe mix of fashion, homewares, candles and gifts at Haus of Alma, with a new arrivals collection and even your own Port Macquarie tea towel set, caught my attention.\n\nRunning a boutique, a home range and an espresso bar leaves little time to write product descriptions and tags for every new piece. I build AI assistants for Shopify stores that draft listings and SEO descriptions, sort products into collections and help prepare social and email promos.\n\nWould you be open to a short chat about how that might fit your new arrivals?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://hausofalma.com.au/pages/contact-us",
+      "other_urls": "https://hausofalma.com.au/collections/all-new-arrivals\nhttps://hausofalma.com.au/products/towelduoset\nhttps://hausofalma.com.au/pages/the-boutique",
+      "evidence": "Port Macquarie boutique (12+13/6-14 Clarence St) selling fashion, homewares and gifts online. Shopify signal: /collections/, /products/, /pages/ URL structure. Email shown in search results for contact page; confirmed with search \"hello@hausofalma.com.au\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Owner name not found; Shopify inferred from URL structure."
+    },
+    {
+      "prospect_name": "Janet",
+      "company": "Charlize Rose",
+      "first_name": "Janet",
+      "email": "charlizerose2020@gmail.com",
+      "state": "New South Wales",
+      "city": "Port Macquarie",
+      "shopify_niche": "Fashion - womenswear boutique",
+      "shopify_store_url": "https://www.charlizerose.com.au/",
+      "product_category": "Women's clothing, accessories, homewares",
+      "buying_intent": "Medium - established boutique with an online store alongside its physical shop",
+      "personalization_detail": "Owner Janet has run the boutique since 2020, focusing on Australian labels and ethical production across clothing, accessories and home pieces.",
+      "personalization_reason": "A curated range from many labels means each item needs its own description and tags online, which an AI assistant can draft for review.",
+      "personalized_opening": "I saw that Janet took over Charlize Rose in 2020 and curates Australian labels and ethically made pieces for the Hay St boutique and your online shop.",
+      "subject_line": "Curating Australian labels online at Charlize Rose",
+      "email_body": "Hi Janet,\n\nI saw that Janet took over Charlize Rose in 2020 and curates Australian labels and ethically made pieces for the Hay St boutique and your online shop.\n\nGetting each new label's pieces online with good descriptions and tags can take a lot of evenings. I build AI assistants for online stores that draft product titles, descriptions and SEO text, and help with social posts for new stock, using tools like n8n and OpenAI.\n\nWould it help if I shared a quick example using one of your recent pieces?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.charlizerose.com.au/contact",
+      "other_urls": "https://www.charlizerose.com.au/pages/about-us\nhttps://www.charlizerose.com.au/collections/all\nhttps://www.facebook.com/charlizerose2020/",
+      "evidence": "Port Macquarie boutique at Shop 1/1 Hay St (Rydges Complex). Store has /collections/all and /pages/ URLs suggesting Shopify. Gmail published by the business on its contact page and Facebook; confirmed with search \"charlizerose2020@gmail.com\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Free-mail address published by the business. Shopify inferred from URL structure, not confirmed."
+    },
+    {
+      "prospect_name": "Jam Woman Clothing",
+      "company": "Jam Woman Clothing",
+      "first_name": "Team",
+      "email": "jamwomanclothing@gmail.com",
+      "state": "New South Wales",
+      "city": "Wollongong",
+      "shopify_niche": "Fashion - formal and occasion wear",
+      "shopify_store_url": "https://jamwomanclothing.com.au/",
+      "product_category": "Formal gowns, evening wear, clutch bags",
+      "buying_intent": "High - large multi-label catalog with many individually coded style listings",
+      "personalization_detail": "The site lists many styles by code from labels such as Tania Olsen, Bariano, Nicoletta, Jadore and Cinderella Divine.",
+      "personalization_reason": "Listing a big multi-label range style by style is repetitive work where AI can draft titles, descriptions and tags from supplier details.",
+      "personalized_opening": "Your online store carries a huge range of formal and evening wear from labels like Tania Olsen, Bariano, Nicoletta and Cinderella Divine, each listed by style code.",
+      "subject_line": "Listing many formal styles by code",
+      "email_body": "Hi Team,\n\nYour online store carries a huge range of formal and evening wear from labels like Tania Olsen, Bariano, Nicoletta and Cinderella Divine, each listed by style code.\n\nWriting a clear description for every style code across so many labels is slow work. I build AI assistants that draft product titles, descriptions and search-friendly text from supplier details, and can help with promo posts and customer email replies, such as returns questions.\n\nWould a short example using one of your gowns be useful?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://jamwomanclothing.com.au/contacts/",
+      "other_urls": "https://jamwomanclothing.com.au/jx6057/\nhttps://jamwomanclothing.com.au/14847/\nhttps://wollongongcbd.com.au/directories/jam-woman-clothing/",
+      "evidence": "Family-run Wollongong boutique (79 Church St) with 50+ years in the Illawarra, selling formal wear online. Gmail published on its site product and contact pages; confirmed with search \"jamwomanclothing@gmail.com\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (URL structure looks like WordPress/WooCommerce). Free-mail address published by the business."
+    },
+    {
+      "prospect_name": "Suzie Anderson Home",
+      "company": "Suzie Anderson Home",
+      "first_name": "Team",
+      "email": "shoponline@suzieandersonhome.com",
+      "state": "New South Wales",
+      "city": "Moss Vale",
+      "shopify_niche": "Homewares & furniture",
+      "shopify_store_url": "https://www.suzieandersonhome.com/",
+      "product_category": "Homewares, furniture, lighting, decor, rugs, art, antiques",
+      "buying_intent": "High - large multi-category catalog, two retail stores plus online, and an active blog",
+      "personalization_detail": "The family-owned store sells homewares, furniture, lighting, rugs, art and antiques from stores in Moss Vale and Bowral, with a Styling Journal blog.",
+      "personalization_reason": "A large, varied catalog with one-off antiques and blog content means ongoing copy, SEO and product update work that AI drafting can lighten.",
+      "personalized_opening": "Suzie Anderson Home's mix of furniture, lighting, rugs, art and antiques across the Moss Vale and Bowral stores and online, plus the Styling Journal, is why I'm getting in touch.",
+      "subject_line": "Product copy for your Moss Vale range",
+      "email_body": "Hi Team,\n\nSuzie Anderson Home's mix of furniture, lighting, rugs, art and antiques across the Moss Vale and Bowral stores and online, plus the Styling Journal, is why I'm getting in touch.\n\nWith so many product types, including one-off pieces, keeping descriptions, SEO text and tags current is a steady job. I build AI assistants connected to Shopify that draft listings and metadata, help plan journal and social content, and put together simple sales reports.\n\nWould you be open to seeing how this could work on a few of your products?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.suzieandersonhome.com/pages/suzie-anderson-home-stores",
+      "other_urls": "https://www.suzieandersonhome.com/collections/suzieandersonhomestore\nhttps://www.suzieandersonhome.com/a/blog\nhttps://www.suzieandersonhome.com/pages/our-team",
+      "evidence": "Southern Highlands homewares retailer with stores in Moss Vale and Bowral. Shopify signal: /collections/, /products/, /a/blog URL structure. Online orders email shown in search results; confirmed with search \"shoponline@suzieandersonhome.com\". General enquiries: enquiry@suzieandersonhome.com.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Domain is .com, business is in NSW. Could use enquiry@ as an alternative."
+    },
+    {
+      "prospect_name": "Pip and Orange",
+      "company": "Pip and Orange",
+      "first_name": "Team",
+      "email": "info@pipandorange.com.au",
+      "state": "New South Wales",
+      "city": "Lisarow",
+      "shopify_niche": "Homewares & furniture - coastal Mediterranean",
+      "shopify_store_url": "https://pipandorange.com.au/",
+      "product_category": "Handmade furniture, brassware, vases, mirrors, homewares",
+      "buying_intent": "High - multi-page homewares catalog plus furniture and dedicated brassware collection sold online",
+      "personalization_detail": "The Shop All Homewares collection runs to several pages, alongside a dedicated handmade Brassware collection and pieces like the Archie Floor Mirror and Swell Entertainment Unit.",
+      "personalization_reason": "A multi-page catalog of artisan pieces needs detailed descriptions and SEO text, which AI can draft for the owners to check.",
+      "personalized_opening": "The handmade brassware, arch cupboards and coastal Mediterranean furniture you source directly from your own artisans at Pip and Orange is why I'm writing.",
+      "subject_line": "Descriptions for your handmade brassware range",
+      "email_body": "Hi Team,\n\nThe handmade brassware, arch cupboards and coastal Mediterranean furniture you source directly from your own artisans at Pip and Orange is why I'm writing.\n\nDescribing each artisan piece well, from materials to sizing, takes time when the owners also run the showroom. I build AI assistants for Shopify stores that draft product descriptions, SEO text and tags, keep collections organised and help with promo posts and email campaigns.\n\nWould a quick example based on one of your pieces be helpful?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://pipandorange.com.au/pages/about-pip-and-orange",
+      "other_urls": "https://pipandorange.com.au/collections/shop-all-homewares\nhttps://pipandorange.com.au/collections/brassware\nhttps://pipandorange.com.au/products/archie-floor-mirror",
+      "evidence": "Small family-owned Central Coast furniture/homewares business with a showroom at Lisarow. Shopify signal: /collections/, /products/, /pages/ URLs and Shopify 'Translation missing: en.general.meta.page' theme string in a result title. Email shown on contact page in search results; confirmed with search \"info@pipandorange.com.au\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Owner names not found."
+    }
+  ],
+  "rejected": [
+    {
+      "company": "Studio East (Newcastle)",
+      "reason": "Shopify web design agency, not a store"
+    },
+    {
+      "company": "Mossy Store (Moss Vale/Bowral)",
+      "reason": "No email shown in search results"
+    },
+    {
+      "company": "Bespoke Country Gifts (Orange)",
+      "reason": "No email shown in search results"
+    },
+    {
+      "company": "The Bowral Store (Bowral)",
+      "reason": "Myshopify store found but no email surfaced; out of search budget"
+    },
+    {
+      "company": "Happy Go Ducky (Somersby)",
+      "reason": "No email surfaced; not verified"
+    },
+    {
+      "company": "Haven at Home (Central Coast)",
+      "reason": "No email surfaced; not verified"
+    },
+    {
+      "company": "Proud Furniture (Wollongong)",
+      "reason": "No email; not clearly Wollongong-based"
+    },
+    {
+      "company": "AMR Hair & Beauty",
+      "reason": "Sydney-based larger retailer; no email"
+    },
+    {
+      "company": "Carla Swimwear (Newcastle)",
+      "reason": "No email surfaced; out of search budget"
+    },
+    {
+      "company": "Budgy Smuggler",
+      "reason": "Sydney-based larger brand; no email"
+    }
+  ]
+}
