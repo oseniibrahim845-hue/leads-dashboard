@@ -162,6 +162,9 @@ def main():
     records, rejected, searches = load_records()
     overrides = load_overrides()
     verification = load_verification()
+    # A round-1 rejection that a later round accepted is one business, not two.
+    accepted_cos = {norm_company(r.get("company")) for r in records}
+    rejected = [x for x in rejected if norm_company(x.get("company")) not in accepted_cos]
     researched = len(records) + len(rejected)
 
     for r in records:

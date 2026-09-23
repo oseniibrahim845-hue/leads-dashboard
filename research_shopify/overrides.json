@@ -8,7 +8,11 @@
     "hello@bellissimocoffee.com.au": "Shopify connection not verifiable; URL structure does not look like Shopify",
     "info@washpool.com.au": "Shopify connection not verifiable; URL structure suggests a different platform",
     "hello@wildsugar.fashion": "Shopify connection not verifiable; URL structure suggests WooCommerce",
-    "silverwillow_bendigo@outlook.com": "Shopify connection not verifiable; store URL never appeared as a checked search result"
+    "silverwillow_bendigo@outlook.com": "Shopify connection not verifiable; store URL never appeared as a checked search result",
+    "hello@cftproastingco.com.au": "Shopify connection not verifiable; URL structure suggests WooCommerce",
+    "hello@missharry.com.au": "Shopify connection not verifiable; URL structure suggests WooCommerce",
+    "aussiesaddlery@gmail.com": "Shopify connection not verifiable; store appears to run on BigCommerce",
+    "shop@thestorehousefremantle.com.au": "Not Shopify (.aspx store) and local-delivery only"
   },
   "keep_high": [
     "online@westbrothers.com.au",
@@ -17,7 +21,11 @@
     "contact@hellohomewares.com.au",
     "hello@thequalitycollarco.com.au",
     "hello@blackboardcoffee.com.au",
-    "hello@theshopagency.com.au"
+    "hello@theshopagency.com.au",
+    "support@joolca.com.au",
+    "info@audiophileshop.com.au",
+    "info@lushdesigns.com.au",
+    "info@ivyandwood.com.au"
   ],
   "needs_review": {
     "help@crooze.com.au": "A Shopify /password page was indexed - confirm the store is currently open before sending.",
@@ -31,6 +39,16 @@
     "hello@thathotsauceshop.au": "First name from ZoomInfo, not the brand site - confirm or use 'Team'.",
     "contact@saabl.com.au": "Shopify not confirmed and email confirmed only via Facebook listing - verify store platform before sending.",
     "binnybowe@bigpond.com": "Free-mail (Bigpond) address, though published by the business - confirm it is the preferred business contact.",
-    "tealily@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact."
+    "tealily@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "hello@tasmanianginkit.com": "Business has a new owner whose location is unconfirmed - check it is still Tasmania-based.",
+    "inspireyyh@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "blonde_chilli@yahoo.com.au": "Free-mail (Yahoo) address, though published by the business - confirm it is the preferred business contact.",
+    "melbournetropicalfish@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "adelaidecandleandbody@gmail.com": "Free-mail (Gmail) address, though published on the store's product pages - confirm it is the preferred contact.",
+    "cs@australianonlinecarparts.com.au": "Shares a Prestons NSW address with Bossco Auto - may be related; avoid emailing both.",
+    "givemesomesauce@godsofsauces.com.au": "WA confirmed but city (Perth) not confirmed in search results.",
+    "jessica@samontessori.com.au": "Email is on a related domain (samontessori.com.au), not the store's - confirm Jessica is the right contact.",
+    "support@katthelabel.com": "Location conflict (Armadale VIC vs a Perth boutique) - confirm before sending.",
+    "sales@mylittlewardrobe.com.au": "Location conflict (Sydney vs West Burleigh QLD PO box) - confirm before sending."
   }
 }
