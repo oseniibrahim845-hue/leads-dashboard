@@ -1,0 +1,128 @@
+{
+  "segment": "Australian health and wellness Shopify stores (supplements, protein, superfoods, herbal, yoga/meditation, sleep, wellness gifts)",
+  "searches_run": 19,
+  "accepted": [
+    {
+      "prospect_name": "Daniel Whitechurch",
+      "company": "Teelixir Pty Ltd / Teelixir",
+      "first_name": "Daniel",
+      "email": "hello@teelixir.com",
+      "state": "Victoria",
+      "city": "Woori Yallock",
+      "shopify_niche": "Health & wellness - medicinal mushroom and tonic herb extracts",
+      "shopify_store_url": "https://teelixir.com.au/",
+      "product_category": "Mushroom extract powders (reishi, lion's mane, chaga, turkey tail), mushroom lattes, TLXR sparkling mushroom elixirs",
+      "buying_intent": "High - wide catalogue spanning pure and 10:1 extracts, lattes and a sparkling elixir line, plus a wholesale/stockist channel (Gr8 Health, Australian Organic Products)",
+      "personalization_detail": "Teelixir's range now runs from pure 1:1 and 10:1 mushroom extracts through to mushroom lattes and the TLXR Sparkling Mushroom Elixir, and the same inbox handles wholesale, stockist and press enquiries.",
+      "personalization_reason": "A catalogue that spans several formats and extract ratios means a lot of product copy, specs and FAQ-style detail to keep consistent, which is the kind of work AI listing and support drafting can help with.",
+      "personalized_opening": "I was reading through Teelixir's range and noticed how far it now stretches, from the 10:1 reishi and lion's mane extracts to the TLXR Sparkling Mushroom Elixir.",
+      "subject_line": "Teelixir's extract range and product copy",
+      "email_body": "Hi Daniel,\n\nI was reading through Teelixir's range and noticed how far it now stretches, from the 10:1 reishi and lion's mane extracts to the TLXR Sparkling Mushroom Elixir.\n\nWith that many formats and extract ratios, I imagine keeping product pages, tags and customer answers consistent takes real time. I build AI assistants for Shopify stores that draft product descriptions, SEO text and tags, keep collections and metadata tidy, and prepare replies to common customer questions for your team to review.\n\nWould it be useful if I sketched how that could work for a new Teelixir product launch?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://teelixir.com.au/pages/contact-us",
+      "other_urls": "https://teelixir.com.au/collections/all\nhttps://teelixir.com.au/products/tlxr-sparkling-mushroom-elixir-rose\nhttps://teelixir.com.au/pages/faq\nhttps://tracxn.com/d/companies/teelixir/__R80Na8YCutUcu49NjTmVCiiVMfTQjPIURCMdvmoJxgw\nhttps://gr8health.com.au/brands/teelixir\nhttps://austorganic.com/location/teelixir-pty-ltd/",
+      "evidence": "Victorian (Woori Yallock, per Tracxn; 03 phone number) maker of organic medicinal mushroom and tonic herb extracts selling direct online and through stockists. Shopify-style store paths. Email shown in the search result title of the AU contact page ('All Inquiries Email: hello@teelixir.com'); confirmed with search \"hello@teelixir.com\", which returned the contact page and several teelixir.com.au product pages.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Founder names from Tracxn (Daniel Whitechurch and Julze Serendipity); Tracxn also oddly lists the company as inactive, but the store is clearly live with products. Shopify inferred from the /pages/, /collections/ and /products/ URL structure, not explicitly confirmed. The contact page also lists questions@teelixir.com; teelixir.com (international) lists info@teelixir.com."
+    },
+    {
+      "prospect_name": "Gabrielle Mason",
+      "company": "NATPRO Pty Ltd / Australian Natural Protein Company",
+      "first_name": "Gabrielle",
+      "email": "info@ausnaturalprotein.com",
+      "state": "Queensland",
+      "city": "Brisbane",
+      "shopify_niche": "Health & wellness - clean whey protein powder",
+      "shopify_store_url": "https://ausnaturalprotein.com/",
+      "product_category": "Australian grass-fed whey protein powders, clean supplements",
+      "buying_intent": "Medium - established direct-to-consumer store with an active health blog and wholesale enquiries",
+      "personalization_detail": "Australian Natural Protein Company positions its whey around just four simple ingredients and runs a 'yourhealth' blog with articles such as 'Heavy Metals in Protein Powder: What You Should Know'.",
+      "personalization_reason": "A brand built on ingredient transparency depends on clear, accurate product and educational copy, so help drafting descriptions, SEO text and blog-to-product content could be relevant.",
+      "personalized_opening": "Your blog piece on heavy metals in protein powder stood out to me, because it backs up the four-ingredient promise on your product pages.",
+      "subject_line": "Four-ingredient whey and your blog content",
+      "email_body": "Hi Gabrielle,\n\nYour blog piece on heavy metals in protein powder stood out to me, because it backs up the four-ingredient promise on your product pages.\n\nEducational content like that takes time to turn into product descriptions, SEO text and social posts. I build AI assistants for Shopify stores that draft listings, meta descriptions and tags, reuse blog material in promotional posts and emails, and prepare replies to routine customer questions for you to check before anything goes out.\n\nWould a short example using one of your protein pages be helpful?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://ausnaturalprotein.com/pages/contact-us",
+      "other_urls": "https://ausnaturalprotein.com/collections/all-products\nhttps://ausnaturalprotein.com/blogs/yourhealth/heavy-metals-in-protein-powder-what-you-should-know\nhttps://ausnaturalprotein.com/pages/faq\nhttps://abn-lookup.com.au/abn/77642822160-australian-natural-protein-company\nhttps://rocketreach.co/gabrielle-mason-email_141659014\nhttps://www.facebook.com/ausnaturalprotein/",
+      "evidence": "Queensland protein brand (NATPRO Pty Ltd, ABN 77 642 822 160, QLD 4067) founded by exercise scientists, selling clean whey online. Email found through search 'Australian Natural Protein Company contact email' (contact page); confirmed with search \"info@ausnaturalprotein.com\", which returned the contact page, FAQ, blog and Facebook page.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Gabrielle Mason listed as Director on a RocketReach profile title; the website describes the founders as exercise scientists. Location from ABN/Bizly listing (QLD 4067, Brisbane's western suburbs). Shopify inferred from /pages/, /collections/ and /products/ URL paths, not explicitly confirmed. Email is on the .com domain, which matches the store domain."
+    },
+    {
+      "prospect_name": "Superfoods Australia",
+      "company": "Superfoods Australia",
+      "first_name": "Team",
+      "email": "support@superfoodsaustralia.com.au",
+      "state": "New South Wales",
+      "city": "Mona Vale",
+      "shopify_niche": "Health & wellness - superfoods, shilajit and functional mushrooms",
+      "shopify_store_url": "https://superfoodsaustralia.com.au/",
+      "product_category": "Shilajit resin and tinctures, functional mushrooms, Australian-made and grown superfoods",
+      "buying_intent": "High - selling through several channels (direct store, subscriptions, an affiliate programme and wholesale) across a multi-collection catalogue",
+      "personalization_detail": "Superfoods Australia, a family business from Mona Vale since 2011, sells Altai Gold shilajit resin and tinctures alongside an Australian Made & Grown collection, and runs subscriptions, an affiliate programme and a separate wholesale inbox.",
+      "personalization_reason": "Running subscriptions, affiliates and wholesale alongside retail means product information and promotional content get reused in several places, where automated drafting and updates could save some manual work.",
+      "personalized_opening": "Seeing Superfoods Australia run subscriptions, an affiliate programme and wholesale next to the retail shop made me think about how much product content your team keeps current.",
+      "subject_line": "Shilajit range across subscriptions and affiliates",
+      "email_body": "Hi Team,\n\nSeeing Superfoods Australia run subscriptions, an affiliate programme and wholesale next to the retail shop made me think about how much product content your team keeps current.\n\nWhen the same shilajit and mushroom products appear in retail listings, subscription offers and affiliate promotions, keeping the details consistent can take a lot of time. I build AI assistants for Shopify stores that draft product descriptions and SEO text, update tags and collections, and prepare promotional posts and email content for your team to review.\n\nWould it help if I showed how this could work on your shilajit collection?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://superfoodsaustralia.com.au/pages/contact-us",
+      "other_urls": "https://superfoodsaustralia.com.au/\nhttps://superfoodsaustralia.com.au/collections/shilajit\nhttps://superfoodsaustralia.com.au/pages/affiliates\nhttps://superfoodsaustralia.com.au/collections/australian-superfoods\nhttps://superfoodsaustralia.com.au/a/subscriptions/login",
+      "evidence": "Family-run superfood retailer based in Mona Vale, Sydney Northern Beaches (ABN 34623006931), trading since 2011. Email found through search 'Superfoods Australia shilajit contact us email'; confirmed with search \"support@superfoodsaustralia.com.au\", which returned the contact page, affiliate, shipping and returns pages.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "No founder name found in search results, so the greeting uses Team. Shopify inferred from store paths (/pages/, /collections/, /account/login, /a/subscriptions/login); not explicitly confirmed. Wholesale email is wholesale@superfoodsaustralia.com.au."
+    },
+    {
+      "prospect_name": "SuperFeast",
+      "company": "SuperFeast",
+      "first_name": "Team",
+      "email": "team@superfeast.com.au",
+      "state": "New South Wales",
+      "city": "Byron Bay",
+      "shopify_niche": "Health & wellness - tonic herbs and medicinal mushrooms",
+      "shopify_store_url": "https://www.superfeast.com.au/",
+      "product_category": "Tonic herb and medicinal mushroom blends, education content",
+      "buying_intent": "High - multi-channel brand with a store, an academy site, a podcast, a long article library and wholesale enquiries",
+      "personalization_detail": "Alongside the store, SuperFeast runs the SuperFeast Podcast, an academy site and an article library that includes a detailed guide on tonic herb dosage.",
+      "personalization_reason": "A brand that publishes this much education creates a lot of material that could be reused in product pages, emails and social posts, which is where AI content drafting could be relevant.",
+      "personalized_opening": "Your guide to tonic herb dosage, alongside the podcast and academy, shows how much teaching goes on behind SuperFeast's products.",
+      "subject_line": "SuperFeast's articles and product pages",
+      "email_body": "Hi Team,\n\nYour guide to tonic herb dosage, alongside the podcast and academy, shows how much teaching goes on behind SuperFeast's products.\n\nTurning that material into product copy, SEO descriptions and promotional emails is often slow, manual work. I build AI assistants for Shopify stores that draft listings and meta text, suggest tags and collections, turn articles into social and email content, and prepare replies to common customer questions, with your team approving everything.\n\nWould you be open to a short example based on one of your existing articles?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.superfeast.com.au/pages/contact-us",
+      "other_urls": "https://www.superfeast.com.au/blogs/articles/tonic-herbs-dosage\nhttps://academy.superfeast.com.au/pages/terms\nhttps://superfeast.libsyn.com/contact\nhttps://www.superfeast.com.au/pages/join-our-team\nhttps://www.localsearch.com.au/profile/superfeast/byron-bay-nsw/BdPQ",
+      "evidence": "Byron Bay NSW tonic herb brand (Unit 4, 20 Brigantine St). Email found through search 'SuperFeast Byron Bay contact email'; confirmed with search \"team@superfeast.com.au\", which returned the SuperFeast contact, privacy, terms, FAQ and quality pages.",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Founder not named in the search results I saw, so the greeting uses Team. Orders email is orders@superfeast.com.au. Shopify inferred from /pages/ and /blogs/ URL structure; not explicitly confirmed. A larger independent brand than most in this list."
+    }
+  ],
+  "rejected": [
+    {
+      "company": "At Health Australia Pty Ltd",
+      "reason": "Email info@athealthaustralia.com.au confirmed twice and the store is live (Aussie made, founders Alexis and Trent), but no state or city appeared in search results before the search budget ran out. Needs a location check before it can be accepted."
+    },
+    {
+      "company": "Supps R Us / Powerhouse Supplements / Healthy Care / Evelyn Faye / Team Flex / Perfect Supplements Australia",
+      "reason": "Seen only as myshopify URLs in a broad search; no email surfaced, and the search budget ran out before follow-up searches. Healthy Care is also a large corporate."
+    },
+    {
+      "company": "True Protein / Bulk Nutrients / Max's Protein",
+      "reason": "Large established brands and no email surfaced in results; not pursued."
+    },
+    {
+      "company": "The Australian Superfood Co",
+      "reason": "No email in search results; search budget ran out before follow-up."
+    },
+    {
+      "company": "Woosah Blankets / Nana's Weighted Blankets / Calming Blankets / Neptune Blanket / Weighted Blankets Australia",
+      "reason": "Found in a weighted-blanket search, but the contact searches were blocked by the session search budget (200/200), so no verified email."
+    },
+    {
+      "company": "My Blanket (myblanket.au)",
+      "reason": "Only email shown is theteam@customersupport.care, a third-party domain that doesn't match the store; location not verified."
+    },
+    {
+      "company": "Second Earth / Yoga King / LovEarth / Eco Yoga Store / Phatmats",
+      "reason": "Found in a yoga-mat search, but contact searches were blocked by the session search budget, so no verified email."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "segment": "Seg09 - AU Food & Beverage + Electronics/Tech/Auto/Hobby Shopify stores",
+  "searches_run": 24,
+  "accepted": [
+    {
+      "prospect_name": "Bellissimo Coffee",
+      "company": "Bellissimo Coffee",
+      "first_name": "Team",
+      "email": "hello@bellissimocoffee.com.au",
+      "state": "Queensland",
+      "city": "Fortitude Valley (Brisbane)",
+      "shopify_niche": "Food & Beverage - specialty coffee roaster",
+      "shopify_store_url": "https://www.bellissimocoffee.com.au/",
+      "product_category": "Coffee blends, single origin beans, brewing equipment and accessories",
+      "buying_intent": "High - large catalogue spanning coffee blends, single origins and a full brewing equipment range, plus cafe partnerships",
+      "personalization_detail": "Bellissimo sells separate blends and single-origin ranges alongside an all-products equipment catalogue, and runs a cafe partnership program.",
+      "personalization_reason": "Keeping many coffee and equipment listings, descriptions and SEO text consistent is repetitive work that AI drafting and automation can take off a small team.",
+      "personalized_opening": "I was looking through Bellissimo's blends and single-origin pages and the equipment range that sits beside them, and it's a big catalogue to keep fresh.",
+      "subject_line": "Tasting notes for Bellissimo's coffee range",
+      "source_url": "https://www.bellissimocoffee.com.au/faq",
+      "other_urls": "https://www.bellissimocoffee.com.au/\nhttps://www.bellissimocoffee.com.au/all-products/\nhttps://www.bellissimocoffee.com.au/coffee/blends/\nhttps://www.bellissimocoffee.com.au/coffee/single-origin/\nhttps://www.bellissimocoffee.com.au/cafe-partnerships/\nhttps://www.facebook.com/BellissimoCoffeeFortitudeValley/",
+      "evidence": "Brisbane specialty coffee roaster (30 Wandoo St, Fortitude Valley) with an online store selling blends, single origins and brewing equipment. Email hello@bellissimocoffee.com.au shown in search results for 'Australian coffee roaster online shop contact email' and confirmed with the quoted search \"hello@bellissimocoffee.com.au\" (website + Facebook).",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (URL structure does not look like Shopify). Active AU online store. No founder name found.",
+      "email_body": "Hi Team,\n\nI was looking through Bellissimo's blends and single-origin pages and the equipment range that sits beside them, and it's a big catalogue to keep fresh.\n\nWith that many coffees and brewing products, I wondered how much time goes into writing tasting notes, SEO descriptions and tags for each one. I build AI assistants connected to online stores that draft product descriptions, keep tags and collections tidy, and prepare promo and email content for review.\n\nWould it be useful if I showed you how that could work for a new coffee release?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "The Wood Roaster",
+      "company": "The Wood Roaster",
+      "first_name": "Team",
+      "email": "info@thewoodroaster.com.au",
+      "state": "New South Wales",
+      "city": "Marrickville (Sydney)",
+      "shopify_niche": "Food & Beverage - specialty coffee roaster and coffee machines",
+      "shopify_store_url": "https://www.thewoodroaster.com/",
+      "product_category": "Wood-roasted coffee beans, home and commercial coffee machines, xBloom brewers",
+      "buying_intent": "High - sells coffee plus home and commercial machine collections, with a flavour quiz and blog content",
+      "personalization_detail": "The Wood Roaster runs separate home and commercial coffee machine collections next to its wood-roasted coffee range, plus a 'Find Your Flavour' quiz.",
+      "personalization_reason": "Machine listings need detailed specs and comparisons, and the quiz and blog need regular content, which is work AI drafting can speed up.",
+      "personalized_opening": "Your 'Find Your Flavour' quiz caught my eye, along with the way you sell home and commercial machines right next to the wood-roasted coffee.",
+      "subject_line": "Machine listings at The Wood Roaster",
+      "source_url": "https://www.facebook.com/TheWoodRoaster/",
+      "other_urls": "https://www.thewoodroaster.com/\nhttps://www.thewoodroaster.com/collections/coffee\nhttps://www.thewoodroaster.com/collections/home-coffee-machines\nhttps://www.thewoodroaster.com/collections/commercial-coffee-machine\nhttps://www.thewoodroaster.com/pages/find-your-flavour\nhttps://www.thewoodroaster.com/products/xbloom",
+      "evidence": "Sydney roaster (9-11 Shepherd St, Marrickville) using a wood-fired roaster; online store has /collections/ and /products/ URLs (Shopify pattern). Email info@thewoodroaster.com.au seen in the first coffee roaster search and confirmed with quoted search \"info@thewoodroaster.com.au\".",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Shopify inferred from URL structure (/collections/, /products/, /pages/, /blogs/news). No founder name found.",
+      "email_body": "Hi Team,\n\nYour 'Find Your Flavour' quiz caught my eye, along with the way you sell home and commercial machines right next to the wood-roasted coffee.\n\nMachine listings need a lot of detail, and a quiz and blog both need regular content, so I suspect writing takes up a fair bit of time. I build AI assistants for Shopify stores that draft product copy and SEO descriptions, update tags and collections, and prepare blog and email drafts for your team to check.\n\nIs product and content writing something you'd like to hand off in part?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Hello Coffee",
+      "company": "Hello Coffee",
+      "first_name": "Team",
+      "email": "info@hellocoffee.com.au",
+      "state": "Victoria",
+      "city": "Apollo Bay",
+      "shopify_niche": "Food & Beverage - regional boutique coffee roaster",
+      "shopify_store_url": "https://hellocoffee.com.au/",
+      "product_category": "Hand-roasted coffee beans, wholesale coffee supply",
+      "buying_intent": "Medium - established regional roaster with online store, wholesale program and Victorian stockist network",
+      "personalization_detail": "Hello Coffee is a regional roaster in Apollo Bay with an online shop, a wholesale program and a stockists page covering Victoria.",
+      "personalization_reason": "A small regional team running retail, wholesale and stockists could save time with AI help on product updates, stockist content and customer emails.",
+      "personalized_opening": "I came to your Apollo Bay roastery through the stockists page, and it's impressive how far across Victoria the coffee reaches from a small regional team.",
+      "subject_line": "From Apollo Bay to Victorian stockists",
+      "source_url": "https://hellocoffee.com.au/pages/contact",
+      "other_urls": "https://hellocoffee.com.au/\nhttps://hellocoffee.com.au/collections/all\nhttps://hellocoffee.com.au/pages/wholesale\nhttps://hellocoffee.com.au/pages/stockists\nhttps://www.facebook.com/hellocoffeeroasters/",
+      "evidence": "Boutique regional Victorian roaster (16 Oak Ave, Apollo Bay) with an online shop using Shopify-style URLs (/collections/, /pages/). Email info@hellocoffee.com.au shown in the search 'coffee roasters Australia email us' and confirmed with quoted search \"info@hellocoffee.com.au\".",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Regional VIC. Shopify inferred from URL structure. No founder name found.",
+      "email_body": "Hi Team,\n\nI came to your Apollo Bay roastery through the stockists page, and it's impressive how far across Victoria the coffee reaches from a small regional team.\n\nRunning online orders, wholesale and stockists together usually means a lot of small writing jobs, from product updates to replies to customer emails. I build AI assistants for Shopify stores that draft product descriptions and SEO text, keep listings up to date, and prepare email and support replies for you to approve.\n\nWould a short example based on one of your blends be helpful?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Michael Feleke",
+      "company": "Aussie Coffee Roasters",
+      "first_name": "Michael",
+      "email": "info@aussiecoffeeroasters.com.au",
+      "state": "Western Australia",
+      "city": "Canning Vale (Perth)",
+      "shopify_niche": "Food & Beverage - coffee roaster, capsules and tea",
+      "shopify_store_url": "https://www.shop.aussiecoffeeroasters.com.au/",
+      "product_category": "Single origin coffee, barista blends, Nespresso-compatible capsules, tea",
+      "buying_intent": "High - multi-category catalogue (coffee by origin region, capsules, tea) and a separate wholesale site",
+      "personalization_detail": "The Aussie Coffee Roasters shop organises single origins by region (e.g. an Asia collection) and also sells capsules and tea, while a separate site handles wholesale.",
+      "personalization_reason": "Origin-based collections and several product types mean a lot of listing, tagging and collection upkeep, which AI automation can help with.",
+      "personalized_opening": "Your shop groups single origins by region, with an Asia collection sitting next to the barista blends, capsules and tea, and that's quite a lot to keep organised.",
+      "subject_line": "Origin collections at Aussie Coffee Roasters",
+      "source_url": "https://www.shop.aussiecoffeeroasters.com.au/policies/contact-information",
+      "other_urls": "https://www.shop.aussiecoffeeroasters.com.au/\nhttps://www.shop.aussiecoffeeroasters.com.au/pages/contact\nhttps://www.shop.aussiecoffeeroasters.com.au/collections/all-coffee-selection\nhttps://www.shop.aussiecoffeeroasters.com.au/collections/asia\nhttps://aussiecoffeeroasters.com.au/contact/\nhttps://www.zoominfo.com/p/Michael-Feleke/10936926490",
+      "evidence": "Perth roaster (Unit 3/32-34 Vinnicombe Dr, Canning Vale WA) selling single origins, blends, capsules and tea. The shop has a /policies/contact-information page (a Shopify-specific path). Email info@aussiecoffeeroasters.com.au found via 'Aussie Coffee Roasters contact email' and confirmed with quoted search \"info@aussiecoffeeroasters.com.au\". Michael Feleke listed as Managing Director on ZoomInfo.",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Managing Director name comes from ZoomInfo. A michael@ address also appeared in the results but was not confirmed separately, so the confirmed info@ address is used.",
+      "email_body": "Hi Michael,\n\nYour shop groups single origins by region, with an Asia collection sitting next to the barista blends, capsules and tea, and that's quite a lot to keep organised.\n\nWith coffee by origin plus capsules and tea, I imagine new arrivals take a while to list, tag and slot into the right collections. I build AI assistants for Shopify stores that draft origin descriptions and SEO text, apply tags and collections, and put together promo emails for you to review.\n\nWould you be open to seeing how that might work on your next single origin?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Paradox Coffee Roasters",
+      "company": "Paradox Coffee Roasters",
+      "first_name": "Team",
+      "email": "roastery@paradoxroasters.com",
+      "state": "New South Wales",
+      "city": "Seven Hills (Sydney)",
+      "shopify_niche": "Food & Beverage - family-owned specialty coffee roaster",
+      "shopify_store_url": "https://paradoxroasters.com/",
+      "product_category": "Specialty coffee beans, wholesale coffee, barista workshops",
+      "buying_intent": "High - online store plus wholesale, barista workshops and a Gold Coast cafe (multi-channel)",
+      "personalization_detail": "Paradox runs an online coffee store, a wholesale program, barista workshops and a cafe in Broadbeach on the Gold Coast.",
+      "personalization_reason": "Selling through several channels creates many listings, workshop pages and customer emails to write, which AI assistants can help draft.",
+      "personalized_opening": "Paradox covers a lot of ground: the online store, wholesale, barista workshops, and the Broadbeach cafe on top of that.",
+      "subject_line": "Paradox listings, workshops and wholesale",
+      "source_url": "https://paradoxroasters.com/pages/contact",
+      "other_urls": "https://paradoxroasters.com/\nhttps://paradoxroasters.com/pages/wholesale\nhttps://paradoxroasters.com/pages/faq\nhttps://paradoxroasters.com/pages/our-coffee\nhttps://paradoxroasterscafe.com/\nhttps://aboutcoffee.com.au/directory/paradox-coffee-roasters/",
+      "evidence": "Family-owned roaster (Unit 3/167 Prospect Hwy, Seven Hills NSW) with an online store on Shopify-style /pages/ URLs. Email roastery@paradoxroasters.com found via 'Paradox Coffee Roasters contact email' and confirmed with quoted search \"roastery@paradoxroasters.com\".",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "The roastery@ address is the main contact and is also used for wholesale. orders@paradoxroasters.com also appeared but was not used. No founder name found.",
+      "email_body": "Hi Team,\n\nParadox covers a lot of ground: the online store, wholesale, barista workshops, and the Broadbeach cafe on top of that.\n\nWith that many channels, I'd guess keeping coffee listings, workshop pages and customer replies up to date takes real time each week. I build AI assistants for Shopify stores that draft product and SEO descriptions, update listings and metadata, and prepare email and support replies for your team to approve.\n\nWould it help to see how this could fit your roastery's routine?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Blackboard Coffee Roasters",
+      "company": "Blackboard Coffee Roasters",
+      "first_name": "Team",
+      "email": "hello@blackboardcoffee.com.au",
+      "state": "Queensland",
+      "city": "Burleigh Heads (Gold Coast)",
+      "shopify_niche": "Food & Beverage - specialty coffee roaster with subscriptions",
+      "shopify_store_url": "https://blackboardcoffee.com.au/",
+      "product_category": "Coffee blends, single origin beans, capsules, brewing equipment, coffee subscriptions",
+      "buying_intent": "High - subscription program, capsules and equipment, Judge.me reviews and a partner-finder page (multi-channel)",
+      "personalization_detail": "Blackboard runs a coffee subscription with a 15-20% discount, uses Judge.me reviews, and has a 'Blackboard Coffee Near Me' page listing cafe partners.",
+      "personalization_reason": "Subscriptions, reviews and partner pages bring regular customer emails and content updates that AI can help draft and organise.",
+      "personalized_opening": "I found your subscription page with free shipping and the 'Blackboard Coffee Near Me' partner finder, and it's clear the Burleigh roastery reaches well beyond the store.",
+      "subject_line": "Blackboard subscriptions and cafe partners",
+      "source_url": "https://blackboardcoffee.com.au/pages/contact-us",
+      "other_urls": "https://blackboardcoffee.com.au/\nhttps://blackboardcoffee.com.au/collections/coffee-subscription\nhttps://blackboardcoffee.com.au/pages/coffee-subscription-australia\nhttps://blackboardcoffee.com.au/pages/blackboard-coffee-near-me\nhttps://judge.me/reviews/stores/blackboardcoffee.com.au\nhttps://au.linkedin.com/company/blackboard-coffee",
+      "evidence": "Gold Coast roaster (2b/12 Hampton Rd, Burleigh Heads QLD). The store uses Shopify-style URLs and the Judge.me Shopify reviews app. Email hello@blackboardcoffee.com.au found via 'Blackboard Coffee Roasters contact email' and confirmed with quoted search \"hello@blackboardcoffee.com.au\".",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Shopify indicated by the Judge.me store listing and URL structure. No founder name found.",
+      "email_body": "Hi Team,\n\nI found your subscription page with free shipping and the 'Blackboard Coffee Near Me' partner finder, and it's clear the Burleigh roastery reaches well beyond the store.\n\nSubscriptions, reviews and partner pages all bring a steady flow of customer emails and small content updates. I build AI assistants for Shopify stores that draft product and SEO descriptions, help reply to customer questions, and prepare subscription and promo emails for your team to review.\n\nWould it be worth a quick chat about which of those jobs takes the most time?\n\nBest regards,\nCynthia Nana"
+    },
+    {
+      "prospect_name": "Helen Bowles",
+      "company": "That Hot Sauce Shop",
+      "first_name": "Helen",
+      "email": "hello@thathotsauceshop.au",
+      "state": "New South Wales",
+      "city": "Manly (Sydney)",
+      "shopify_niche": "Food & Beverage - specialty hot sauce retailer",
+      "shopify_store_url": "https://thathotsauceshop.au/",
+      "product_category": "Small-batch Australian hot sauces, international sauces, Hot Ones collection",
+      "buying_intent": "High - curated catalogue of many makers with frequent drops, a local sauces collection and a physical tasting bar (multi-channel)",
+      "personalization_detail": "That Hot Sauce Shop opened in Manly as Sydney's only dedicated specialty hot sauce shop, with a local sauces collection, international exclusives and the official Hot Ones range.",
+      "personalization_reason": "A catalogue drawn from many small-batch makers, with regular new drops, means a lot of product listing and tagging, which AI automation can help with.",
+      "personalized_opening": "I read Broadsheet's piece on That Hot Sauce Shop opening in Manly, and a range built from small-batch Aussie makers plus Hot Ones exclusives sounded like a lot of listings to keep current.",
+      "subject_line": "Listing new drops at That Hot Sauce Shop",
+      "source_url": "https://thathotsauceshop.au/pages/contact",
+      "other_urls": "https://thathotsauceshop.au/\nhttps://thathotsauceshop.au/collections/local-sauces\nhttps://thathotsauceshop.au/collections/sale\nhttps://www.broadsheet.com.au/sydney/food-and-drink/article/now-open-sydneys-only-dedicated-speciality-hot-sauce-shop-launches-manly-fiery-drops-and-aussie-powered-tasting-bar\nhttps://www.zoominfo.com/p/Helen-Bowles/1902946079\nhttps://www.instagram.com/that_hotsauceshop/",
+      "evidence": "Specialty hot sauce retailer in Manly NSW (covered by Broadsheet) with an online store on Shopify-style /collections/ and /pages/ URLs. Email Hello@thathotsauceshop.au found via 'Australian hot sauce brand online store contact email' and confirmed with quoted search \"hello@thathotsauceshop.au\". Helen Bowles is listed as founder/owner on ZoomInfo.",
+      "evidence_type": "Shopify Store",
+      "research_confidence": "High",
+      "notes": "Founder name comes from ZoomInfo.",
+      "email_body": "Hi Helen,\n\nI read Broadsheet's piece on That Hot Sauce Shop opening in Manly, and a range built from small-batch Aussie makers plus Hot Ones exclusives sounded like a lot of listings to keep current.\n\nEach new sauce needs a heat level, flavour notes, tags and a place in the right collection, and that adds up quickly with regular drops. I build AI assistants for Shopify stores that draft product descriptions and SEO text, sort tags and collections, and prepare social posts and emails about new arrivals.\n\nWould you like to see how that could work for your next batch of sauces?\n\nBest regards,\nCynthia Nana"
+    }
+  ],
+  "rejected": [
+    {
+      "company": "Coffee Roasters Australia (Gold Coast)",
+      "reason": "Makes coffee roasting equipment, not a consumer food store. sales@ email appeared only once and was not confirmed by a second search."
+    },
+    {
+      "company": "Coffee for the People Roasting Co",
+      "reason": "hello@ email appeared in one search only. Search budget ran out before a confirming search. Also mainly a wholesale site."
+    },
+    {
+      "company": "Quest Coffee Roasters",
+      "reason": "Email masked in search results (in**@...). Could not verify."
+    },
+    {
+      "company": "The Coffee Roaster (coffee.com.au)",
+      "reason": "No email shown in search results."
+    },
+    {
+      "company": "Chocolatier Australia",
+      "reason": "Email masked ([email protected]) in search results."
+    },
+    {
+      "company": "Chocogram",
+      "reason": "Email masked ([email protected]) in search results."
+    },
+    {
+      "company": "Davies Chocolates",
+      "reason": "No email shown in search results."
+    },
+    {
+      "company": "Adore Tea / Tea Drop / Red Leaf Tea / Tea Lovers / Tiny Tea Shop",
+      "reason": "No email shown in search results. Search budget ran out before follow-up."
+    },
+    {
+      "company": "Chile Mojo",
+      "reason": "Email masked ([email protected]). Confirming search blocked by the search budget."
+    },
+    {
+      "company": "Mat's Hot Shop",
+      "reason": "Email masked ([email protected]). Confirming search blocked by the search budget."
+    },
+    {
+      "company": "Blonde Chilli",
+      "reason": "Yahoo email appeared in one search. Confirming quoted search blocked by the search budget."
+    },
+    {
+      "company": "Gods of Sauces",
+      "reason": "Only a wholesale@ address was seen, with no confirming search."
+    }
+  ]
+}

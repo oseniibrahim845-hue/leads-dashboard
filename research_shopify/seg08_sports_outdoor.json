@@ -1,0 +1,210 @@
+{
+  "segment": "Australian sports, fitness and outdoor Shopify stores (gym equipment, cycling, surf/skate, fishing, camping/4WD, golf, martial arts); excludes activewear labels",
+  "searches_run": 18,
+  "accepted": [
+    {
+      "prospect_name": "Aussie Fitness Equipment",
+      "company": "Aussie Fitness Equipment Pty Ltd",
+      "first_name": "Team",
+      "email": "info@aussiefitness.com.au",
+      "state": "Queensland",
+      "city": "Buderim (Sunshine Coast)",
+      "shopify_niche": "Sports & Fitness - home and commercial gym equipment",
+      "shopify_store_url": "https://www.aussiefitness.com.au/",
+      "product_category": "Strength equipment, boxing gear, cardio machines, gym flooring, recovery tools",
+      "buying_intent": "High - broad multi-category catalog (strength, boxing, cardio, flooring, recovery) sold online and through a showroom since 2005",
+      "personalization_detail": "Trading since 2005 from a Buderim showroom/warehouse, selling across strength, boxing, cardio, gym flooring and recovery categories online.",
+      "personalization_reason": "A catalog spanning five quite different equipment categories means a lot of spec-heavy titles, descriptions and SEO fields to keep consistent, which is the kind of repeat work AI listing drafts can speed up.",
+      "personalized_opening": "Your Buderim showroom range covers strength gear, boxing, cardio machines, gym flooring and recovery tools, and every one of those categories needs its own product copy and specs.",
+      "subject_line": "Product copy across your gym categories",
+      "email_body": "Hi Team,\n\nYour Buderim showroom range covers strength gear, boxing, cardio machines, gym flooring and recovery tools, and every one of those categories needs its own product copy and specs.\n\nKeeping titles, descriptions, tags and SEO fields consistent across that many equipment types takes steady effort. I build AI assistants for Shopify stores that draft product listings, SEO descriptions, tags and collection updates from your supplier specs, and can also help with promo content and customer email replies. Your team reviews everything before it goes live.\n\nWould it be useful if I showed you how this could work on a handful of your cardio or strength listings?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.aussiefitness.com.au/pages/contact",
+      "other_urls": "https://www.aussiefitness.com.au/\nhttps://www.aussiefitness.com.au/pages/location\nhttps://www.aussiefitness.com.au/pages/faqs\nhttps://au.linkedin.com/company/aussie-fitness-equipment",
+      "evidence": "Aussie Fitness Equipment Pty Ltd, Buderim QLD, founded 2005; sells strength gear, boxing, cardio machines, gym flooring and recovery tools online with a Sunshine Coast showroom. Shopify signal: store uses Shopify-style /pages/contact, /pages/location, /pages/faqs URLs (older /v/store_finder URL also indexed, suggesting a platform migration). Email info@aussiefitness.com.au shown in search results for the store; confirmed with search \"info@aussiefitness.com.au\", which tied it to Aussie Fitness Equipment Pty Ltd, 13 Kayleigh Drive, Buderim.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "No founder name surfaced in search results, so first_name is Team. Shopify inferred from URL structure, not explicitly confirmed."
+    },
+    {
+      "prospect_name": "Fishing Tackle Shop (Ocean Storm Fishing Tackle)",
+      "company": "Fishing Aqua Pet Pty Ltd t/a Ocean Storm Fishing Tackle",
+      "first_name": "Team",
+      "email": "online@fishingtackleshop.com.au",
+      "state": "New South Wales",
+      "city": "Warilla",
+      "shopify_niche": "Fishing - tackle, lures and accessories",
+      "shopify_store_url": "https://www.fishingtackleshop.com.au/",
+      "product_category": "Fishing lures, tackle boxes, rods, reels and fishing accessories",
+      "buying_intent": "High - large multi-brand tackle catalog with ongoing new product additions (dedicated new-products page)",
+      "personalization_detail": "Runs brand-level category pages for Plano, Killalure and Arbogast among others, plus a regularly updated New Products page, from a retail and mail-order base in Warilla NSW.",
+      "personalization_reason": "Tackle catalogs involve many small SKUs with sizes, colours and weights, so drafting titles, descriptions and tags for each new arrival is repetitive work that AI drafting could help with.",
+      "personalized_opening": "With brands like Plano, Killalure and Arbogast each getting their own section, plus a dedicated new-products page, fishingtackleshop.com.au carries a lot of small, detail-heavy listings.",
+      "subject_line": "Listing new tackle arrivals faster",
+      "email_body": "Hi Team,\n\nWith brands like Plano, Killalure and Arbogast each getting their own section, plus a dedicated new-products page, fishingtackleshop.com.au carries a lot of small, detail-heavy listings.\n\nEvery new lure colour or size usually needs its own title, description and tags. I build AI assistants for online stores that draft product listings, SEO descriptions, tags and collection placement from supplier data, and can help with customer-support email replies. You approve each draft before it is published.\n\nWould you be open to a quick look at how this could handle your next batch of new products?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.fishingtackleshop.com.au/pages/info-help/contact-us.html",
+      "other_urls": "https://www.fishingtackleshop.com.au/\nhttps://www.fishingtackleshop.com.au/pages/new-products.html\nhttps://www.facebook.com/fishingtackleshop.com.au/",
+      "evidence": "Fishing Aqua Pet Pty Ltd trading as Ocean Storm Fishing Tackle (ABN 70091697177), Warilla NSW; retail and online mail-order tackle store with brand pages (Plano, Killalure, Arbogast). Email online@fishingtackleshop.com.au shown in search results for the contact page; confirmed with search \"online@fishingtackleshop.com.au\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed (URL pattern /pages/...html suggests another platform such as Neto). Clearly an active AU online store."
+    },
+    {
+      "prospect_name": "Star Surf + Skate",
+      "company": "Star Surf + Skate Australia",
+      "first_name": "Team",
+      "email": "shop@starsurf.com.au",
+      "state": "Western Australia",
+      "city": "Mandurah",
+      "shopify_niche": "Surf & Skate - surfboards, wetsuits and accessories",
+      "shopify_store_url": "https://www.starsurf.com.au/",
+      "product_category": "Surfboards, softboards, wetsuits, leashes, traction, board covers, skate gear",
+      "buying_intent": "High - 500+ surfboards plus wetsuits and accessories across many collections, award-winning single store",
+      "personalization_detail": "Carries over 500 surfboards plus wetsuits and accessories, trading since 1980 and named Australian Retailer of the Year (single store) three years running.",
+      "personalization_reason": "Surfboards come in many models, dimensions and volumes, so keeping titles, specs and SEO descriptions consistent across hundreds of boards is time-consuming work where AI drafting could help.",
+      "personalized_opening": "Stocking over 500 surfboards alongside wetsuits, leashes, traction and surf accessories is a big range for a single Mandurah store, and the retailer-of-the-year awards show it is well run.",
+      "subject_line": "Your 500-board range and product copy",
+      "email_body": "Hi Team,\n\nStocking over 500 surfboards alongside wetsuits, leashes, traction and surf accessories is a big range for a single Mandurah store, and the retailer-of-the-year awards show it is well run.\n\nBoard listings carry a lot of detail, from dimensions to volume and fin setup. I build AI assistants for Shopify stores that draft product titles, descriptions, SEO fields and tags from your specs, keep collections tidy, and help with social posts for new arrivals. Nothing goes live without your review.\n\nWould it help to see a sample built from a few of your current boards?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.starsurf.com.au/",
+      "other_urls": "https://www.starsurf.com.au/collections/leashes\nhttps://www.starsurf.com.au/collections/surf-accessories\nhttps://www.starsurf.com.au/products/fcs-goblin",
+      "evidence": "Star Surf + Skate, Mandurah WA, since 1980; 500+ surfboards, wetsuits, surf and skate accessories; Australian Retailer of the Year (single store) three years running. Shopify signal: /collections/ and /products/ URL structure including tag-filtered collections. Email shop@starsurf.com.au shown in search results; confirmed with search \"shop@starsurf.com.au\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Owner name not found in search results. Sells some apparel from third-party surf brands, but core is hardgoods (boards, wetsuits, accessories), so not an activewear label."
+    },
+    {
+      "prospect_name": "Adventure Gear",
+      "company": "Adventure Gear Australia",
+      "first_name": "Team",
+      "email": "letschat@adventuregearstore.com.au",
+      "state": "South Australia",
+      "city": "Blackwood (Adelaide)",
+      "shopify_niche": "Outdoor - camping and 4WD gear",
+      "shopify_store_url": "https://adventuregearstore.com.au/",
+      "product_category": "Camping gear, sleeping bags, 4WD communication and navigation, gear packages",
+      "buying_intent": "Medium - family-owned store with an active online catalog, bundle packages and an ambassador program",
+      "personalization_detail": "Family-owned Blackwood SA store selling online with an Adventure Gear Packages collection, 4WD communication and navigation range, and an ambassador program.",
+      "personalization_reason": "Bundles and ambassador-driven promotion both create extra product copy and social content to write, which AI drafting could lighten for a small family team.",
+      "personalized_opening": "Your Adventure Gear Packages collection bundles camping and 4WD gear for customers, and each of those bundles needs its own description on top of the individual products.",
+      "subject_line": "Descriptions for your gear packages",
+      "email_body": "Hi Team,\n\nYour Adventure Gear Packages collection bundles camping and 4WD gear for customers, and each of those bundles needs its own description on top of the individual products.\n\nFor a small family team, writing bundle copy, product updates and ambassador or social posts adds up. I build AI assistants for Shopify stores that draft listings, SEO descriptions and tags, and prepare promotional content for new stock, with you checking everything first.\n\nWould you like to see how it could draft copy for one of your existing packages?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://adventuregearstore.com.au/pages/contact-us",
+      "other_urls": "https://adventuregearstore.com.au/\nhttps://adventuregearstore.com.au/collections/adventure-gear-packages\nhttps://adventuregearstore.com.au/pages/ambassador-program\nhttps://www.facebook.com/AdventureGearAustralia/",
+      "evidence": "Adventure Gear Australia, small family-owned camping and 4WD store at 11B/365 Shepherds Hill Road, Blackwood SA; online store with Afterpay. Shopify signal: /collections/, /pages/, /cart URL structure with '– Adventure Gear' Shopify-style titles. Email letschat@adventuregearstore.com.au shown in search for the contact page; confirmed with search \"letschat@adventuregearstore.com.au\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Owner names not found. Do not confuse with Adventure Gear Albury (adventuregearonline.com.au), a different business."
+    },
+    {
+      "prospect_name": "Darryl Mallach",
+      "company": "Power Golf Pty Ltd",
+      "first_name": "Darryl",
+      "email": "support@powergolf.com.au",
+      "state": "New South Wales",
+      "city": "Alexandria (Sydney)",
+      "shopify_niche": "Golf - clubs, equipment and accessories",
+      "shopify_store_url": "https://powergolf.com.au/",
+      "product_category": "Golf clubs, balls, bags, accessories and custom club builds",
+      "buying_intent": "High - multi-location retailer (Sydney and Canberra) with a broad branded golf catalog and custom club service",
+      "personalization_detail": "Operates stores in Alexandria NSW and Fyshwick ACT, ships Australia-wide, and offers a custom club service.",
+      "personalization_reason": "Golf gear has many brand, loft, shaft and hand variations, so keeping listings accurate and SEO-friendly across two stores and online is ongoing work AI drafting could help with.",
+      "personalized_opening": "Running both the Alexandria store and the Fyshwick shop in Canberra, plus a custom club fitting service, gives Power Golf a large range of clubs, shafts and accessories to keep listed online.",
+      "subject_line": "Golf listings across Sydney and Canberra",
+      "email_body": "Hi Darryl,\n\nRunning both the Alexandria store and the Fyshwick shop in Canberra, plus a custom club fitting service, gives Power Golf a large range of clubs, shafts and accessories to keep listed online.\n\nGolf gear comes with lots of variants, and each new model release means fresh titles, specs and tags. I build AI assistants for Shopify stores that draft product listings and SEO descriptions, update product details, and help answer common customer emails, with your team approving the output.\n\nWould a short example using a few of your newest club listings be useful?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://powergolf.com.au/pages/contact",
+      "other_urls": "https://powergolf.com.au/\nhttps://powergolf.com.au/pages/golf-shop-canberra\nhttps://powergolf.com.au/pages/custom-club-service\nhttps://powergolf.com.au/pages/faq\nhttps://www.zoominfo.com/p/Darryl-Mallach/1525561011",
+      "evidence": "Power Golf Pty Ltd, 48 O'Riordan Street Alexandria NSW, second store 86 Barrier St Fyshwick ACT; golf equipment retailer with online store and custom club service. Shopify signal: /pages/ URL structure with '– Power Golf Australia' Shopify-style titles. Email support@powergolf.com.au shown in search for the contact page; confirmed with search \"support@powergolf.com.au\" (also on T&Cs, returns and FAQ pages). Darryl Mallach listed at Power Golf on ZoomInfo.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Darryl Mallach's role at Power Golf not confirmed in results (ZoomInfo listing only); reviewer may prefer 'Team'. Email is a support inbox."
+    },
+    {
+      "prospect_name": "Crooze",
+      "company": "Crooze Australia",
+      "first_name": "Team",
+      "email": "help@crooze.com.au",
+      "state": "Queensland",
+      "city": "Bundall (Gold Coast)",
+      "shopify_niche": "Cycling - bikes and electric mobility",
+      "shopify_store_url": "https://crooze.com.au/",
+      "product_category": "Bicycles, e-bikes, electric scooters and cycling accessories",
+      "buying_intent": "High - frequent new stock (New Stock Landed collection 60+ pages) and multi-channel selling (own store plus eBay)",
+      "personalization_detail": "The New Stock Landed collection is indexed to page 63, and Crooze also sells through an eBay store alongside its own site.",
+      "personalization_reason": "High volumes of new stock across two channels mean many listings to write and keep in sync, which is the kind of repeat work AI listing tools can speed up.",
+      "personalized_opening": "With your New Stock Landed collection running past 60 pages, Crooze is adding a lot of bikes and electric mobility products to its catalog.",
+      "subject_line": "Keeping up with new stock at Crooze",
+      "email_body": "Hi Team,\n\nWith your New Stock Landed collection running past 60 pages, Crooze is adding a lot of bikes and electric mobility products to its catalog.\n\nSelling through your own store and eBay means each new product needs titles, descriptions and tags, often twice. I build AI assistants for Shopify stores that draft product listings, SEO descriptions and tags from supplier specs, keep collections updated, and help with customer-support replies. You approve everything before it goes live.\n\nWould it be worth a quick chat about how this could fit your new-stock process?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://crooze.com.au/pages/contact",
+      "other_urls": "https://crooze.com.au/\nhttps://crooze.com.au/pages/about\nhttps://crooze.com.au/collections/new-stock-landed?page=63\nhttps://judge.me/reviews/stores/crooze.com.au\nhttps://www.ebay.com.au/str/croozeaustralia",
+      "evidence": "Crooze Australia, Australian owned online bike and electric mobility store, 116-118 Bundall Rd Bundall QLD with Brisbane warehouse. Shopify signal: Judge.me reviews store page, /collections/ and /pages/ URLs, Shopify /password page indexed. Email Help@crooze.com.au shown in search for the contact page; confirmed with search \"help@crooze.com.au\" (on T&Cs, privacy, returns pages).",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "A /password page was indexed; the store may have been password-protected at some point. Reviewer should check it is currently open. Address details differ between sources (Bundall vs Brisbane warehouse)."
+    }
+  ],
+  "rejected": [
+    {
+      "company": "Martial Arts Supplies Australasia (MASA), Osborne Park WA",
+      "reason": "info@masupplies.com.au appeared in one search summary, but the confirming search could not run because the web search budget was exhausted. Unconfirmed, so rejected (strong candidate for recheck)."
+    },
+    {
+      "company": "Gym and Fitness (gymandfitness.com.au)",
+      "reason": "No email in search results; larger multi-store chain."
+    },
+    {
+      "company": "Fitness Warehouse Australia",
+      "reason": "No email in search results."
+    },
+    {
+      "company": "Gym Direct (gymdirect.com.au)",
+      "reason": "No email in search results."
+    },
+    {
+      "company": "MoTackle & Outdoors, Coffs Harbour NSW",
+      "reason": "No email in search results; search budget exhausted before a follow-up."
+    },
+    {
+      "company": "Hot Tackle, Morisset NSW",
+      "reason": "No email in search results; not followed up."
+    },
+    {
+      "company": "Anglers Warehouse, Tweed Heads NSW",
+      "reason": "No email in search results; not followed up."
+    },
+    {
+      "company": "Canyon Off-Road",
+      "reason": "Contact search blocked by exhausted search budget; no email verified."
+    },
+    {
+      "company": "Outback Equipment, Brisbane QLD",
+      "reason": "No email in search results; not followed up."
+    },
+    {
+      "company": "Fuji Sports Australia",
+      "reason": "Contact search blocked by exhausted search budget; no email verified."
+    },
+    {
+      "company": "Golfing Depot",
+      "reason": "Contact search blocked by exhausted search budget; no email verified."
+    },
+    {
+      "company": "GolfBox (Osborne Park WA)",
+      "reason": "Email was obfuscated in results ([email protected]); large multi-store retailer."
+    },
+    {
+      "company": "Drummond Golf",
+      "reason": "Large national chain (50+ stores), not an SME target."
+    },
+    {
+      "company": "Surf Dive 'n Ski",
+      "reason": "Large chain (75+ stores), apparel-heavy."
+    },
+    {
+      "company": "Bicycling Australia & The Classics Store",
+      "reason": "Mainly a media/event merchandise store (jerseys); no email found."
+    },
+    {
+      "company": "Pushys / BikesOnline",
+      "reason": "Large online retailers; no email in results."
+    }
+  ]
+}
