@@ -1,0 +1,136 @@
+{
+  "segment": "Australian jewellery, watches, handbags, sunglasses, hats and fashion accessories (Shopify)",
+  "searches_run": 18,
+  "accepted": [
+    {
+      "prospect_name": "Simone Walsh",
+      "company": "Simone Walsh Jewellery",
+      "first_name": "Simone",
+      "email": "hello@simonewalsh.com",
+      "state": "South Australia",
+      "city": "Adelaide Hills",
+      "shopify_niche": "Jewellery - handmade silver, gold and gemstone",
+      "shopify_store_url": "https://simonewalsh.com/",
+      "product_category": "Handmade sterling silver, gold and gemstone jewellery",
+      "buying_intent": "High - large multi-collection catalogue sold across own AU store, a US online store and Etsy",
+      "personalization_detail": "Simone Walsh Jewellery is a family-run Adelaide Hills business described as one of Australia's first online jewellery stores, with more than 20 years selling online and a separate US online store.",
+      "personalization_reason": "Running an AU store, a US store and an Etsy shop means product copy, SEO fields and collection updates get repeated across channels, which is the kind of listing work AI assistants can help draft.",
+      "personalized_opening": "I was reading about your move into a US online store after more than 20 years of selling handmade jewellery online from the Adelaide Hills.",
+      "subject_line": "Listings across your AU and US stores",
+      "email_body": "Hi Simone,\n\nI was reading about your move into a US online store after more than 20 years of selling handmade jewellery online from the Adelaide Hills.\n\nI build AI assistants for online stores that draft product titles, descriptions, SEO fields and tags, and can prepare social or email content for new pieces, all checked by you before anything goes live. With a catalogue spread across several channels, that may save your team some repetitive work.\n\nWould it be worth a short chat about how your listings are handled today?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://simonewalsh.com/pages/contact",
+      "other_urls": "https://simonewalsh.com/\nhttps://www.facebook.com/Simone.Walsh.Jewellery/\nhttps://www.etsy.com/shop/simonewalsh\nhttps://www.prunderground.com/simone-walsh-jewelry-opens-new-u-s-online-store-fresh-from-australia-unique-handcrafted-jewelry/00103111/amp/\nhttps://simonewalsh.com/collections/silver-jewellery",
+      "evidence": "Family-run handmade jewellery business in the Adelaide Hills, SA; silver, gold and gemstone designs; described as one of Australia's first online jewellery stores (20+ years); opened a US online store. Shopify signal: /pages/ and /collections/ URL structure on simonewalsh.com. Email hello@simonewalsh.com found via search 'Simone Walsh jewellery contact email' (listed as media contact); confirmed with search '\"hello@simonewalsh.com\"', which tied it to Simone Walsh Designs/Jewelry.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Email is listed as the media enquiries contact (Colin McCormack) - general enquiries may use a form. Do not confuse with the Irish artist at simonewalsh.net."
+    },
+    {
+      "prospect_name": "Rebecca Cordingley",
+      "company": "Rebecca Cordingley Jewellery",
+      "first_name": "Rebecca",
+      "email": "rebecca@rebeccacordingleyjewellery.com",
+      "state": "South Australia",
+      "city": "Adelaide",
+      "shopify_niche": "Jewellery - handmade sterling silver and gold",
+      "shopify_store_url": "https://www.rebeccacordingleyjewellery.com/",
+      "product_category": "Handmade sterling silver and gold rings, necklaces, earrings",
+      "buying_intent": "High - independent maker selling via own Shopify-style store plus Etsy, shipping to Australia and the US",
+      "personalization_detail": "Rebecca has made every piece by hand in her Adelaide studio since 2014 and ships to both Australia and the US, with an Etsy shop alongside her own store.",
+      "personalization_reason": "A solo maker who also handles listings on two channels may spend studio time on descriptions, tags and SEO text that an assistant could draft for her to review.",
+      "personalized_opening": "Making every piece by hand in your Adelaide studio since 2014, while also shipping to the US and running an Etsy shop, sounds like a lot for one person to keep up with.",
+      "subject_line": "Handmade in Adelaide, listed twice",
+      "email_body": "Hi Rebecca,\n\nMaking every piece by hand in your Adelaide studio since 2014, while also shipping to the US and running an Etsy shop, sounds like a lot for one person to keep up with.\n\nI build AI assistants for small online stores that draft product descriptions, SEO text and tags from a few notes or photos, and can prepare posts for new releases. You would still approve everything, so the voice stays yours.\n\nWould you be open to seeing a quick example using one of your existing pieces?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.rebeccacordingleyjewellery.com/pages/contact-us",
+      "other_urls": "https://www.rebeccacordingleyjewellery.com/\nhttps://www.rebeccacordingleyjewellery.com/collections/all\nhttps://www.rebeccacordingleyjewellery.com/pages/faq\nhttps://www.etsy.com/shop/RebeccaCordingley\nhttps://www.instagram.com/rebeccacordingleyjewellery/",
+      "evidence": "Independent jeweller making handmade sterling silver and gold jewellery in Adelaide, SA since 2014; ships to AU and US; Etsy shop too. Shopify signal: /pages/ and /collections/ URL structure. Email found via 'Rebecca Cordingley jewellery contact email'; confirmed with '\"rebecca@rebeccacordingleyjewellery.com\"'.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "An older domain email rebecca@rebeccacordingleydesigns.com also appeared; using the current store domain."
+    },
+    {
+      "prospect_name": "Melbourne Jewellers",
+      "company": "Melbourne Jewellers",
+      "first_name": "Team",
+      "email": "love@melbourne-jewellers.com",
+      "state": "Victoria",
+      "city": "Werribee",
+      "shopify_niche": "Jewellery - Australian-made fine and custom jewellery",
+      "shopify_store_url": "https://melbourne-jewellers.com.au/",
+      "product_category": "Custom engagement and wedding rings, fine jewellery, repairs",
+      "buying_intent": "Medium - established store with 30+ years in the trade, online store with free delivery offer and active Facebook page",
+      "personalization_detail": "Melbourne Jewellers in Werribee promotes 100% Australian-made jewellery with free delivery on orders over $99, alongside bespoke engagement and wedding rings and repairs.",
+      "personalization_reason": "Combining an online range with custom ring and repair work means product pages, promos and customer enquiries all compete for time, which is where drafting help can be useful.",
+      "personalized_opening": "Your mix of 100% Australian-made online jewellery and bespoke engagement ring work out of Werribee is what made me want to get in touch.",
+      "subject_line": "Your Werribee online jewellery range",
+      "email_body": "Hi Team,\n\nYour mix of 100% Australian-made online jewellery and bespoke engagement ring work out of Werribee is what made me want to get in touch.\n\nI build AI assistants for online stores that help write product descriptions and SEO details, prepare promotional posts, and sort common customer questions so they are quicker to answer. Everything is reviewed by you before it is used.\n\nWould a short example based on one of your ring listings be useful?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://melbourne-jewellers.com.au/pages/contact",
+      "other_urls": "https://melbourne-jewellers.com.au/\nhttps://www.wyndham.vic.gov.au/directory/melbourne-jewellers\nhttps://www.facebook.com/melb.jewellers/",
+      "evidence": "Australian-owned jeweller at 277 Heaths Rd, Werribee VIC with 30+ years experience; custom engagement/wedding rings and repairs; online store advertising 100% Australian Made and free delivery over $99. Shopify signal: /pages/contact URL structure. Email found via search 'Australian jewellery brand contact email ... Melbourne jeweller online store'; confirmed with '\"love@melbourne-jewellers.com\"' (Wyndham City directory, Facebook, contact page).",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Email domain is melbourne-jewellers.com while store is .com.au - same business per confirming search. Owner name not found."
+    },
+    {
+      "prospect_name": "Crowded Silver",
+      "company": "Crowded Silver Jewellery",
+      "first_name": "Team",
+      "email": "info@crowdedsilver.com.au",
+      "state": "Victoria",
+      "city": "Ashburton (Melbourne)",
+      "shopify_niche": "Jewellery - curated handmade sterling silver",
+      "shopify_store_url": "https://www.crowdedsilver.com.au/",
+      "product_category": "Sterling silver earrings, necklaces, collars, brooches",
+      "buying_intent": "High - online-only business with a large curated catalogue, regular new arrivals and city landing pages for SEO",
+      "personalization_detail": "Crowded Silver is an online-only Melbourne business stocking handmade Australian sterling silver from individual jewellers, with a New Arrivals section and city pages for Melbourne and Perth.",
+      "personalization_reason": "Adding pieces from many makers and keeping new arrivals and SEO landing pages fresh involves a steady flow of product copy that an AI assistant could help draft.",
+      "personalized_opening": "Curating handmade sterling silver from individual Australian jewellers and keeping a New Arrivals page going means a lot of product writing.",
+      "subject_line": "New arrivals at Crowded Silver",
+      "email_body": "Hi Team,\n\nCurating handmade sterling silver from individual Australian jewellers and keeping a New Arrivals page going means a lot of product writing.\n\nI build AI assistants that draft product titles, descriptions, tags and SEO details for new stock, and can help keep category and landing page copy up to date. Your team reviews each draft, so nothing goes live without approval.\n\nWould it help to see how this could work for your next batch of new arrivals?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.crowdedsilver.com.au/contact-us/",
+      "other_urls": "https://www.crowdedsilver.com.au/\nhttps://www.crowdedsilver.com.au/about-us/\nhttps://www.crowdedsilver.com.au/new-arrivals/\nhttps://www.crowdedsilver.com.au/perth/\nhttps://www.crowdedsilver.com.au/melbourne/\nhttps://www.facebook.com/CrowdedSilverJewellery/",
+      "evidence": "Online silver jewellery business based in Melbourne (PO Box 643 Ashburton VIC 3147); owner has 20 years in the jewellery industry; handmade Australian sterling silver from individual jewellers. Email found via 'Crowded Silver jewellery Australia contact email'; confirmed with '\"info@crowdedsilver.com.au\"' (contact page and product pages).",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed - URL structure (/product/, /product-category/) suggests WooCommerce. Clearly an active AU online store. Owner name not found."
+    }
+  ],
+  "rejected": [
+    {
+      "company": "House of Fulton Jewellery (Darwin NT)",
+      "reason": "Email patfultonhof@hotmail.com confirmed, but no active eCommerce store/online product catalogue verified in search results; appears to be a bricks-and-mortar retailer."
+    },
+    {
+      "company": "NAJO Jewellery (Sydney NSW)",
+      "reason": "support@najo.com.au shown in one search but confirming search could not be run (search budget exhausted); unconfirmed."
+    },
+    {
+      "company": "Linden Cook Jewellery (Melbourne VIC)",
+      "reason": "info@lindencookdesign.com shown in one search but confirming search could not be run (search budget exhausted); unconfirmed."
+    },
+    {
+      "company": "OTIS Eyewear (WA)",
+      "reason": "Only email found is on parent company domain (leisurecollective.com.au) and part of a larger group; not confirmed with a second search."
+    },
+    {
+      "company": "Jewellery Of Melbourne",
+      "reason": "Only a personal gmail address appeared; not confirmed with a second search."
+    },
+    {
+      "company": "Saltwater Silver (Coolangatta QLD)",
+      "reason": "No public email found in search results (phone and social only)."
+    },
+    {
+      "company": "Rotp Jewellery (Darwin NT)",
+      "reason": "No email shown in search results; contact page only."
+    },
+    {
+      "company": "Valley Eyewear",
+      "reason": "No email shown in search results."
+    },
+    {
+      "company": "AHW Studio (Sydney NSW)",
+      "reason": "No email surfaced in search results; not investigated further due to search budget."
+    }
+  ]
+}

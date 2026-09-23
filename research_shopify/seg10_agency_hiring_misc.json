@@ -1,0 +1,62 @@
+{
+  "segment": "Seg10 - AU Shopify agencies/partners, stores hiring Shopify/eCommerce roles, stationery/art/craft/books/prints/party/printables",
+  "searches_run": 9,
+  "accepted": [
+    {
+      "prospect_name": "The Shop Agency",
+      "company": "The Shop Agency",
+      "first_name": "Team",
+      "email": "hello@theshopagency.com.au",
+      "state": "New South Wales",
+      "city": "Byron Bay",
+      "shopify_niche": "Shopify agency - store design and development (partner prospect)",
+      "shopify_store_url": "https://theshopagency.com.au/contact/",
+      "product_category": "Shopify store design, development, setup to launch",
+      "buying_intent": "Medium - Shopify build agency whose clients need ongoing listing and content work after launch; partnership/resell angle",
+      "personalization_detail": "Byron Bay based agency that builds Shopify stores from setup to launch, backed by 25+ years in digital advertising",
+      "personalization_reason": "Clients who have just launched a Shopify store often still face the ongoing work of writing listings, tags and promo content, which an AI assistant add-on could cover as a post-launch service",
+      "personalized_opening": "Your team takes Byron Bay businesses from Shopify setup all the way to launch, and I'm writing because the work that usually lands on clients after launch is exactly where I spend my time.",
+      "subject_line": "Post-launch add-on for your Shopify clients",
+      "email_body": "Hi Team,\n\nYour team takes businesses from Shopify setup all the way to launch, and I'm writing because the work that usually lands on clients after launch is exactly where I spend my time.\n\nI build AI \"Jarvis\" assistants for Shopify stores using n8n with OpenAI or Gemini. They draft product titles, descriptions and SEO text, apply tags and collections, prepare promo and social content, and send simple store reports. For an agency, that could sit alongside your builds as a white-label or referral add-on, so clients keep getting value once the store is live and you don't need to build the automation side in-house.\n\nWould you be open to a short call to see whether a partnership like that would suit a few of your clients?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://theshopagency.com.au/contact/",
+      "other_urls": "https://www.shopify.com/partners/directory/locations/australia",
+      "evidence": "Shopify store design and development agency in Byron Bay NSW (phone +61 491 732 617, hours GMT+10). Builds Shopify stores from setup to launch; 25+ years digital advertising experience. Shopify signal: agency title 'Shopify Store Design and Development Experts'. Email shown in search for 'Shopify agency Australia contact email hello@ .com.au Shopify Partner' and confirmed with search \"hello@theshopagency.com.au\" tying it to the Byron Bay contact page.",
+      "evidence_type": "Official Website",
+      "research_confidence": "High",
+      "notes": "Partnership angle (segment a). No founder name surfaced, so greeting uses Team. Not to be confused with theshopagency.com (a different, non-AU company)."
+    },
+    {
+      "prospect_name": "WashiGang",
+      "company": "WashiGang",
+      "first_name": "Team",
+      "email": "hello@washigang.com",
+      "state": "Queensland",
+      "city": "Gold Coast",
+      "shopify_niche": "Stationery - planners, washi tape, journaling supplies",
+      "shopify_store_url": "https://www.washigang.com/",
+      "product_category": "Planners, washi tape, sticker sheets, notebooks, pens, custom washi tape",
+      "buying_intent": "High - large multi-brand stationery catalog with many small SKUs (sticker sheets, washi designs) plus custom washi tape service",
+      "personalization_detail": "Gold Coast online stationery shop carrying planners, washi tape and sticker sheets from many brands, plus a custom washi tape design service and a new workshop space (WashiGang HQ)",
+      "personalization_reason": "A catalog built on many small, design-led SKUs means a lot of individual titles, descriptions and tags to write and keep consistent, which is the kind of repetitive listing work AI automation can help with",
+      "personalized_opening": "With so many individual washi designs and sticker sheets on WashiGang, every new batch must mean a long run of titles, descriptions and tags to write.",
+      "subject_line": "Listing help for WashiGang's sticker sheets",
+      "email_body": "Hi Team,\n\nWith so many individual washi designs and sticker sheets on WashiGang, every new batch must mean a long run of titles, descriptions and tags to write.\n\nThat caught my attention because it's the work I help Shopify stores with. I build AI \"Jarvis\" assistants using n8n and OpenAI or Gemini that draft product titles and descriptions in your own voice, suggest SEO text and tags, sort items into collections, and prepare social posts for new drops. You stay in control and approve everything before it goes live.\n\nWould it be useful if I showed you how this could work on one of your recent sticker or washi releases?\n\nBest regards,\nCynthia Nana",
+      "source_url": "https://www.washigang.com/pages/contact-us",
+      "other_urls": "https://www.washigang.com/\nhttps://www.washigang.com/pages/faq\nhttps://www.washigang.com/blogs/news/washigang-hq-check-out-our-space\nhttps://www.washigang.com/products/sticker-sheet-tickets\nhttps://www.instagram.com/washigang/\nhttps://www.facebook.com/WashiGang/",
+      "evidence": "Online stationery shop based on the Gold Coast, QLD (Facebook 'Hi! We are WashiGang - an online stationery shop based on the Gold Coast'). Sells planners, washi tape, stickers, notebooks, pens and custom washi tape. Email shown in search 'WashiGang Gold Coast stationery contact email' (contact page) and confirmed with search \"hello@washigang.com\".",
+      "evidence_type": "Official Website",
+      "research_confidence": "Medium",
+      "notes": "Shopify not confirmed via search results (URL structure /pages/ /products/ /blogs/news/ is Shopify-style, but no explicit Shopify signal seen). Founder name not verified, so Team greeting used."
+    }
+  ],
+  "rejected": [
+    {"company": "Joolca Pty Limited (Coburg North VIC)", "reason": "Hiring a Retention & eCommerce Coordinator (Klaviyo/Shopify) on Seek and support@joolca.com.au appeared once in search, but the exact-email confirming search could not be run because the session-wide WebSearch budget (200) was exhausted. Strong candidate to re-check."},
+    {"company": "Seafolly", "reason": "Hiring eCommerce Coordinator but large corporate brand; no email searched (budget exhausted)."},
+    {"company": "MUJI Retail (Australia)", "reason": "Giant multinational retailer; out of scope."},
+    {"company": "Arova Bathrooms (Mulgrave VIC)", "reason": "Hiring e-commerce role; no public email found before search budget ran out."},
+    {"company": "The Stationery Store (thestationerystore.com.au)", "reason": "No email in search results; search budget exhausted before follow-up."},
+    {"company": "Peter's of Kensington", "reason": "No email surfaced; larger department-style retailer; not followed up (budget exhausted)."},
+    {"company": "Giddy Paperie", "reason": "Shopify success story (stationery) but contact search blocked by exhausted search budget."},
+    {"company": "ONETOO / Digital Darts / Growth Digital / Blurn / Ranking Co / Insider Media / WP Creative / Zib Digital", "reason": "AU Shopify agencies surfaced but no email shown in results; follow-up searches blocked by exhausted budget."}
+  ]
+}
