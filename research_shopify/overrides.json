@@ -12,7 +12,10 @@
     "hello@cftproastingco.com.au": "Shopify connection not verifiable; URL structure suggests WooCommerce",
     "hello@missharry.com.au": "Shopify connection not verifiable; URL structure suggests WooCommerce",
     "aussiesaddlery@gmail.com": "Shopify connection not verifiable; store appears to run on BigCommerce",
-    "shop@thestorehousefremantle.com.au": "Not Shopify (.aspx store) and local-delivery only"
+    "shop@thestorehousefremantle.com.au": "Not Shopify (.aspx store) and local-delivery only",
+    "jamwomanclothing@gmail.com": "Shopify connection not verifiable; site looks like WordPress, and only a Gmail contact",
+    "info@casanoosa.com.au": "Shopify connection not verifiable; URL structure suggests WooCommerce",
+    "info@picturepolish.com.au": "Shopify connection not verifiable; store looks like WooCommerce"
   },
   "keep_high": [
     "online@westbrothers.com.au",
@@ -25,7 +28,9 @@
     "support@joolca.com.au",
     "info@audiophileshop.com.au",
     "info@lushdesigns.com.au",
-    "info@ivyandwood.com.au"
+    "info@ivyandwood.com.au",
+    "info@posteroo.com.au",
+    "sales@phinc.com.au"
   ],
   "needs_review": {
     "help@crooze.com.au": "A Shopify /password page was indexed - confirm the store is currently open before sending.",
@@ -49,6 +54,17 @@
     "givemesomesauce@godsofsauces.com.au": "WA confirmed but city (Perth) not confirmed in search results.",
     "jessica@samontessori.com.au": "Email is on a related domain (samontessori.com.au), not the store's - confirm Jessica is the right contact.",
     "support@katthelabel.com": "Location conflict (Armadale VIC vs a Perth boutique) - confirm before sending.",
-    "sales@mylittlewardrobe.com.au": "Location conflict (Sydney vs West Burleigh QLD PO box) - confirm before sending."
+    "sales@mylittlewardrobe.com.au": "Location conflict (Sydney vs West Burleigh QLD PO box) - confirm before sending.",
+    "info@byronbayskincare.com.au": "Directory lists a South Melbourne PO Box head office; Yelp lists Byron Bay - confirm location.",
+    "charlizerose2020@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "noosahandmade@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "boutique@seanscottphotography.com.au": "Email is on the owner's photography domain, not the boutique's - confirm it is the right inbox.",
+    "daylesfordtradingco@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "boutiquehikmah@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "info@naturalapproach.net.au": "Founder name and location conflict in sources (Albury NSW vs Yaroomba QLD) - confirm before sending.",
+    "periodshop@gmail.com": "Free-mail (Gmail) address, though published by the business - confirm it is the preferred business contact.",
+    "idyllic@acrylicperipherals.com": "Email is on the owner's other domain (published on MechStock's contact page) - confirm it is the right inbox.",
+    "info@ebikesworld.com.au": "Online ordering not clearly shown in results - confirm the store sells online.",
+    "enquiries@honeyaustralia.com.au": "Town not confirmed; larger wholesale/export business - confirm fit."
   }
 }
