@@ -21,7 +21,7 @@ RESEARCH_DIR = sys.argv[1] if len(sys.argv) > 1 else "research"
 OUT_FILE = "Australia_Trading_Bot_Prospects_200.xlsx"
 TARGET = 200
 SENDER_EMAIL = "goodfiberr@gmail.com"
-SENDER_NAME = "[Your Name]"  # no sender name was supplied; fill before sending
+SENDER_NAME = "Gabriel"
 
 COLUMNS = [
     "Prospect Name", "Company", "First Name", "Email", "Country", "State", "City",
@@ -232,7 +232,7 @@ def main():
         if r["_issues"]:
             notes.append("QC: " + "; ".join(r["_issues"]))
         if SENDER_NAME in r["email_body"]:
-            notes.append("Replace [Your Name] in the sign-off before sending.")
+            notes.append("Replace the sender name in the sign-off before sending.")
         other = (r.get("other_urls") or "").strip()
         source = r["source_url"] + ("\n" + "\n".join(other.split()) if other else "")
         ws.append([
