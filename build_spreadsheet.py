@@ -231,8 +231,6 @@ def main():
             notes.append(f"Email re-confirmed on {verify[r['email']]['url']} by live page fetch.")
         if r["_issues"]:
             notes.append("QC: " + "; ".join(r["_issues"]))
-        if SENDER_NAME in r["email_body"]:
-            notes.append("Replace the sender name in the sign-off before sending.")
         other = (r.get("other_urls") or "").strip()
         source = r["source_url"] + ("\n" + "\n".join(other.split()) if other else "")
         ws.append([
