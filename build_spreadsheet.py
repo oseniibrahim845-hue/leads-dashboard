@@ -1,4 +1,10 @@
-"""Merge researcher JSON output, dedupe, run quality checks and build the campaign workbook."""
+"""Build Australia_Trading_Bot_Prospects_200.xlsx from fresh researcher JSON.
+
+Usage: python build_spreadsheet.py <research_dir>
+
+<research_dir> holds seg*.json files from the research agents and verify_auto.json from
+verify_emails.py (a live re-fetch of each source page confirming the email is displayed).
+"""
 import glob
 import json
 import re
@@ -14,7 +20,8 @@ from openpyxl.worksheet.datavalidation import DataValidation
 RESEARCH_DIR = sys.argv[1] if len(sys.argv) > 1 else "research"
 OUT_FILE = "Australia_Trading_Bot_Prospects_200.xlsx"
 TARGET = 200
-SENDER = "Cynthia Nana"
+SENDER_EMAIL = "goodfiberr@gmail.com"
+SENDER_NAME = "[Your Name]"  # no sender name was supplied; fill before sending
 
 COLUMNS = [
     "Prospect Name", "Company", "First Name", "Email", "Country", "State", "City",
@@ -23,11 +30,10 @@ COLUMNS = [
     "Subject Line", "Email Body", "Source URL", "Evidence", "Evidence Type",
     "Research Confidence", "Lead Status", "Send Status", "Date Sent", "Notes",
 ]
-
-AU_STATES = {
-    "new south wales", "victoria", "queensland", "western australia", "south australia",
-    "tasmania", "australian capital territory", "northern territory",
-}
+AU_STATES = [
+    "New South Wales", "Victoria", "Queensland", "Western Australia", "South Australia",
+    "Tasmania", "Australian Capital Territory", "Northern Territory",
+]
 STATE_ALIASES = {
     "nsw": "New South Wales", "vic": "Victoria", "qld": "Queensland", "wa": "Western Australia",
     "sa": "South Australia", "tas": "Tasmania", "act": "Australian Capital Territory",
@@ -38,23 +44,23 @@ EVIDENCE_TYPES = {
     "Developer Profile", "Public Forum", "Public Social Profile", "Search Result Verified", "Other",
 }
 BANNED_SUBJECT = [
-    "urgent", "act now", "make money", "guaranteed", "100%", "get rich", "free money",
+    "urgent", "act now", "make money", "guarantee", "100%", "get rich", "free money",
     "investment opportunity", "crypto profits", "profit", "returns", "!!",
 ]
 BANNED_BODY = [
     "tailored solution", "seamless", "cutting edge", "cutting-edge", "revolutioni",
     "unlock your", "transform your workflow", "leverage", "game changing", "game-changing",
-    "guaranteed", "guarantee returns", "make money", "i hope you're doing well",
-    "i hope you are doing well", "hope you're having a great day", "i came across your profile",
-    "i noticed you are a trader",
+    "guaranteed", "make money", "hope you're doing well", "hope you are doing well",
+    "having a great day", "i came across your profile", "i noticed you are a trader",
 ]
-BANNED_OPENINGS = [
-    "i hope you", "hope you", "i came across your profile", "i noticed you are a trader",
-]
+BANNED_OPENINGS = ["i hope", "hope you", "i came across your profile", "i noticed you are a trader"]
 EMAIL_RE = re.compile(r"^[A-Za-z0-9._%+'-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$")
-GENERIC_DOMAINS = {"gmail.com", "outlook.com", "hotmail.com", "yahoo.com", "icloud.com",
-                   "bigpond.com", "live.com", "protonmail.com", "proton.me", "yahoo.com.au",
-                   "optusnet.com.au", "bigpond.net.au", "me.com"}
+FREE_MAIL = {"gmail.com", "outlook.com", "hotmail.com", "yahoo.com", "icloud.com", "live.com",
+             "bigpond.com", "bigpond.net.au", "protonmail.com", "proton.me", "yahoo.com.au",
+             "optusnet.com.au", "me.com"}
+# GitHub's Acceptable Use Policy forbids using its data for unsolicited email.
+EXCLUDED_SOURCE_HOSTS = {"github.com"}
+CONF_RANK = {"High": 3, "Medium": 2, "Low": 1}
 
 
 def norm(s):
@@ -63,13 +69,13 @@ def norm(s):
 
 def norm_company(s):
     s = (s or "").lower()
-    s = re.sub(r"\b(pty|ltd|limited|inc|llc|the|group|holdings|australia|au|co)\b", " ", s)
+    s = re.sub(r"\b(pty|ltd|limited|inc|llc|the|group|holdings|australia|au|co|trading|markets?)\b", " ", s)
     return norm(s)
 
 
-def site_key(url):
-    host = urlparse(url or "").netloc.lower()
-    return host[4:] if host.startswith("www.") else host
+def host(url):
+    h = urlparse(url or "").netloc.lower()
+    return h[4:] if h.startswith("www.") else h
 
 
 def clean_state(s):
@@ -77,12 +83,12 @@ def clean_state(s):
     if s.lower() in STATE_ALIASES:
         return STATE_ALIASES[s.lower()]
     for st in AU_STATES:
-        if st == s.lower():
-            return s.title().replace("Of", "of")
+        if st.lower() == s.lower():
+            return st
     return s
 
 
-def load_records():
+def load():
     records, rejected, searches = [], [], 0
     for path in sorted(glob.glob(f"{RESEARCH_DIR}/seg*.json")):
         with open(path) as f:
@@ -93,79 +99,59 @@ def load_records():
             records.append(r)
         rejected.extend(data.get("rejected", []))
         searches += int(data.get("searches_run", 0) or 0)
-    return records, rejected, searches
-
-
-def load_verification():
-    """Independent re-check results keyed by lowercased email."""
-    out = {}
-    for path in glob.glob(f"{RESEARCH_DIR}/verify*.json"):
-        with open(path) as f:
-            for v in json.load(f):
-                out[v["email"].strip().lower()] = v
-    return out
-
-
-CONF_RANK = {"High": 3, "Medium": 2, "Low": 1}
-
-# GitHub's Acceptable Use Policy forbids using GitHub data for unsolicited email, and those
-# org profiles rarely confirm an Australian location, so GitHub-only records are rejected.
-EXCLUDED_SOURCE_HOSTS = {"github.com"}
-
-# Records whose two-search verification was weaker than required: kept but held for review.
-FORCE_REVIEW = {
-    "help@fusionmarkets.com": "Searches returned different addresses (support@ vs help@); confirm before sending.",
-    "support@gomarkets.com": "First search showed only an obfuscated address; email confirmed by one search.",
-}
+    verify = {}
+    vpath = f"{RESEARCH_DIR}/verify_auto.json"
+    try:
+        for v in json.load(open(vpath)):
+            if v["status"] == "found" or v["email"] not in verify:
+                verify[v["email"]] = v
+    except FileNotFoundError:
+        pass
+    return records, rejected, searches, verify
 
 
 def qc_issues(r):
     issues = []
-    email = r["email"]
-    if not EMAIL_RE.match(email):
+    if not EMAIL_RE.match(r["email"]):
         issues.append("email format")
     if not (r.get("source_url") or "").startswith("http"):
         issues.append("missing source URL")
     subj = (r.get("subject_line") or "").lower()
     if not subj:
         issues.append("missing subject")
-    if len(subj.split()) > 10:
+    elif len(subj.split()) > 10:
         issues.append("subject too long")
-    for b in BANNED_SUBJECT:
-        if b in subj:
-            issues.append(f"subject contains '{b}'")
-    body = (r.get("email_body") or "")
+    issues += [f"subject contains '{b}'" for b in BANNED_SUBJECT if b in subj]
+    body = r.get("email_body") or ""
     lb = body.lower()
-    for b in BANNED_BODY:
-        if b in lb:
-            issues.append(f"body contains '{b}'")
-    if SENDER.lower() not in lb:
-        issues.append("sender name missing")
+    issues += [f"body contains '{b}'" for b in BANNED_BODY if b in lb]
+    if SENDER_EMAIL not in lb:
+        issues.append("sender email missing")
     if not lb.startswith("hi "):
         issues.append("body greeting")
+    if "{sender_name}" in lb:
+        issues.append("unfilled sender token")
     opening = (r.get("personalized_opening") or "").strip().lower()
     if not opening:
         issues.append("missing opening")
-    for b in BANNED_OPENINGS:
-        if opening.startswith(b):
-            issues.append("generic opening")
-    words = len(body.split())
-    if words > 200:
-        issues.append(f"body long ({words} words)")
+    elif any(opening.startswith(b) for b in BANNED_OPENINGS):
+        issues.append("generic opening")
+    if len(body.split()) > 200:
+        issues.append(f"body long ({len(body.split())} words)")
     if not r.get("personalization_detail"):
         issues.append("missing personalization detail")
-    if r.get("state") and r["state"].lower() not in AU_STATES:
-        issues.append(f"state '{r['state']}' not an AU state")
+    if r["state"] not in AU_STATES:
+        issues.append(f"state '{r['state']}' not an Australian state/territory")
     return issues
 
 
 def main():
-    records, rejected, searches = load_records()
-    verification = load_verification()
-    policy_rejected = [r for r in records if site_key(r.get("source_url")) in EXCLUDED_SOURCE_HOSTS]
-    records = [r for r in records if site_key(r.get("source_url")) not in EXCLUDED_SOURCE_HOSTS]
-    rejected += [{"name": r.get("prospect_name"), "reason": "GitHub-only source"} for r in policy_rejected]
+    records, rejected, searches, verify = load()
     researched = len(records) + len(rejected)
+
+    policy = [r for r in records if host(r.get("source_url")) in EXCLUDED_SOURCE_HOSTS]
+    records = [r for r in records if host(r.get("source_url")) not in EXCLUDED_SOURCE_HOSTS]
+    rejected += [{"name": r.get("prospect_name"), "reason": "GitHub-only email source"} for r in policy]
 
     for r in records:
         for k in ("email", "prospect_name", "company", "first_name", "state", "city"):
@@ -177,96 +163,70 @@ def main():
             r["research_confidence"] = "Medium"
         if r.get("evidence_type") not in EVIDENCE_TYPES:
             r["evidence_type"] = "Other"
+        r["email_body"] = (r.get("email_body") or "").replace("{SENDER_NAME}", SENDER_NAME).strip()
+        r["_verified"] = verify.get(r["email"], {}).get("status") == "found"
 
-    # Strongest record first so duplicates drop the weaker copy.
-    records.sort(key=lambda r: (-CONF_RANK[r["research_confidence"]],
-                                0 if r.get("buying_intent", "").startswith("High") else 1))
-
+    # Strongest record first, so a duplicate always drops the weaker copy.
+    records.sort(key=lambda r: (not r["_verified"], -CONF_RANK[r["research_confidence"]],
+                                not (r.get("buying_intent") or "").startswith("High")))
     kept, dupes = [], []
-    seen_email, seen_company, seen_person, seen_domain = set(), set(), set(), set()
+    seen = {"email": set(), "company": set(), "person": set(), "domain": set(), "site": set()}
     for r in records:
         dom = r["email"].split("@")[-1]
         keys = {
             "email": r["email"],
-            "company": norm_company(r["company"]),
-            "person": norm(r["prospect_name"]),
-            "domain": dom if dom not in GENERIC_DOMAINS else None,
+            "company": norm_company(r["company"]) or None,
+            "person": norm(r["prospect_name"]) or None,
+            "domain": dom if dom not in FREE_MAIL else None,
         }
-        dup = (keys["email"] in seen_email
-               or (keys["company"] and keys["company"] in seen_company)
-               or (keys["person"] and keys["person"] in seen_person)
-               or (keys["domain"] and keys["domain"] in seen_domain))
-        if dup:
+        if any(v and v in seen[k] for k, v in keys.items()):
             dupes.append(r)
             continue
-        seen_email.add(keys["email"])
-        if keys["company"]:
-            seen_company.add(keys["company"])
-        if keys["person"]:
-            seen_person.add(keys["person"])
-        if keys["domain"]:
-            seen_domain.add(keys["domain"])
+        for k, v in keys.items():
+            if v:
+                seen[k].add(v)
         kept.append(r)
 
-    # Independent verification: drop records whose email could not be re-found.
-    failed_verify = []
-    final = []
     for r in kept:
-        v = verification.get(r["email"])
-        if verification and v is not None and v.get("status") == "not_found":
-            failed_verify.append(r)
-            continue
         issues = qc_issues(r)
-        if r["email"] in FORCE_REVIEW:
-            issues.append(FORCE_REVIEW[r["email"]])
+        if not r["_verified"]:
+            issues.append("email not re-confirmed by automated page fetch (page may be JS-rendered); check source before sending")
+        if r["email"].split("@")[-1] in FREE_MAIL:
+            issues.append("free-mail address published by the prospect")
         r["_issues"] = issues
-        if v is not None and v.get("status") == "found":
-            r["_verified"] = True
-        final.append(r)
+        hard = [i for i in issues if not i.startswith("free-mail")]
+        r["_status"] = "Needs Review" if hard or r["research_confidence"] == "Low" else "Ready"
 
-    # Order: Ready High -> Ready Medium -> review; within that, High intent first.
-    def lead_status(r):
-        if r["_issues"] or r["research_confidence"] == "Low":
-            return "Needs Review"
-        if verification and not r.get("_verified"):
-            return "Needs Review"
-        return "Ready"
-
-    for r in final:
-        r["_status"] = lead_status(r)
-    final.sort(key=lambda r: (r["_status"] != "Ready", -CONF_RANK[r["research_confidence"]],
-                              0 if r.get("buying_intent", "").startswith("High") else 1))
-    if len(final) > TARGET:
-        overflow = final[TARGET:]
-        final = final[:TARGET]
-    else:
-        overflow = []
+    kept.sort(key=lambda r: (r["_status"] != "Ready", -CONF_RANK[r["research_confidence"]],
+                             not (r.get("buying_intent") or "").startswith("High"), r["state"], r["company"]))
+    overflow = kept[TARGET:]
+    final = kept[:TARGET]
 
     wb = Workbook()
     ws = wb.active
     ws.title = "Prospects"
     ws.append(COLUMNS)
     for r in final:
-        notes = [r.get("notes", "")]
+        notes = [r.get("notes") or ""]
+        if r["_verified"]:
+            notes.append(f"Email re-confirmed on {verify[r['email']]['url']} by live page fetch.")
         if r["_issues"]:
             notes.append("QC: " + "; ".join(r["_issues"]))
-        if r.get("_verified"):
-            notes.append("Email independently re-verified on source page.")
-        if r["research_confidence"] == "Low":
-            notes.append("LOW CONFIDENCE - review before sending.")
+        if SENDER_NAME in r["email_body"]:
+            notes.append("Replace [Your Name] in the sign-off before sending.")
         other = (r.get("other_urls") or "").strip()
-        source = r["source_url"] + (("\n" + other) if other else "")
+        source = r["source_url"] + ("\n" + "\n".join(other.split()) if other else "")
         ws.append([
             r["prospect_name"], r["company"], r["first_name"], r["email"], "Australia",
             r["state"], r["city"], r.get("trading_niche", ""), r.get("trading_platform", ""),
             r.get("product_project", ""), r.get("buying_intent", ""),
             r.get("personalization_detail", ""), r.get("personalization_reason", ""),
-            r.get("personalized_opening", ""), r.get("subject_line", ""), r.get("email_body", ""),
+            r.get("personalized_opening", ""), r.get("subject_line", ""), r["email_body"],
             source, r.get("evidence", ""), r["evidence_type"], r["research_confidence"],
             r["_status"], "Not Sent", None, " ".join(n for n in notes if n).strip(),
         ])
 
-    widths = [22, 26, 12, 32, 11, 20, 16, 24, 20, 30, 34, 48, 48, 50, 32, 70, 45, 60, 20, 12, 14, 11, 11, 40]
+    widths = [24, 28, 12, 34, 11, 22, 16, 22, 22, 32, 36, 48, 48, 50, 34, 70, 48, 60, 20, 12, 14, 11, 11, 44]
     for i, w in enumerate(widths, 1):
         ws.column_dimensions[get_column_letter(i)].width = w
     header_fill = PatternFill("solid", fgColor="1F3864")
@@ -279,41 +239,39 @@ def main():
             c.alignment = Alignment(vertical="top", wrap_text=True)
     ws.freeze_panes = "B2"
     ws.auto_filter.ref = ws.dimensions
-    last = ws.max_row
+    last = max(ws.max_row, 2)
     for col, opts in (("T", "High,Medium,Low"), ("U", "Ready,Needs Review,Excluded"),
                       ("V", "Not Sent,Sent,Bounced,Replied")):
         dv = DataValidation(type="list", formula1=f'"{opts}"', allow_blank=True)
         ws.add_data_validation(dv)
-        dv.add(f"{col}2:{col}{max(last, 2)}")
-    ws.column_dimensions["W"].number_format = "yyyy-mm-dd"
+        dv.add(f"{col}2:{col}{last}")
+    for row in range(2, last + 1):
+        ws[f"W{row}"].number_format = "yyyy-mm-dd"
 
     conf = Counter(r["research_confidence"] for r in final)
     status = Counter(r["_status"] for r in final)
     summary = [
         ("Total prospects researched", researched),
         ("Total qualified prospects (in sheet)", len(final)),
-        ("Total rejected", len(rejected) + len(failed_verify)),
-        ("  - rejected during research", len(rejected)),
-        ("  - of which GitHub-only sources (policy)", len(policy_rejected)),
-        ("  - removed: email not re-found on verification", len(failed_verify)),
+        ("Total rejected", len(rejected)),
+        ("  - of which GitHub-only email source (policy)", len(policy)),
         ("Total duplicate prospects removed", len(dupes)),
         ("Qualified but beyond the 200 cap", len(overflow)),
-        ("Prospects with verified public professional emails", len(final)),
-        ("Emails confirmed by two separate searches",
-         sum(1 for r in final if "verified via searches" in (r.get("notes") or "").lower()
-             and r["email"] not in FORCE_REVIEW)),
+        ("Prospects with publicly displayed professional emails", len(final)),
+        ("Emails re-confirmed by live page fetch", sum(r["_verified"] for r in final)),
         ("High confidence", conf["High"]),
         ("Medium confidence", conf["Medium"]),
         ("Low confidence", conf["Low"]),
         ("Ready", status["Ready"]),
         ("Needs Review", status["Needs Review"]),
-        ("Total personalized emails", sum(1 for r in final if r.get("email_body"))),
+        ("High buying intent", sum((r.get("buying_intent") or "").startswith("High") for r in final)),
+        ("Total personalized emails", sum(1 for r in final if r["email_body"])),
         ("Total unique companies", len({norm_company(r["company"]) for r in final})),
         ("Total unique emails", len({r["email"] for r in final})),
-        ("Unique subject lines", len({r["subject_line"].strip().lower() for r in final})),
-        ("States covered", len({r["state"] for r in final if r["state"]})),
-        ("Searches logged by researchers (web + GitHub)", searches),
-        ("Sender", SENDER),
+        ("Unique subject lines", len({(r.get("subject_line") or "").strip().lower() for r in final})),
+        ("States/territories covered", len({r["state"] for r in final if r["state"] in AU_STATES})),
+        ("Searches logged by researchers", searches),
+        ("Sender email", SENDER_EMAIL),
         ("Country", "Australia"),
         ("Spreadsheet file name", OUT_FILE),
     ]
@@ -325,8 +283,8 @@ def main():
     ss.append(["State", "Prospects"])
     for st, n in Counter(r["state"] or "Unknown" for r in final).most_common():
         ss.append([st, n])
-    ss.column_dimensions["A"].width = 50
-    ss.column_dimensions["B"].width = 36
+    ss.column_dimensions["A"].width = 52
+    ss.column_dimensions["B"].width = 38
     for c in ss[1]:
         c.font = Font(bold=True, color="FFFFFF")
         c.fill = header_fill
@@ -334,12 +292,14 @@ def main():
     wb.save(OUT_FILE)
     for k, v in summary:
         print(f"{k}: {v}")
-    dup_subj = [s for s, n in Counter(r["subject_line"].strip().lower() for r in final).items() if n > 1]
+    dup_subj = [s for s, n in Counter((r.get("subject_line") or "").strip().lower() for r in final).items() if n > 1]
     if dup_subj:
         print("DUPLICATE SUBJECTS:", dup_subj)
     for r in final:
         if r["_issues"]:
             print("QC", r["email"], r["_issues"])
+    for r in dupes:
+        print("DUPE", r["_seg"], r["email"], r["company"])
 
 
 if __name__ == "__main__":
