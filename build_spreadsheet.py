@@ -62,6 +62,18 @@ FREE_MAIL = {"gmail.com", "outlook.com", "hotmail.com", "yahoo.com", "icloud.com
 EXCLUDED_SOURCE_HOSTS = {"github.com"}
 CONF_RANK = {"High": 3, "Medium": 2, "Low": 1}
 
+# Sub-brands of one business count as the same prospect; map each email to its group key.
+SAME_BUSINESS = {
+    "support@blueberryfunded.com": "blueberry", "support@blueberrymarkets.com": "blueberry",
+    "support@thinkcapital.com": "thinkmarkets", "support@thinkmarkets.com": "thinkmarkets",
+    "support@challenges.eightcap.com": "eightcap", "customerservice@eightcap.com": "eightcap",
+}
+# Removed at QC: the Australian connection or the source page could not be established.
+QC_EXCLUDE = {
+    "info@sunrisetechs.com": "Australian presence unconfirmed (appears India-based; Sydney address may be a serviced office)",
+    "info@motifmarkets.com": "Australian location unconfirmed; source page is the US site",
+}
+
 
 def norm(s):
     return re.sub(r"[^a-z0-9]", "", (s or "").lower())
@@ -154,6 +166,12 @@ def main():
     rejected += [{"name": r.get("prospect_name"), "reason": "GitHub-only email source"} for r in policy]
 
     for r in records:
+        r["email"] = (r.get("email") or "").strip().lower()
+    excluded = [r for r in records if r["email"] in QC_EXCLUDE]
+    records = [r for r in records if r["email"] not in QC_EXCLUDE]
+    rejected += [{"name": r.get("prospect_name"), "reason": QC_EXCLUDE[r["email"]]} for r in excluded]
+
+    for r in records:
         for k in ("email", "prospect_name", "company", "first_name", "state", "city"):
             r[k] = (r.get(k) or "").strip()
         r["email"] = r["email"].lower().rstrip(".")
@@ -170,7 +188,7 @@ def main():
     records.sort(key=lambda r: (not r["_verified"], -CONF_RANK[r["research_confidence"]],
                                 not (r.get("buying_intent") or "").startswith("High")))
     kept, dupes = [], []
-    seen = {"email": set(), "company": set(), "person": set(), "domain": set(), "site": set()}
+    seen = {"email": set(), "company": set(), "person": set(), "domain": set(), "group": set()}
     for r in records:
         dom = r["email"].split("@")[-1]
         keys = {
@@ -178,6 +196,7 @@ def main():
             "company": norm_company(r["company"]) or None,
             "person": norm(r["prospect_name"]) or None,
             "domain": dom if dom not in FREE_MAIL else None,
+            "group": SAME_BUSINESS.get(r["email"]),
         }
         if any(v and v in seen[k] for k, v in keys.items()):
             dupes.append(r)
@@ -190,7 +209,7 @@ def main():
     for r in kept:
         issues = qc_issues(r)
         if not r["_verified"]:
-            issues.append("email not re-confirmed by automated page fetch (page may be JS-rendered); check source before sending")
+            issues.append("email seen in search results only - source page could not be opened this session; confirm it on the live page before sending")
         if r["email"].split("@")[-1] in FREE_MAIL:
             issues.append("free-mail address published by the prospect")
         r["_issues"] = issues
@@ -255,6 +274,7 @@ def main():
         ("Total qualified prospects (in sheet)", len(final)),
         ("Total rejected", len(rejected)),
         ("  - of which GitHub-only email source (policy)", len(policy)),
+        ("  - of which removed at final QC", len(excluded)),
         ("Total duplicate prospects removed", len(dupes)),
         ("Qualified but beyond the 200 cap", len(overflow)),
         ("Prospects with publicly displayed professional emails", len(final)),
