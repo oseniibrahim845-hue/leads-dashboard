@@ -57,6 +57,30 @@ FREE_DOMAINS = {
     "yahoo.es", "icloud.com", "live.com", "msn.com", "protonmail.com", "proton.me",
     "telefonica.net", "movistar.es", "gmx.es", "me.com",
 }
+# Records whose researcher flagged an open question: kept but held for review.
+FORCE_REVIEW = {
+    "crisóstomo asesores": "Website/email domains differ (.online vs .com).",
+    "anfix software": "HQ city conflicts in results (Madrid vs Valladolid phone).",
+    "advantys": "Named contact comes from a 2022 directory.",
+    "solmicro": "City inferred from phone prefix only.",
+    "novicap": "Location not confirmed in search results.",
+}
+ROLE_MAILBOXES = {
+    "info", "hola", "hello", "contacto", "contact", "comercial", "ventas", "sales", "admin",
+    "administracion", "administracio", "asesoria", "gestoria", "oficina", "despacho", "soporte",
+    "support", "marketing", "clientes", "correo", "consultas", "empresa", "general", "atencion",
+    "atencionalcliente", "recepcion", "informacion", "partners", "business", "hi", "sac",
+    "direccio", "direccion", "assessoria", "general", "madrid", "barcelona", "castellon", "valencia", "ceg",
+}
+
+
+def is_personal_mailbox(email):
+    """Role and company-named mailboxes are generic; anything else is treated as a person's."""
+    local, dom = email.split("@")
+    label = dom.split(".")[0].replace("-", "")
+    local_n = local.replace("-", "").replace(".", "")
+    return local not in ROLE_MAILBOXES and local_n not in label and label not in local_n
+
 CONF_RANK = {"High": 3, "Medium": 2, "Low": 1}
 INTENT_RANK = {"High": 3, "Medium": 2, "Low": 1}
 
@@ -218,6 +242,11 @@ def main():
 
     for r in kept:
         issues = qc_issues(r)
+        for key, why in FORCE_REVIEW.items():
+            if r["company"].lower().startswith(key):
+                issues.append("Review: " + why)
+        if r["email"] and is_personal_mailbox(r["email"]):
+            issues.append("Review: personal work email - check consent basis")
         r["_issues"] = issues
         ready = (not issues and r["email"] and r.get("email_verification") == "two_searches"
                  and r["research_confidence"] != "Low")
