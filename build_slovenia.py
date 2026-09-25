@@ -140,6 +140,9 @@ def qc_issues(r):
         soft.append(f"body long ({len(body.split())} words)")
     if r["buying_intent"] == "HIGH" and r["research_confidence"] == "LOW":
         hard.append("HIGH intent with LOW confidence")
+    if re.search(r"(website|domain)[^.;]*inferred|website inferred|taken from (its |the )?email",
+                 r["notes"].lower()):
+        hard.append("website inferred, not seen as official site")
     if r["state"] and r["state"] not in SI_REGIONS:
         soft.append(f"region '{r['state']}' not a Slovenian statistical region")
     return hard, soft
