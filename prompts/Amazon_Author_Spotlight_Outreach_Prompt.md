@@ -175,6 +175,7 @@ Accept an email only when **all** of these are true:
 2. `amazon_snippet_verified`: a search snippet shows the author, the book, and the full email, and the Amazon book/author page was then verified directly.
 3. `official_site`: the author's own website shows the email and links to, or clearly matches, the Amazon author/books.
 4. `social_profile`: a public author profile shows the full email, with a clear author identity and matching Amazon books.
+5. `amazon_snippet_unverified`: only for when Amazon can't be opened directly (for example, it's blocked by the network). The email and Amazon author page appear in search results, and a second search on the exact email returns the same Amazon author page, but nobody has opened the page itself. These rows are always `research_confidence = Low` and `personalization_status = Needs review`. A human must open the Amazon page and confirm the email before sending.
 
 ==================================================
 PRIVACY AND SAFETY
@@ -216,7 +217,7 @@ WRITING RULES FOR PERSONALIZATION
 - Never claim to have read the book or been "truly inspired" by it. Describe only what you actually saw: the premise, the description, reviews, the author's stated mission.
 - Be specific: name the book and one concrete detail. "Your book is inspiring" is not acceptable.
 - Keep a warm but professional tone. No exaggerated praise, no invented statistics, and no claims about reader numbers or results for The Author Ledger.
-- Write in the author's language: English for EN listings, German (formal *Sie*) for DE listings. For other EU languages, use English and set `personalization_status = Needs review` unless I provide a translated template.
+- Write in the author's language: English for EN listings, German (formal *Sie*) for DE listings. Use the FR, ES, IT, or NL template for French, Spanish, Italian, or Dutch listings. For any other language, use English and set `personalization_status = Needs review`.
 - Don't assume gender. Use the first name (EN) or full name (DE), never Mr/Ms/Herr/Frau.
 - Subject lines: no "Re:" or "Fwd:", no ALL CAPS, no false urgency, no emoji. Good examples: "Author Spotlight invitation: *{book_title}*" or "Featuring *{book_title}* on The Author Ledger". German: "Einladung zum Author Spotlight: {book_title}".
 
@@ -287,6 +288,136 @@ Mit freundlichen Grüßen
 --
 Ihre Kontaktadresse habe ich auf {source_description} gefunden. Wenn Sie keine weiteren Nachrichten wünschen, antworten Sie bitte mit „Abmelden“.
 Impressum: {IMPRINT_URL} · Datenschutz: {PRIVACY_URL}
+```
+
+### Other EU languages
+
+Use these for authors whose listing and author profile are in French, Spanish, Italian, or Dutch (for example amazon.fr, amazon.es, amazon.it, amazon.nl, or amazon.com.be). All four use the formal register and greet the author by full name, so gender never has to be guessed. Set `language` to FR, ES, IT, or NL. Write `personalized_opening` and `subject_line` in the same language. A native speaker should check the first batch in each language before anything is sent.
+
+Subject line examples:
+- FR: `Invitation à l'Author Spotlight : {book_title}`
+- ES: `Invitación al Author Spotlight: {book_title}`
+- IT: `Invito all'Author Spotlight: {book_title}`
+- NL: `Uitnodiging voor de Author Spotlight: {book_title}`
+
+#### Template FR (French)
+
+```
+Bonjour {author_name},
+
+{personalized_opening}
+
+J'aimerais vous inviter à figurer dans un Author Spotlight sur The Author Ledger. Cet article mettrait en valeur votre parcours d'écriture, l'inspiration derrière « {book_title} » et les idées qui rendent votre œuvre singulière.
+
+Un tel article peut vous aider à :
+- faire découvrir votre livre à un plus large public de lecteurs
+- renforcer votre crédibilité et votre visibilité
+- développer votre image et votre présence en ligne
+- accroître la notoriété et l'exposition de votre livre
+
+Notre équipe s'occupe de tout, pour une démarche simple et pratique du début à la fin.
+[paid] L'Author Spotlight est une prestation payante ; je vous enverrai volontiers les détails et les tarifs.
+
+Si cela vous intéresse, il vous suffit de répondre à ce message et je vous enverrai les informations et les prochaines étapes.
+
+Bien cordialement,
+{SENDER_NAME}
+{SENDER_TITLE}, The Author Ledger
+{WEBSITE}
+
+--
+J'ai trouvé votre adresse de contact sur {source_description}. Si vous ne souhaitez plus recevoir de messages de notre part, répondez simplement « désinscription ».
+Mentions légales : {IMPRINT_URL} · Confidentialité : {PRIVACY_URL}
+```
+
+#### Template ES (Spanish)
+
+```
+Hola, {author_name}:
+
+{personalized_opening}
+
+Me gustaría invitarle a participar en un Author Spotlight en The Author Ledger. El artículo mostraría su trayectoria como autor/a, la inspiración detrás de «{book_title}» y las ideas que hacen única su obra.
+
+Un artículo así puede ayudarle a:
+- dar a conocer su libro a un público lector más amplio
+- reforzar su credibilidad y visibilidad
+- impulsar su marca y su presencia en internet
+- aumentar el alcance y la exposición de su libro
+
+Nuestro equipo se encarga de todo el proceso, de forma sencilla y cómoda de principio a fin.
+[paid] El Author Spotlight es un servicio de pago; con gusto le envío los detalles y las tarifas.
+
+Si le interesa, responda a este correo y le enviaré la información y los próximos pasos.
+
+Un cordial saludo,
+{SENDER_NAME}
+{SENDER_TITLE}, The Author Ledger
+{WEBSITE}
+
+--
+Encontré su dirección de contacto en {source_description}. Si prefiere no recibir más mensajes, responda «BAJA» y no volveremos a escribirle.
+Aviso legal: {IMPRINT_URL} · Privacidad: {PRIVACY_URL}
+```
+
+#### Template IT (Italian)
+
+```
+Gentile {author_name},
+
+{personalized_opening}
+
+Vorrei invitarLa a partecipare a un Author Spotlight su The Author Ledger. L'articolo racconterebbe il Suo percorso di scrittura, l'ispirazione dietro «{book_title}» e le idee che rendono unica la Sua opera.
+
+Un articolo di questo tipo può aiutarLa a:
+- far conoscere il Suo libro a un pubblico di lettori più ampio
+- rafforzare la Sua credibilità e visibilità
+- sviluppare il Suo brand e la Sua presenza online
+- aumentare la notorietà e la visibilità del Suo libro
+
+Il nostro team si occupa dell'intero processo, in modo semplice e comodo dall'inizio alla fine.
+[paid] L'Author Spotlight è un servizio a pagamento; Le invierò volentieri dettagli e prezzi.
+
+Se è interessata/o, risponda pure a questa e-mail e Le invierò le informazioni e i prossimi passi.
+
+Cordiali saluti,
+{SENDER_NAME}
+{SENDER_TITLE}, The Author Ledger
+{WEBSITE}
+
+--
+Ho trovato il Suo indirizzo di contatto su {source_description}. Se preferisce non ricevere altri messaggi, risponda «CANCELLAMI» e non La contatteremo più.
+Note legali: {IMPRINT_URL} · Privacy: {PRIVACY_URL}
+```
+
+#### Template NL (Dutch)
+
+```
+Beste {author_name},
+
+{personalized_opening}
+
+Graag nodig ik u uit voor een Author Spotlight op The Author Ledger. Het artikel belicht uw weg als schrijver, de inspiratie achter ‘{book_title}’ en de ideeën die uw werk bijzonder maken.
+
+Zo'n artikel kan u helpen om:
+- uw boek bij een groter lezerspubliek onder de aandacht te brengen
+- uw geloofwaardigheid en zichtbaarheid te vergroten
+- uw merk en online aanwezigheid te versterken
+- meer bekendheid en bereik voor uw boek te creëren
+
+Ons team regelt het hele proces, eenvoudig en gemakkelijk van begin tot eind.
+[paid] De Author Spotlight is een betaalde dienst; ik stuur u graag de details en tarieven.
+
+Heeft u interesse? Beantwoord dan gewoon deze e-mail, dan stuur ik u de informatie en de volgende stappen.
+
+Met vriendelijke groet,
+{SENDER_NAME}
+{SENDER_TITLE}, The Author Ledger
+{WEBSITE}
+
+--
+Ik vond uw contactadres op {source_description}. Wilt u geen berichten meer ontvangen? Antwoord dan met ‘afmelden’ en wij nemen geen contact meer op.
+Colofon: {IMPRINT_URL} · Privacy: {PRIVACY_URL}
 ```
 
 ==================================================
